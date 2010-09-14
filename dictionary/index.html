@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>dictionary</title>
+<meta charset=utf-8>
+<script src=../code/js/jquery.js></script>
+<script>
+function listify(text){
+  var lines = $.trim(text).split('\n');
+  var list = ['<li>'];
+  jQuery.each(lines, function(i, line){
+    console.log(line);
+  });
+/*
+    list.push(line);
+  });
+  var list.push('</li>');
+  return list.join('\n');
+*/
+
+}
+$(function(){
+  $('body').load('dict00001.txt')
+  
+})
+</script>
+<style>
+@import url(../stylesheets/style.css);
+</style>
+</head>
+<body>
+<h1>hi</h1>
+
+</body>
+
+</html>
+
