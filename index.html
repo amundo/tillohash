@@ -4,8 +4,14 @@
   <title>The, Uh, Language</title>
   <meta charset=utf-8>
   <script src=code/js/jquery.js></script>
+  <script src=code/js/jquery.tillohash.js></script>
   <link rel=stylesheet href=stylesheets/style.css media=screen />
   <link rel=stylesheet href=stylesheets/print.css media=print />
+<script>
+$(function(){
+  $('#edit').tillohash();
+})
+</script>
 </head>
 <body>
 
@@ -19,7 +25,10 @@
   </ul>
 </nav>
 
-<h1>hi</h1>
+<h1><input type=text tabindex=1 id=edit></input></h1>
+<ol id=sentences>
+</ol>
+
 
 </body>
 </html>
