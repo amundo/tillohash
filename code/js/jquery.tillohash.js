@@ -22,14 +22,19 @@ MIT license
           switch(e.which){
             case(13): // ENTER
               var text = $(this).val();
+              $(this).val('').focus();
               var words = $.fn.tillohash.tokenize(text);
               var spans = $.map(words, $.fn.tillohash.spanify);
               var spans = spans.join(' ') ;
-              $('ol#sentences').append('<li>'+spans+'</li>');
+              $('ul#sentences').prepend('<li>'+spans+'</li>');
               break;
 
           }
         })
+      $('#sentences li').live('click', function(){
+        $input.val($(this).text()); 
+        $(this).remove(); 
+      }) 
 
     });
   };
