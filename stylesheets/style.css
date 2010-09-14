@@ -23,7 +23,7 @@ nav ul  li a  {
 }
 
 nav ul  li a:hover  { 
-  background: red;
+  border-bottom: 1px solid blue;
 }
 
 input#edit {

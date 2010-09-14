@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The, Uh, Language</title>
+  <title>Tillohash</title>
   <meta charset=utf-8>
   <script src=code/js/jquery.js></script>
+  <script src=code/js/jquery-ui-1.8.4.custom.min.js></script>
+  <script src=code/js/jquery.hotkeys.js></script>
   <script src=code/js/jquery.tillohash.js></script>
   <link rel=stylesheet href=stylesheets/style.css media=screen />
+  <link rel=stylesheet href=stylesheets/jquery-ui-1.8.4.custom.css media=screen />
   <link rel=stylesheet href=stylesheets/print.css media=print />
 <script>
 $(function(){
-  $('#edit').tillohash().focus();
+
+  $('#edit').tillohash();
+
+  $('#sentences').sortable();
+
 })
+
+
 </script>
 </head>
 <body>
@@ -18,13 +27,15 @@ $(function(){
 <nav>
   <ul>
     <a href=#dictionary><li>dictionary</li></a>
-    <span contenteditable=true id=text>text name</span>
     <a href=grammar><li>grammar</li></a>
     <a href=learn><li>learn</li></a>
     <a href=media><li>media</li></a>
   </ul>
 </nav>
 
+<header>
+    <input type=text id=text></input>
+</header>
 <h1><input type=text tabindex=1 id=edit></input></h1>
 <ul id=sentences>
 </ul>
