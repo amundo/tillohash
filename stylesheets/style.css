@@ -31,3 +31,10 @@ input#edit {
   width: 80%;
   font-size: x-large;
 }
+
+ul#sentences {
+  list-style-type:none;
+}
+
+ul#sentences li {
+}

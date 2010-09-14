@@ -9,7 +9,7 @@
   <link rel=stylesheet href=stylesheets/print.css media=print />
 <script>
 $(function(){
-  $('#edit').tillohash();
+  $('#edit').tillohash().focus();
 })
 </script>
 </head>
@@ -18,7 +18,7 @@ $(function(){
 <nav>
   <ul>
     <a href=#dictionary><li>dictionary</li></a>
-    <a href=texts><li>texts</li></a>
+    <span contenteditable=true id=text>text name</span>
     <a href=grammar><li>grammar</li></a>
     <a href=learn><li>learn</li></a>
     <a href=media><li>media</li></a>

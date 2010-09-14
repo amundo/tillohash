@@ -31,7 +31,7 @@ MIT license
 
           }
         })
-      $('#sentences li').live('click', function(){
+      $('#sentences li').live('dblclick', function(){
         $input.val($(this).text()); 
         $(this).remove(); 
       }) 
