@@ -27,17 +27,17 @@ $(function(){
 
 <nav>
   <ul>
-    <a href=#dictionary><li>dictionary</li></a>
-    <a href=grammar><li>grammar</li></a>
-    <a href=learn><li>learn</li></a>
-    <a href=media><li>media</li></a>
+    <li><a href=#dictionary>dictionary</a></li>
+    <li><a href=grammar>grammar</a></li>
+    <li><a href=learn>learn</a></li>
+    <li><a href=media>media</a></li>
+    <li><input tabindex=10 placeholder="Name your project (one word, no spaces)" type=text id=text /></li>
   </ul>
 </nav>
 
-<header>
-    <input type=text id=text></input>
-</header>
-<h1><input type=text tabindex=1 id=edit></input></h1>
+<h1><input type=text tabindex=1 id=line /></h1>
+<button tabindex=2 id=showWords>show words</button>
+<button tabindex=2 id=saveWords>save words</button>
 <ul id=sentences>
 </ul>
 
