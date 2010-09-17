@@ -4,28 +4,32 @@ var Lex = {
   init : function(settings){
     Lex.settings = settings;
     $('#line').bind('keydown', 'return', Lex.add);
-    $('#showWords').bind('click', Lex.showWords);
-    $('#saveWords').bind('click', Lex.saveWords);
+    $('#showPhrases').bind('click', Lex.showPhrases);
+    $('#savePhrases').bind('click', Lex.savePhrases);
   },
 
-  words : [],
+  phrases : [],
 
   add : function(){
     var $line = $('#line')
-    var word = $.trim($line.val());
-    if (word.length > 0) { 
-      Lex.words.push(word); 
+    var phrase = $.trim($line.val());
+    if (phrase.length > 0) { 
+      Lex.phrases.push(phrase); 
+      $('#phrases').append('<li>' + phrase + '</li>');
       $line.val('');
     };
   },
 
-  showWords : function(){ 
-    console.log(Lex.words); 
+  showPhrases : function(){ 
+    $('#phrases').empty()
+    $.each(Lex.phrases, function(i, phrase){
+      //$('#phrases').append('<li>' + phrase + '</li>');
+    })
   },
 
-  saveWords : function(){
+  savePhrases : function(){
     console.log(Lex.settings.projectName);
-    localStorage[Lex.settings.projectName] = JSON.stringify(Lex.words);
+    localStorage[Lex.settings.projectName] = JSON.stringify(Lex.phrases);
   }
 
 
