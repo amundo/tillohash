@@ -14,7 +14,7 @@
 <script>
 $(function(){
 
-//  $('#phrases').sortable();
+  $('#phrases').sortable();
 
 })
 
@@ -23,16 +23,22 @@ $(function(){
 </head>
 <body>
 
-<p>
-  <select id=projects> 
-    <option value=defaultProject>project</option> 
-    <option value=korean>korean</option> 
-  </select>
-</p>
+#notebook
+aside#projects
+aside#lexicon
 
+<aside id=sidebar>
+<ul id=projects>
+  <li><option value=defaultProject>project</option> 
+</ul>
+  <p><button id=newProject title="add project">+</button></p>
+</aside>
+
+<article>
 <h1><input type=text tabindex=1 id=line /></h1>
 <ul id=phrases>
 </ul>
+</article>
 
 
 </body>

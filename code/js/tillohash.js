@@ -8,7 +8,6 @@ var Lex = {
 
     $('#line').bind('keydown', 'return', Lex.add);
     $('#phrases').empty();
-//console.log('committed ' + Lex.phrases.join(' ') + ' to ' + Lex.db');
     $('#savePhrases').bind('click', Lex.commit);
 
   }
