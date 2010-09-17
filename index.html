@@ -6,7 +6,7 @@
   <script src=code/js/jquery.js></script>
   <script src=code/js/jquery-ui-1.8.4.custom.min.js></script>
   <script src=code/js/jquery.hotkeys.js></script>
-  <script src=code/js/jquery.tillohash.js></script>
+<!--  <script src=code/js/jquery.tillohash.js></script> -->
   <script src=code/js/tillohash.js></script>
   <link rel=stylesheet href=stylesheets/style.css media=screen />
   <link rel=stylesheet href=stylesheets/jquery-ui-1.8.4.custom.css media=screen />
@@ -14,7 +14,7 @@
 <script>
 $(function(){
 
-  $('#phrases').sortable();
+//  $('#phrases').sortable();
 
 })
 
@@ -25,16 +25,18 @@ $(function(){
 
 <nav>
   <ul>
-    <li><a href=#dictionary>dictionary</a></li>
-    <li><a href=grammar>grammar</a></li>
-    <li><a href=learn>learn</a></li>
-    <li><a href=media>media</a></li>
-    <li><input tabindex=10 placeholder="Name your project (one word, no spaces)" type=text id=text /></li>
+    <li>
+      <select id=projects> 
+        <option value=defaultProject>project</option> 
+        <option value=korean>korean</option> 
+      </select>
+    </li>
+    <li><button id=import>import</button></li>
+    <li><button id=export>export</button></li>
   </ul>
 </nav>
 
 <h1><input type=text tabindex=1 id=line /></h1>
-<button tabindex=2 id=savePhrases>save phrases</button>
 <ul id=phrases>
 </ul>
 
