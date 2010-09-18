@@ -1,4 +1,4 @@
-[Tony Tillohash](http://en.wikipedia.org/wiki/Tony_Tillohash) was a Paiute Indian who worked with Edward Sapir to describe the Southern Paiute language. 
+[Tony Tillohash](http://en.wikipedia.org/wiki/Tony_Tillohash) was a Paiute Indian who worked with [Edward Sapir](http://en.wikipedia.org/wiki/Edward_Sapir) to describe the Southern Paiute language. 
 
 Sapir said of him: 
 
@@ -8,3 +8,4 @@ Superhero linguists like Sapir and Tillohash had magnificent memories, but the r
 
 As this is the goal I figured Tillohash would be a good name for the project. (Plus his name happens to contain "hash", which is kind of pleasing in a geeky sort of way!)
 
+More description here as a figure out what the heck I'm actually going to do.
