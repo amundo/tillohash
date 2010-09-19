@@ -5,6 +5,7 @@ var Lex = {
     Lex.settings = settings;
     Lex.db = Lex.settings.projectName;
     Lex.phrases = [];
+    Lex.dictionary = [];
 
     $('#line').bind('keydown', 'return', Lex.add);
     $('#phrases').empty();
@@ -16,6 +17,7 @@ var Lex = {
 
 
 Lex.add = function(){
+
     var $line = $('#line');
     var phrase = $.trim($line.val());
 
@@ -28,9 +30,13 @@ Lex.add = function(){
     $line.val('');
 };
 
-Lex.commit = function(){
-  localStorage[Lex.db] = JSON.stringify(Lex.phrases);
-};
+
+Lex.addWordsToDictionary = function(phrase){
+  var words = tokenize(phrase);
+  $.each(words, function(i, word){
+   Lex.dictionary.push(word); 
+  })
+}
 
 Lex.showPhrases = function(){
   $('#phrases').empty();
@@ -41,6 +47,10 @@ Lex.showPhrases = function(){
 
 Lex.getPhrases = function(){
   return JSON.parse(localStorage[Lex.db]);
+};
+
+Lex.commit = function(){
+  localStorage[Lex.db] = JSON.stringify(Lex.phrases);
 };
 
 $(document).ready(function(){
