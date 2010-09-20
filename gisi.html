@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>gisi</title>
+  <meta charset=utf-8>
+  <script src=code/js/jquery.js></script>
+  <script src=code/js/jquery.hotkeys.js></script>
+  <script src=code/js/text.js></script>
+  <script src=code/js/jquery.transliterate.js></script>
+  <script src=code/js/oswalt-table.js></script>
+  <link href="css/style.css" media=screen />
+  <link href="css/print.css" media=print />
+
+<style>
+body { font-family: sans-serif; }
+#phrase { font-size: large; font-family: sans-serif; width: 75%;} 
+#main { float:left; overflow:hidden; font-family: sans-serif; width: 75%;} 
+#dictionary { float:right; font-size: small; width: 20%; border-left: 1px solid black;} 
+li { list-style-type: none; }
+</style>
+<script>
+
+var Notebook = {
+
+  init: function(){
+    $('#phrase').bind('keydown', 'return', Notebook.parsePhrase);
+    $('#phrase').bind('keydown', 'tab', Notebook.gloss );
+  },
+
+  phrases : [],
+
+  lexicon : {}
+
+}
+
+Notebook.parsePhrase = function(){
+  
+  var $phrase = $('#phrase');
+  var phrase = $phrase.val();
+
+  var id = 'phrase_' + (+new Date());
+
+  Notebook.phrases.push([id, phrase]);
+
+  $('<li/>', {
+    html: phrase
+  }).prependTo('#phrases');
+
+  $('#phrase').val('');
+
+  Notebook.fileWords(phrase);
+
+};
+
+Notebook.gloss = function(){
+  var words;
+};
+
+Notebook.fileWords = function(phrase){
+
+  var words = tokenize(phrase);
+
+  $.each(words, function(i, word){
+    Notebook.lexicon[word] = 
+    $('<li/>', {text: word}).appendTo('#dictionary');
+  });
+  
+}
+
+$(document).ready(function(){
+
+  $('#phrase').val('').focus();
+
+  //$('#phrase').transliterate({table:oswalt});
+
+  Notebook.init({});
+
+});
+</script>
+</head>
+<body>
+
+<div id=main>
+<input id=phrase type=text></input>
+<ul id=phrases>
+
+</ul>
+</div>
+
+<ul id=dictionary>
+</ul>
+
+</body>
+</html>
+

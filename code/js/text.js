@@ -1,3 +1,4 @@
 function  tokenize(text){
-  return text.split(/[ ]+/);
+  return text.toLowerCase().split(/[^a-zA-Z]+/); // @@TODO DESUCKIFY
 }
+
