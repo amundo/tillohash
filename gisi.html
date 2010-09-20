@@ -30,54 +30,54 @@ var Notebook = {
 
   phrases : [],
 
-  lexicon : {}
+  lexicon : {},
 
-}
-
-Notebook.parsePhrase = function(){
+  parsePhrase : function(){
+    
+    var $phrase = $('#phrase');
+    var phrase = $phrase.val();
   
-  var $phrase = $('#phrase');
-  var phrase = $phrase.val();
-
-  var id = 'phrase_' + (+new Date());
-
-  Notebook.phrases.push([id, phrase]);
-
-  $('<li/>', {
-    html: phrase
-  }).prependTo('#phrases');
-
-  $('#phrase').val('');
-
-  Notebook.fileWords(phrase);
-
-};
-
-Notebook.gloss = function(){
-  var words;
-};
-
-Notebook.fileWords = function(phrase){
-
-  var words = tokenize(phrase);
-
-  $.each(words, function(i, word){
-    Notebook.lexicon[word] = word;
-  });
+    var id = 'phrase_' + (+new Date());
   
-  Notebook.showLexicon();
+    Notebook.phrases.push([id, phrase]);
   
-}
+    $('<li/>', {
+      html: phrase
+    }).prependTo('#phrases');
+  
+    $('#phrase').val('');
+  
+    Notebook.fileWords(phrase);
+  
+  },
+  
+  gloss : function(){
+    var words;
+  },
+  
+  fileWords : function(phrase){
+  
+    var words = tokenize(phrase);
+  
+    $.each(words, function(i, word){
+      Notebook.lexicon[word] = word;
+    });
+    
+    Notebook.showLexicon();
+    
+  },
+  
+  showLexicon : function(){
+  
+    $('#dictionary').empty();
+  
+    $.each(Notebook.lexicon, function(i, word){
+      $('<li/>', {text: word}).appendTo('#dictionary');
+    });
+  
+  }
 
-Notebook.showLexicon = function(){
-
-  $('#dictionary').empty();
-
-  $.each(Notebook.lexicon, function(i, word){
-    $('<li/>', {text: word}).appendTo('#dictionary');
-  });
-
-}
+} // Notebook
 
 $(document).ready(function(){
 
