@@ -62,10 +62,21 @@ Notebook.fileWords = function(phrase){
   var words = tokenize(phrase);
 
   $.each(words, function(i, word){
-    Notebook.lexicon[word] = 
-    $('<li/>', {text: word}).appendTo('#dictionary');
+    Notebook.lexicon[word] = word;
   });
   
+  Notebook.showLexicon();
+  
+}
+
+Notebook.showLexicon = function(){
+
+  $('#dictionary').empty();
+
+  $.each(Notebook.lexicon, function(i, word){
+    $('<li/>', {text: word}).appendTo('#dictionary');
+  });
+
 }
 
 $(document).ready(function(){
