@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>a word</title>
+  <meta charset=utf-8>
+  <script src=code/js/jquery.js></script>
+  <script src=code/js/jquery.hotkeys.js></script>
+  <script src=code/js/jquery.transliterate.js></script>
+  <script src=code/js/oswalt-table.js></script>
+  <link rel=stylesheet href="stylesheets/style.css" media=screen />
+  <link rel=stylesheet href="css/print.css" media=print />
+
+<style>
+body { font-family: sans-serif; }
+section#description { width: 40%; float:right; font-size: small; }
+section#work { width: 50%; float:left; font-size: small; }
+/*.igl { overflow: hidden;  }
+.igl > li { margin-bottom: 4px; }
+li { list-style-type: none; }
+.translation { font-style: italic; }
+ol.igl li ol { float:left; border: 1px dotted #ccc; }
+*/
+</style>
+
+<script>
+
+$(document).ready(function(){
+
+  $('ol.igl li').each(function(){
+    var word = $(this).html();
+    $(this).html( "<ol><li class=word>" + word + "</li><li class=gloss><input type=text/></li></ol>" );
+  });
+
+  $('ol.igl').delegate('input', 'keyup', function(e){
+    if(e.keyCode == 13){
+      $(this).before($(this).val()).remove();
+    }
+  });
+
+});
+
+</script>
+</head>
+<body>
+
+<section id=work>
+
+<ol class=igl>
+  <li>Gila </li>
+  <li>aburun</li>
+</ol>
+
+<!-- 
+<ol class=igl>
+  <li>
+    <ol>
+      <li>Gila</li>
+    </ol>
+  </li>
+  <li>aburun</li>
+</ol>
+-->
+<!-- 
+
+<p class=word>Gila aburun ferma hamišaluǧ güǧüna amuqʼ-da-č</p>
+<p class=translation>Now their farm will not stay behind forever.</p>
+<ol class=igl>
+  <li>
+    <ol>
+      <li>gila
+      <li>now
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>aburun
+      <li>their.OBL
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>ferma
+      <li>farm
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>hamišaluǧ
+      <li>forever
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>güǧüna
+      <li>behind
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>amuqʼ-da-č
+      <li>stay-will-not
+    </ol>
+  </li>
+</ol>
+-->
+
+</section>
+
+</body>
+</html>
+
