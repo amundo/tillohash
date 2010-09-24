@@ -1,0 +1,15 @@
+p. 229
+(60)
+a.
+A-ngax aya=ep Kupa-ngax chimi=tay-pe'-men, chimi=wichax-pe'-men
+
+b. 
+Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka
+
+afal:~ pathall$ echo ḻ |letters
+ḻ LATIN SMALL LETTER L WITH LINE BELOW (U+1E3B)
+
+afal:~ pathall$ echo ḻ |nfkd |letters
+l LATIN SMALL LETTER L (U+006C)
+̱ COMBINING MACRON BELOW (U+0331)
+
