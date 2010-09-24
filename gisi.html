@@ -6,11 +6,11 @@
   <meta charset=utf-8>
   <script src=code/js/jquery.js></script>
   <script src=code/js/jquery.hotkeys.js></script>
-  <script src=code/js/text.js></script>
   <script src=code/js/jquery.transliterate.js></script>
   <script src=code/js/oswalt-table.js></script>
-  <link href="stylesheets/style.css" media=screen />
-  <link href="css/print.css" media=print />
+  <script src=code/js/jquery.tmpl.js></script>
+  <link rel=stylesheet href="stylesheets/style.css" media=screen />
+  <link rel=stylesheet href="css/print.css" media=print />
 
 <style>
 body { font-family: sans-serif; }
@@ -28,69 +28,115 @@ var Notebook = {
 
   init: function(){
     $('#phrase').bind('keydown', 'return', Notebook.parsePhrase);
-    $('#phrase').bind('keydown', 'tab', Notebook.gloss );
+    //$('#phrase').bind('keydown', 'tab', Notebook.gloss );
     $('#phrases').delegate('li.phrase', 'click', Notebook.gloss );
   },
 
   phrases : [],
 
+  wordlist : [],
+
+  shoebox : {
+
+
+  },
+
   lexicon : [],
+
+  tokenize : function(text){
+    var text = $.trim(text);
+    return text.toLowerCase().split(/[ \.,]+/); // @@TODO DESUCKIFY
+  },
 
   parsePhrase : function(){
     
     var $phrase = $('#phrase');
-    var phrase = $phrase.val();
+    var phrase = $.trim($phrase.val());
   
-    var id = 'phrase_' + (+new Date());
+    Notebook.phrases.push(phrase);
   
-    Notebook.phrases.push([id, phrase]);
-  
-    $('<li/>', {
-      'class': 'phrase',
-      html: phrase
-    }).prependTo('#phrases');
+    Notebook.renderPhrases();
   
     $('#phrase').val('');
   
     Notebook.fileWords(phrase);
   
   },
- 
-  gloss : function(){
+
+  renderPhrases : function(){
+
+    $('#phrases').empty();
+
+    $.each(Notebook.phrases, function(i,phrase){
+      $('<li/>', {
+        'class' : 'phrase',
+        html: phrase
+      }).prependTo('#phrases');
+    })
+  },
+
+/*
+
+when there's a new phrase:
+  
+  var words = tokenize(words);
+  $.each(words, function(i, word){
+    
+  }
+  words -> ol.igl
+  for each ol.igl li:
+    add ol.word with 
+       li[0] word
+       li[0] input 
+
+*/
+
+  gloss : function(){ 
+
     $phrase = $(this);
 
-console.log('$phrase is: ' + $phrase.attr('id'));
-    var words = tokenize($(this).text());
+    var words = Notebook.tokenize($phrase.text());
 
-    $phrase.after($('<ul />', {'class':'tiers', 'id':'meme'}));
+    $phrase.after($('<ol />', {'class':'igl'}));
 
-    $.each(words, function(i,word){
-      $('<li/>', {'class':'', text: word})
-        .appendTo($('#meme'));
+    $('ol.igl li').each(function(){
+      var word = $(this).html();
+      $(this).html( "<ol><li class=word>" + word + "</li><li class=gloss><input type=text/></li></ol>" );
     });
+
+    $.each(words, function(i, word){
+      $('<li/>', {text: word})
+        .appendTo($('ol.igl'));
+    });
+
+    $('ol.igl').delegate('input', 'keyup', function(e){
+      if(e.keyCode == 13){
+        $(this).before($(this).val()).remove();
+      }
+    });
+
   },
   
   fileWords : function(phrase){
   
     var phrase = $.trim(phrase);
-    var words = tokenize(phrase);
+    var words = Notebook.tokenize(phrase);
   
     $.each(words, function(i, word){
       Notebook.lexicon.push(word);
     });
-    
-    Notebook.showLexicon();
     
   },
   
   showLexicon : function(){
   
     $('#dictionary').empty();
-    Notebook.lexicon = $.unique(Notebook.lexicon);
+    Notebook.lexicon = $.unique(Notebook.lexicon); //@@TODO move
     Notebook.lexicon.sort();
     $.each(Notebook.lexicon, function(i, word){
       $('<li/>', {text: word}).appendTo('#dictionary');
     });
+
   }
 
 } // Notebook
@@ -106,8 +152,20 @@ $(document).ready(function(){
 });
 
 </script>
+<script id=phraselet type=text/html>
+</script>
+<script id=wordlet type=text/html>
+<li>
+<h2>${phrase}</h2>
+<ol>
+
+</ol>
+</li>
+
+</script>
 </head>
 <body>
+<a href=about.html>about</a>
 
 <div id=main>
 <input id=phrase type=text></input>

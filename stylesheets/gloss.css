@@ -4,7 +4,7 @@ body {
   counter-reset: example;
 }
 
-ol.sentence { 
+ol.igl { 
   list-style-type: none;
   padding-left: none;
   overflow:auto;
