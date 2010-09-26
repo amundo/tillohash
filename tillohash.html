@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>srsly?</title>
+  <meta charset=utf-8>
+  <script src=code/js/jquery.js></script>
+  <script src=code/js/jquery.autoGrowInput.js></script>
+  <link rel=stylesheet href="css/print.css" media=print />
+
+<style>
+body { 
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif
+}
+
+.phrases { 
+  overflow: hidden;
+  border: 1px solid #BEDCE7;
+  background: #EAF2F5;
+  padding: 1em;
+  width: 60%;
+}
+
+li.phrase { 
+  overflow: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+ol.tier { 
+  background: ;
+  float:left;
+  font-size: small;
+  margin-left: .5em;
+  padding: 0;
+}
+
+li.word { 
+  font-size: 1.1em;
+  font-weight: bold;
+  font-variant: italic;
+}
+
+li.gloss { 
+  margin-bottom: .5em;
+}
+
+li.gloss input { 
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+li.gloss input:focus { 
+  background: white;
+  border: 1px solid black;
+}
+
+</style>
+<script>
+
+
+(function($) { 
+  $.fn.gloss = (function(settings){
+  
+    return $(this).each(function(){
+      $this = $(this);
+      words = $.fn.gloss.tokenize($this.text());
+      $wordlist = $('<ol/>', {'class': 'wordlist','css': 'color:red'})
+        .appendTo($this);
+
+      $.each(words, function(i,word){ 
+        $('<li/>', {'html': word})
+          .appendTo($wordlist)  
+      }); 
+
+      $this.find('ol.wordlist li').each(function(i,li){ 
+        $li = $(this);
+        $.fn.gloss.buildTiers($li);
+      });
+
+    });
+  
+  });
+
+  $.fn.gloss.tokenize = function(text){
+    return $.trim(text).split(' ');
+  }
+
+  $.fn.gloss.buildTiers = function($li){
+    $tiers = $('<ol/>', {'class': 'tier'});
+
+    var word = $li.text();
+    $li.text('');
+
+    $('<li/>', {'class': 'word', html: word})
+      .appendTo($tiers);
+
+    $('<li/>', {'class': 'gloss'})
+      .append($('<input/>', {'type': 'text'} ))
+      .appendTo($tiers);
+
+    $tiers.appendTo($li);
+
+  }
+
+})(jQuery);
+
+
+
+$(document).ready(function(){
+
+  $('li').gloss();
+  //$('input').autoGrowInput();
+  $('input').keyup(function(e){
+    if(e.which == 13){ //enter
+//console.log($(this).parent().html());
+      
+      var gloss = $(this).val();
+      $(this).parent().html('<span>'+gloss+'</span>');
+      $('input:first').focus();
+ 
+    }
+  });
+
+})
+
+</script>
+
+</head>
+<body>
+
+<ol class=phrases>
+  <li class=phrase>Sampela manmeri ikam long Niugini Ailan long nambawan taim long faivpela ten tausen (50,000) yia i go pinis.</li>
+  <li class=phrase>Ol pipol bilong Hailans i wokim gaden long nain tausen (9,000) yia i go pinis - emi klostu nambawan taim long wol long wokim gaden.</li>
+</ol>
+
+</body>
+
+</html>
+
