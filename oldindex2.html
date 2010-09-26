@@ -28,13 +28,12 @@ li.phrase:hover { cursor: pointer; }
 var Notebook = {
 
   init: function(){
+console.log('init')//@@
     $('#phrase').bind('keydown', 'return', Notebook.parsePhrase);
     $('#phrases').delegate('li.phrase', 'click', Notebook.interlinearize );
   },
 
   phrases : [],
-
-  wordlist : [],
 
   lexicon : [],
 
@@ -44,26 +43,34 @@ var Notebook = {
   },
 
   tokenize : function(text){
+console.log('tokenize')//@@
     var text = $.trim(text);
     return text.toLowerCase().split(/[ \.,]+/); // @@TODO DESUCKIFY
   },
 
   parsePhrase : function(){
+    // handle phrase submission:
+    //  * add to phrase list
+    //  * show phrases
+    //  * clear input
+    //  * save words
+console.log('parsePhrase')//@@
     
     var $phrase = $('#phrase');
-    var phrase = $.trim($phrase.val());
+    var textOfPhrase = $.trim($phrase.val());
   
-    Notebook.phrases.push(phrase);
+    Notebook.phrases.push(textOfPhrase);
   
     Notebook.renderPhrases();
   
     $('#phrase').val('');
   
-    Notebook.fileWords(phrase);
+    Notebook.fileWords(textOfPhrase);
   
   },
 
   renderPhrases : function(){
+console.log('renderPhrases')//@@
 
     $('#phrases').empty();
 
@@ -75,24 +82,20 @@ var Notebook = {
     })
   },
 
-/*
-
-when there's a new phrase:
   
-  var words = tokenize(words);
-  $.each(words, function(i, word){
-    
-  }
-  words -> ol.igl
-  for each ol.igl li:
-    add ol.word with 
-       li[0] word
-       li[0] input 
+/*
+  var $interlinear = $('<ol/>', { 'class': 'igl', 'id': 'sNNN' } );
 
+  var glossTmpl = '<li> <ol> <li class=word>${word}</li> <li class=gloss><input type=text/></li> </ol> </li> ';
+
+  $.each(words, function(i, word){
+    $.tmpl(glossTmpl, {word: word} ).appendTo('#sNNN');
+  },
 */
 
   interlinearize : function(){ 
 
+console.log('interlinearize')//@@
     $phrase = $(this);
 
     var words = Notebook.tokenize($phrase.text());
@@ -118,6 +121,7 @@ when there's a new phrase:
   },
   
   fileWords : function(phrase){
+console.log('fileWords')//@@
   
     var phrase = $.trim(phrase);
     var words = Notebook.tokenize(phrase);
@@ -129,6 +133,7 @@ when there's a new phrase:
   },
   
   showLexicon : function(){
+console.log('showLexicon')//@@
   
     $('#dictionary').empty();
     Notebook.lexicon = $.unique(Notebook.lexicon); //@@TODO move
@@ -142,6 +147,7 @@ when there's a new phrase:
 } // Notebook
 
 $(document).ready(function(){
+console.log('doc ready')//@@
 
   $('#phrase').val('').focus();
 
