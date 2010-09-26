@@ -12,10 +12,13 @@ body {
 font-family: Verdana,Geneva,Arial,Helvetica,sans-serif
 }
 
+header { 
+  display: none;
+}
+
 .phrases { 
   overflow: hidden;
   border: 1px solid #BEDCE7;
-  background: #EAF2F5;
   padding: 1em;
   width: 60%;
 }
@@ -29,7 +32,6 @@ li {
 }
 
 ol.tier { 
-  background: ;
   float:left;
   font-size: small;
   margin-left: .5em;
@@ -47,13 +49,10 @@ li.gloss {
 }
 
 li.gloss input { 
-  background: transparent;
-  border: 1px solid transparent;
 }
 
 li.gloss input:focus { 
   background: white;
-  border: 1px solid black;
 }
 
 </style>
@@ -64,17 +63,20 @@ li.gloss input:focus {
   $.fn.gloss = (function(settings){
   
     return $(this).each(function(){
-      $this = $(this);
-      words = $.fn.gloss.tokenize($this.text());
-      $wordlist = $('<ol/>', {'class': 'wordlist','css': 'color:red'})
+
+      $this = $(this); // convenience
+
+      words = $.fn.gloss.tokenize($this.text()); // tokenize text
+
+      $sentence = $('<ol/>', {'class': 'sentence','css': 'color:red'}) // ol.sentence
         .appendTo($this);
 
       $.each(words, function(i,word){ 
         $('<li/>', {'html': word})
-          .appendTo($wordlist)  
+          .appendTo($sentence)  
       }); 
 
-      $this.find('ol.wordlist li').each(function(i,li){ 
+      $this.find('ol.sentence li').each(function(i,li){ 
         $li = $(this);
         $.fn.gloss.buildTiers($li);
       });
@@ -97,7 +99,7 @@ li.gloss input:focus {
       .appendTo($tiers);
 
     $('<li/>', {'class': 'gloss'})
-      .append($('<input/>', {'type': 'text'} ))
+      .append($('<input/>', {'disabled': 'true', 'type': 'text'} ))
       .appendTo($tiers);
 
     $tiers.appendTo($li);
@@ -114,14 +116,14 @@ $(document).ready(function(){
   //$('input').autoGrowInput();
   $('input').keyup(function(e){
     if(e.which == 13){ //enter
-//console.log($(this).parent().html());
       
       var gloss = $(this).val();
       $(this).parent().html('<span>'+gloss+'</span>');
-      $('input:first').focus();
+      $('input:first').attr('disabled', '').slideDown().focus();
  
     }
   });
+      $('input:first').attr('disabled', '').focus();
 
 })
 
@@ -130,7 +132,14 @@ $(document).ready(function(){
 </head>
 <body>
 
+<header>
+<nav>
+<a href=#>link</a>
+</nav>
+</header>
+
 <ol class=phrases>
+  <li class=phrase>Pofta buna.</li>
   <li class=phrase>Sampela manmeri ikam long Niugini Ailan long nambawan taim long faivpela ten tausen (50,000) yia i go pinis.</li>
   <li class=phrase>Ol pipol bilong Hailans i wokim gaden long nain tausen (9,000) yia i go pinis - emi klostu nambawan taim long wol long wokim gaden.</li>
 </ol>
