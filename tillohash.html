@@ -114,7 +114,6 @@ li.gloss input:focus {
 })(jQuery);
 
 
-
 $(document).ready(function(){
 
   $('#line').keyup(function(ev){
@@ -127,10 +126,11 @@ $(document).ready(function(){
   });
 
 
-  $('input').keyup(function(e){
+  $('li.gloss input').keyup(function(e){
     if(e.which == 13){ 
 
       var gloss = $(this).val();
+      $(this).parent().html(gloss);
 
     }
   });
