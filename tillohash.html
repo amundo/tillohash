@@ -4,66 +4,13 @@
   <title>srsly?</title>
   <meta charset=utf-8>
   <script src=code/js/jquery.js></script>
+  <script src=code/js/archive.js></script>
+  <script src=code/js/jquery.textMetrics.js></script>
   <script src=code/js/jquery.autoGrowInput.js></script>
-  <link rel=stylesheet href="css/print.css" media=print />
 
-<style>
-body { 
-  font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
-}
+  <link rel=stylesheet href=stylesheets/style.css media=screen />
 
-header { 
-  display: none;
-}
-
-#line { 
-  width: 80%;
-  margin: 5px;
-  font-size: large;
-}
-
-#phrases { 
-  overflow: hidden;
-  border: 1px solid #BEDCE7;
-  padding: 1em;
-  width: 60%;
-}
-
-li.phrase { 
-  overflow: auto;
-}
-
-li {
-  list-style-type: none;
-}
-
-ol.tier { 
-  float:left;
-  font-size: small;
-  margin-left: .5em;
-  padding: 0;
-}
-
-li.word { 
-  font-size: 1.1em;
-  font-weight: bold;
-  font-variant: italic;
-}
-
-li.gloss { 
-  margin-bottom: .5em;
-}
-
-li.gloss input { 
-}
-
-li.gloss input:focus { 
-  background: white;
-}
-
-</style>
 <script>
-
 
 (function($) { 
   $.fn.gloss = (function(settings){
@@ -83,9 +30,10 @@ li.gloss input:focus {
 
       $this.find('ol.sentence li').each(function(i,li){ 
         $li = $(this);
-        $li.append($.fn.gloss.buildTiers($li));
+        $li.html($.fn.gloss.buildTiers($li));
       });
 
+      $.fn.gloss.measureTextWidths();
     });
   
   });
@@ -95,6 +43,27 @@ li.gloss input:focus {
   }
 
   $.fn.gloss.buildTiers = function($li){
+    var $tiers = $('<dl/>', {'class':'tier'});
+
+    $('<dt/>', {'class': 'word', html: $li.text()})
+      .appendTo($tiers);
+
+    $('<dd/>', {'class': 'gloss'})
+      .append($('<input/>', {'type': 'text'} ))
+      .appendTo($tiers);
+
+    return $tiers;
+  }
+
+  $.fn.gloss.measureTextWidths = function(elem){
+    $('dt').each(function(){ 
+      var w = $.textMetrics( $(this) ).width ; 
+      $(this).parent().width(w + 20); 
+      $(this).parent().find('input').width(w + 20) } 
+     )
+  }
+
+  $.fn.gloss.formerBuildTiers = function($li){
     $tiers = $('<ol/>', {'class': 'tier'});
 
     var word = $li.text();
@@ -117,9 +86,10 @@ li.gloss input:focus {
 $(document).ready(function(){
 
   $('#line').keyup(function(ev){
-    if(ev.which == 13) {
+    if($(this).val().length > 0 && ev.which == 13) {
       var phrase = $(this).val();
       $('<li/>', {'class': 'phrase', 'html': phrase}).prependTo('#phrases');
+      $(this).val('');
 
       $('.phrase:first').gloss().find('input:first').focus();
     }
@@ -143,12 +113,9 @@ $(document).ready(function(){
 <body>
 
 <header>
-<nav>
-<a href=#>link</a>
-</nav>
+<input id=line></input>
 </header>
 
-<input id=line></input>
 
 <ol id=phrases>
 </ol>

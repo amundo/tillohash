@@ -7,39 +7,115 @@
   <link rel=stylesheet href="css/style.css" media=screen />
   <link rel=stylesheet href="css/print.css" media=print />
 <style>
+h1, h2, h3, h4, h5, h6 { 
+  font-family: sans-serif; 
+  text-align:left;
+}
+
 img { 
   padding: 4px;
   background: #e3e3e3;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border: 1px solid #3e3e3e;
+  margin: 0 auto;
 }
+
+figure { 
+}
+
+aside.sidenote {
+   border-left: 3px solid #eee;
+   color: #333;
+   float:right; 
+   font-size:small;
+   left: 55%;
+   padding: 0 5px;
+   position: absolute;
+   text-align: left;
+   width: 200px;
+}
+
+article { 
+  width: 50%; 
+  margin: 0 1em;
+  display:block;
+  text-align: justify;
+}
+
+.gloss li { 
+  list-style-type: none;
+  font-family: Gentium, 'Aboriginal Sans';
+  font-size: large;
+}
+
+.gloss .trans {
+  font-style: italic;
+}
+figcaption {
+  font-size: small; 
+  display:block;
+  text-align: center;
+}
+
 </style>
 </head>
 <body>
-<p>This is an introduction to linguistic glossing, and to a new tool for doing glossing on the web.</p>
-<p>Linguists usually gloss the language they're studying, like this: </p>
+<article>
+<h1>A Little Introduction to Interlinear Glossing</h1>
+<h4>Or: <em>"Not right now, I'm @#%ing glossing!!"</em></h4>
+<p>This is an introduction to linguistic glossing for the uninitiated.</p>
 
-<h3>"Old School" Glossing </h3> 
-<p>In the early days of linguistics, glosses looked like this:</p>
-<p><img src=images/sapir-takelma-house.png title="Indonesian sample"/></p>
+<p>Here's a sentence in <a title="Cupeño language - Wikipedia, the free encyclopedia" href="http://en.wikipedia.org/wiki/Cupe%C3%B1o_language">Cupeño</a>. </p>
+<aside class=sidenote>Cupeño is a language from Southern California. There's a great <a title="eScholarship: A Grammar of Cupeño" href="http://escholarship.org/uc/item/2mz6t67j">grammar available online</a>, from whence this example was chosen at random, page 229.</aside>
+<ol class=gloss>
+<li class=original>Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka.</li>
+<li>Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka.</li>
+</ol>
 
-<p>These glosses end up in a sort of quasi-English&mdash;it reads a bit like post-modern prose, or something:</p>
+<p>"Great," I hear you saying, "Why are there equals signs all over the place, and why is there a little line under the <em>i</em> in the last word, and what the heck does it <em>mean?</em>"</p>
 
-<blockquote>People house they make it. Post they set it down, and here again they set it down, yonder again they set it down, in four places they set it down, in four places they set them down. Then also they place (beams) across on top thereof in four places, and on top thereof just once they lace (beam) across. Then and just house its wall they make it; then and on top thereof they put them house boards. Sugar-pine those boards they make them.</blockquote>
+<p>Fair questions all. And there are a lot more questions that might be asked: Who said it? When? Why? What does it actually sound like?</p>
 
-<p>This syntax is twisty from an English perspective, to be sure. But even from this literal and rather weird translation, you can get some feel for "where things go" in Talkema. For instance, there is clearly a similarity in structure between <em>People house they make it</em> and <em>Sugar-pine those boards they make them.</em> We can already make a guess about where relative clauses come with respect to the noun they're describing.</p>
+<p>Let's start by just by considering the translation:</p>
 
-<p>Sometimes you still see that sort of glossing, especially if you happen to be dealing with a language that doesn't have a ton of morphology. Here's a much more recent example in Indonesian:</p> 
+<ol class=gloss>
+<li class=original>Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka.</li>
+<li class=trans>And it is said he would take it there, to the chief's house.</li>
+</ol>
+
+<p>Hmm, okay. At least now we have some idea of what's being said.</p>
+
+<p>But how does this Cupeño sentence <em>work?</em> Even with a translation, we're still just staring at a string of letters, without any understanding of what they mean. Presumably, somewhere in there is either a word, or a part of a word, that means "chief," and another that means something like "house," and others to do with "taking" and another "saying." But what's what?</p>
+
+ <p>If we're going to learn anything about how this language is put together by comparing these two sentences, someone who knows is going to have to label the bits and pieces of the Cupeño words. And that's where "glossing" comes in.</p>
+
+<h2>Old School Glossing</h2>
+<figure>
+  <img src=images/sapir-takelma-house-a.png title="Indonesian sample"/>
+  <figcaption>Edward Sapir, <em>The Takelma Language of Southwestern Oregon</em>, 1912</figcaption>
+</figure>
+
+<p>It's called "interlinear glossing," because, well, because it interlinear&mdash;a line in the language, a line of glossing. This particular glossed text is in an old style which is sometimes referred to as "word-by-word" glossing. It has the interesting characteristic that you can sort of read the text right away, and still get at least a vague feeling for how the language works. If you piece the glosses together into "prose" you end up with a sort of quasi-English:</p>
+
+<blockquote>People house they make it. Post they set it down, and here again they set it down, yonder again they set it down, in four places they set it down, in four places they set them down. Then also they place (beams) across on top thereof in four places, and on top thereof just once they place (beam) across. Then and just house its wall they make it; then and on top thereof they put them house boards. Sugar-pine those boards they make them.</blockquote>
+
+<p>This syntax is twisty from an English perspective, to be sure. (Looks a little like what comes out of a machine translation system, come to think of it.) But even from this literal and rather weird translation, you can get some feel for "where things go" in Talkema. For instance, there is clearly a similarity in structure between <em>People house they make it</em> and <em>Sugar-pine those boards they make them.</em> We can start to build up a little intuition about how clauses hang together.</p>
+
+<p>Sometimes you still a similar sort of glossing. For instance, here's an example from the <a title="Dept. of Linguistics | Resources | Glossing Rules" href="http://www.eva.mpg.de/lingua/resources/glossing-rules.php">Leipzig Glossing Rules</a>:</p> 
 
 <p><img src=images/indonesian.png title="Indonesian sample"/></p>
+
+<p>It so happens that the orders of the constituents here are pretty similar.</p> 
+
+<p></p> 
 
 <p>But more often than not, nowadays linguists use what are called [cite here] "grammatical category labels"&mdash;in the Lezgian example below, we get things like OBL and GEN and FUT and NEG.</p> 
 <p><img src=images/lezgian.png title="Lezgian sample"/></p>
 
 <p>Such labels have the advantage of being precise, but the disadvantage of not being self-explanatory. Does OBL stand for "Oblique"? Does GEN stand for "Genitive"? Probably, on both counts&mdash;but you're going to have to double check before you can read that gloss with any understanding.</p> 
 
-<p>It's worth noting that the Takelma example required reams of footnotes&mdash;almost every word has one, and in many cases they boil down to the sort of information contained in modern grammatical category labels. Case in point, the form <em>k!emèi
+<p>It's worth noting that the Takelma example required reams of footnotes&mdash;almost every word has one, and in many cases they boil down to the sort of information contained in modern grammatical category labels. Case in point, the form <em>k!emèi</em></p>
 
 <pre>
 \lx tan
@@ -58,6 +134,7 @@ img {
        \xe I am writing on a paper
 </pre>
 
+</article>
 </body>
 
 </html>

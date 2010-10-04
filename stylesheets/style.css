@@ -1,35 +1,63 @@
-body {
-  font-family: sans-serif;
-  height: 100%;
-
-}
-
-input#project {
-  font-weight: bold;
-  text-align: center;
-}
-
-input#line {
-  margin: 0 1em;
-  width: 80%;
-  font-size: x-large;
-}
-
-ul#phrases {
-  list-style-type:none;
-}
-
-ul#phrases li {
-}
-
-ul#phrases li:odd {
-  background: #ccf;
-}
-
-aside#sidebar { 
-  background: #cce;
-  float:right;
-  width: 150px;
+body { 
+  font-family: 'Aboriginal Sans', Verdana,sans-serif;
   margin: 0;
-  overflow:auto;
+  background-color: #fefefe;
 }
+
+header { 
+  background-color: #ADC0B4;
+  border-bottom: 2px solid #9cb0a3;
+  width: 100%;
+  overflow:auto;
+  display:block;
+  margin: 0;
+}
+
+#line { 
+  width: 80%;
+  margin: 5px;
+  font-size: large;
+}
+
+#phrases { 
+  border: 1px solid #BEDCE7;
+  margin: 0;
+  overflow: hidden;
+  padding: 1em;
+  width: 60%;
+}
+
+#phrases li.phrase { 
+  margin: 0;
+  overflow: hidden;
+  border-bottom: 1px dashed #ccc;
+  padding:  1em 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+dl.tier { 
+  float:left;
+  font-size: small;
+}
+
+.tier dt { 
+  display:inline;  
+}
+
+ol.sentence { 
+  background: red;
+  padding: 0;
+}
+
+ol.sentence li { 
+  margin:0;
+  padding:0;
+}
+dl.tier dd { 
+  margin-left: 0;
+  padding-left: 0;
+}
+
