@@ -26,7 +26,3 @@ var text = function(){
 
 }
 
-var t = text();
-t.addSentence('this is a sentence');
-console.log(t.sentences);
-console.log(t.words);

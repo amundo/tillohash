@@ -31,6 +31,7 @@
       $this.find('ol.sentence li').each(function(i,li){ 
         $li = $(this);
         $li.html($.fn.gloss.buildTiers($li));
+        $li.find('input').autoGrowInput();
       });
 
       $.fn.gloss.measureTextWidths();
@@ -75,7 +76,7 @@
     $('<li/>', {'class': 'gloss'})
       .append($('<input/>', {'type': 'text'} ))
       .appendTo($tiers);
-
+   
     return $tiers;
 
   }
@@ -104,6 +105,7 @@ $(document).ready(function(){
 
     }
   });
+
 
 })
 
