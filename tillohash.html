@@ -41,7 +41,7 @@
   });
 
   $.fn.gloss.tokenize = function(text){
-    return $.trim(text).split(' ');
+    return $.trim(text).split(/[ ]+/);
   }
 
   $.fn.gloss.buildTiers = function($li){
