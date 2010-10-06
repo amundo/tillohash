@@ -1,0 +1,39 @@
+
+   
+{
+    "metadata": {
+        "language": "Indonesian",
+        "author": "Sneddon",
+        "date" : "1996",
+        "page" : "237"
+    },
+    "sentence": "Mereka di Jakarta sekarang.",
+    "translation": "They are in Jakarta now.",
+    "igl": [
+        [
+            "Mereka",
+            {
+                "gloss": "they"
+            }
+        ],
+        [
+            "di",
+            {
+                "gloss": "in"
+            }
+        ],
+        [
+            "Jakarta",
+            {
+                "gloss": "Jakarta"
+            }
+        ],
+        [
+            "sekarang.",
+            {
+                "gloss": "now"
+            }
+        ]
+    ]
+}
+  
