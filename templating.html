@@ -48,7 +48,7 @@ var lezgian = {
         }
      ]
 };
-
+ 
 var indonesian = {
     "metadata": {
         "language": "Indonesian",
@@ -84,7 +84,7 @@ var examples = [indonesian, lezgian];
 <script>
 $(document).ready(function(){
 
-  $( "#iglTemplate" ).tmpl( indonesian ).wrap('<li></li>').appendTo( "#phrases" );
+  $( "#iglTemplate" ).tmpl( lezgian ).wrap('<li></li>').appendTo( "#phrases" );
 
 })
 </script>
@@ -101,10 +101,12 @@ $(document).ready(function(){
 <li class=phrase>
    <ol class=sentence>
      <li>
+       <p class=sentence>${sentence}</p>
+       <p class=translation>${translation}</p>
        {{each igl }}
          <dl class=tier>
            <dt class=word>${word}</dt>
-           <dd class=gloss>${gloss}</dd>
+           <dd class=gloss><input value=${gloss}></dd>
          </dl>
        {{/each}}
      </li>
@@ -119,40 +121,6 @@ $(document).ready(function(){
 
 
 
-<!---
-       <p>${sentence}</p>
-       <p><em>${translation}</em></p>
-
-    <li class="phrase">
-      <ol class="sentence">
-        <li>
-          <dl class="tier">
-            <dt class="word">${word}</dt>
-            <dd class="gloss"><input type="text" /></dd>
-          </dl>
-        </li>
-      </ol>
-    </li>
-
--->
-  <ol id="xphrases">
-    <li class="phrase">
-      <ol class="sentence">
-        <li>
-          <dl class="tier">
-            <dt class="word">n=an</dt>
-            <dd class="gloss"><input type="text" /></dd>
-          </dl>
-        </li>
-
-
-      </ol>
-    </li>
-  </ol>
-
-
-
 </body>
-
 </html>
 
