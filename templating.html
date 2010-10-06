@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>trying out templating</title>
+  <meta charset=utf-8>
+  <script src=code/js/jquery.js></script>
+  <script src=code/js/archive.js></script>
+  <script src=code/js/jquery.textMetrics.js></script>
+  <script src=code/js/jquery.tmpl.js></script>
+  <script src=code/js/jquery.ba-resize.js></script>
+  <script src=code/js/jquery.autoGrowInput.js></script>
+  <link rel=stylesheet href="css/style.css" media=screen />
+  <link rel=stylesheet href="css/print.css" media=print />
+<script type=text/javascript>
+
+var indonesian = {
+    "metadata": {
+        "language": "Indonesian",
+        "author": "Sneddon",
+        "date" : "1996",
+        "page" : "237" 
+    },
+    "sentence": "Mereka di Jakarta sekarang.",
+    "translation": "They are in Jakarta now.",
+    "igl": [
+       {
+           "word": "mereka",
+           "gloss": "they" 
+       },
+       {
+           "word": "di",
+           "gloss": "in" 
+       }, 
+       {
+           "word": "jakarta",
+           "gloss": "Jakarta" 
+       },
+       {
+           "word": "sekarang",
+           "gloss": "now" 
+       } 
+    ] 
+}
+</script>
+
+<script>
+$(document).ready(function(){
+
+  $( "#iglTemplate" ).tmpl( indonesian ).wrap('<li></li>').appendTo( "#phrases" );
+  $( "#iglTemplate" ).tmpl( indonesian ).wrap('<li></li>').appendTo( "#phrases" );
+
+})
+</script>
+</head>
+
+<body>
+
+<script id=metadataTemplate type=x-jquery-tmpl>
+<span class=metadata>${metadata.language} (${metadata.author} ${metadata.date}:${metadata.page})</span>
+</script>
+
+<script id=iglTemplate type=x-jquery-tmpl>
+<li class=phrase>
+{{tmpl "#metadataTemplate"}}
+<h1>hi</h1>
+</li>
+</script>
+
+
+<ol id=phrases>
+</ol>
+</body>
+
+</html>
+

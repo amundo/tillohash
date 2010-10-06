@@ -6,6 +6,7 @@
   <script src=code/js/jquery.js></script>
   <script src=code/js/archive.js></script>
   <script src=code/js/jquery.textMetrics.js></script>
+  <script src=code/js/jquery.tmpl.js></script>
   <script src=code/js/jquery.ba-resize.js></script>
   <script src=code/js/jquery.autoGrowInput.js></script>
 
@@ -32,10 +33,10 @@
       $this.find('ol.sentence li').each(function(i,li){ 
         $li = $(this);
         $li.html($.fn.gloss.buildTiers($li));
-        $li.find('input').autoGrowInput();
+        //$li.find('input').autoGrowInput();
       });
 
-      $.fn.gloss.measureTextWidths();
+      //$.fn.gloss.measureTextWidths();
     });
   
   });
@@ -126,6 +127,7 @@ $(document).ready(function(){
 
 </head>
 <body>
+
 
 <header>
 <input id=line></input>
