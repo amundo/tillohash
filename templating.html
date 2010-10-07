@@ -19,9 +19,9 @@ var lezgian = {
         "date" : "1993",
         "page" : "207"
      },
-     "sentence": "Gila abur-u-n ferma hamišaluǧ güǧüna amuq’-da-č.",
+     "sentence": "Gila aburun ferma hamišaluǧ güǧüna amuq’dač.",
      "translation": "Now their farm will not stay behind forever.",
-     "igl" : [
+     "ilg" : [
         {
           'word': 'Gila',
           'gloss' : 'now'
@@ -58,7 +58,7 @@ var indonesian = {
     },
     "sentence": "Mereka di Jakarta sekarang.",
     "translation": "They are in Jakarta now.",
-    "igl": [
+    "ilg": [
        {
            "word": "mereka",
            "gloss": "they" 
@@ -78,13 +78,50 @@ var indonesian = {
     ] 
 }
 
-var examples = [indonesian, lezgian];
+var arapesh = {
+
+    "metadata": {
+        "language": "Arapesh",
+        "author": "Dobrin",
+        "date" : "2007",
+        "page" : "102" 
+    },
+   'sentence' : 'Ehiwaciɲ  boraɲ  eɲɨndək  etiɲ.',
+   'translation' :  'This is the end of the story about bush spirits.',
+   'translations' : { 
+    'eng': 'This is the end of the story about bush spirits.',
+    'tpi': 'Em tasol, toktok bilong masalai.'
+   },
+   'ilg' : [
+       {
+         'word': 'ehiwac-iɲ',
+         'gloss' : 'spirit:8pl-8sg',
+       },
+       {
+         'word': 'boraɲ',
+         'gloss' : 'talk:8sg',
+       },
+       {
+         'word': 'eɲɨndək',
+         'gloss' : 'this:8sg',
+       },
+       {
+         'word': 'et-iɲ',
+         'gloss' : 'one-8sg',
+       }
+   ]
+}
+
+
 </script>
 
 <script>
 $(document).ready(function(){
 
-  $( "#iglTemplate" ).tmpl( lezgian ).wrap('<li></li>').appendTo( "#phrases" );
+  var examples = [indonesian, lezgian, arapesh];
+  $.each(examples, function(i, example){
+    $( "#ilgTemplate" ).tmpl( example ).wrap('<li></li>').appendTo( "#phrases" );
+  })
 
 })
 </script>
@@ -92,23 +129,25 @@ $(document).ready(function(){
 
 <body>
 
-<script id=metadataTemplate type=x-jquery-tmpl>
+<script id=metadataTemplate type=text/x-jquery-tmpl>
 <span class=metadata>${metadata.language} (${metadata.author} ${metadata.date}:${metadata.page})</span>
 </script>
 
-<script id=iglTemplate type=x-jquery-tmpl>
+<script id=ilgTemplate type=html/x-jquery-tmpl>
 
 <li class=phrase>
    <ol class=sentence>
-     <li>
-       <p class=sentence>${sentence}</p>
-       <p class=translation>${translation}</p>
-       {{each igl }}
-         <dl class=tier>
+     <li><span class=metadata>${metadata.language} (${metadata.author} ${metadata.date}:${metadata.page})</span>
+       <p class=sentence>${sentence}
+
+</p>
+       {{each ilg }} <dl class=tier>
            <dt class=word>${word}</dt>
-           <dd class=gloss><input value=${gloss}></dd>
+           <!-- <dd class=gloss><input value=${gloss}></dd> -->
+           <dd class=gloss>${gloss}</dd>
          </dl>
        {{/each}}
+       <p class=translation>${translation}</p>
      </li>
    </ol>
 </li>

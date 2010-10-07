@@ -1,5 +1,6 @@
 body { 
   font-family: 'Aboriginal Sans', Verdana,sans-serif;
+  font-size: large;
   margin: 0;
   background-color: #fefefe;
 }
@@ -20,7 +21,6 @@ header {
 }
 
 #phrases { 
-  border: 1px solid #BEDCE7;
   margin: 0;
   overflow: hidden;
   padding: 1em;
@@ -30,7 +30,6 @@ header {
 #phrases li.phrase { 
   margin: 0;
   overflow: hidden;
-  border-bottom: 1px dashed #ccc;
   padding:  1em 0;
 }
 
@@ -40,11 +39,16 @@ li {
 
 dl.tier { 
   float:left;
+  font-family: Arial;
   font-size: small;
+  margin-right: 1em;
 }
 
 .tier dt { 
   display:inline;  
+  font-size:120%;  
+  font-weight:bold;
+  font-style:italic;
 }
 
 ol.sentence { 
@@ -53,10 +57,39 @@ ol.sentence {
 
 ol.sentence li { 
   margin:0;
-  padding:0;
+  padding:0 0 0 1em;
 }
+
 dl.tier dd { 
   margin-left: 0;
   padding-left: 0;
+}
+
+p.sentence {
+  font-family: Serif;
+}
+
+.translation {
+  padding: 1em 0;
+  display:block;
+  font-family: Serif;
+  clear:both;
+}
+
+.translation:before {
+  content: '‘';
+}
+
+.translation:after {
+  content: '’';
+}
+
+.metadata { 
+  font-family: verdana,arial,sans-serif;
+  font-size: 80%;
+}
+
+.metadata:before { 
+
 }
 
