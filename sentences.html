@@ -9,22 +9,8 @@
   <script src=code/js/jquery.tmpl.js></script>
   <script src=code/js/jquery.ba-resize.js></script>
   <script src=code/js/jquery.autoGrowInput.js></script>
-  <link rel=stylesheet href="stylesheets/style.css" media=screen />
+  <link rel=stylesheet href=stylesheets/style.css media=screen />
 
-<style>
-div#wrapper {
-  overflow:auto;
-}
-pre#code, div#content {
-  width: 48%;
-}
-div#content {
-  float: left;
-}
-pre#code {
-  float: right;
-}
-</style>
 <script type=text/javascript>
 /*
 var lezgian = {
@@ -139,9 +125,7 @@ $(document).ready(function(){
   
   $.each(examples, function(i, example){
     $( "#ilgTemplate" ).tmpl( example ).wrap('<li></li>').appendTo( "#phrases" );
-  });
-
-  $('#code').html( JSON.stringify(examples, null, 2));
+  })
 
 })
 </script>
@@ -149,8 +133,11 @@ $(document).ready(function(){
 
 <body>
 
-<div id=wrapper>
-<div id=content>
+<form>
+  <input class=sentence>
+  <input class=translation>
+</form>
+
 <script id=metadataTemplate type=text/x-jquery-tmpl>
 <span class=metadata>${metadata.language} (${metadata.author} ${metadata.date}:${metadata.page})</span>
 </script>
@@ -179,12 +166,6 @@ $(document).ready(function(){
 
 <ol id=phrases>
 </ol>
-
-
-</div><!-- #content -->
-<pre id=code>
-</pre>
-</div><!-- #wrapper -->
 
 
 

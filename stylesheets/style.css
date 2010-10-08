@@ -69,7 +69,7 @@ p.sentence {
   font-family: Serif;
 }
 
-.translation {
+p.translation {
   padding: 1em 0;
   display:block;
   font-family: Serif;
