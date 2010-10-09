@@ -26,7 +26,7 @@ pre#code {
 }
 </style>
 <script type=text/javascript>
-/*
+
 var lezgian = {
     "metadata": {
         "language": "Lezgian",
@@ -91,7 +91,22 @@ var indonesian = {
            "gloss": "now" 
        } 
     ] 
-}
+};
+
+
+var kashaya = {
+  metadata : {
+    'language' : 'Kashaya',
+    'author' : 'Robert L. Oswalt', 
+    'date' : '1958', 
+    'speaker' : 'Herman James', 
+    'page' : '33'
+  },
+  sentence : 'mens̓in mu ʔima·ta ʔem ti· ṭ̓o maʔa muʔt̓a bimuci·du- men dic̓í·du ma·cal~.',
+  translation : 'Then the woman told them about the cooked food that she did eat.',
+  ilg : [
+  ]
+};
 
 var arapesh = {
 
@@ -110,23 +125,23 @@ var arapesh = {
    'ilg' : [
        {
          'word': 'ehiwac-iɲ',
-         'gloss' : 'spirit:8pl-8sg',
+         'gloss' : 'spirit:8pl-8sg'
        },
        {
          'word': 'boraɲ',
-         'gloss' : 'talk:8sg',
+         'gloss' : 'talk:8sg'
        },
        {
          'word': 'eɲɨndək',
-         'gloss' : 'this:8sg',
+         'gloss' : 'this:8sg'
        },
        {
          'word': 'et-iɲ',
-         'gloss' : 'one-8sg',
+         'gloss' : 'one-8sg'
        }
    ]
-}
-*/
+};
+
 
 
 </script>
@@ -134,7 +149,10 @@ var arapesh = {
 <script>
 $(document).ready(function(){
 
-  //var examples = [indonesian, lezgian, arapesh];
+  if(!localStorage.examples){
+    localStorage.examples = JSON.stringify([kashaya, indonesian, lezgian, arapesh]);
+  }
+
   var examples = JSON.parse(localStorage.examples);
   
   $.each(examples, function(i, example){

@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align:left;
 }
 
+.sentence { 
+  font-family: Gentium;
+}
+
 img { 
   padding: 4px;
   background: #e3e3e3;
@@ -58,20 +62,28 @@ figcaption {
   text-align: center;
 }
 
+.verbclass { 
+font-size: smaller;
+text-transform: uppercase;
+}
+
 </style>
 </head>
 <body>
 <article>
-<h1>A Little Introduction to Interlinear Glossing</h1>
+<h1>A Little Introduction to Linguistic Glossing</h1>
 <h4>Or: <em>"Not right now, I'm @#%ing glossing!!"</em></h4>
+
 <p>This is an introduction to linguistic glossing for the uninitiated.</p>
 
-<p>Here's a sentence in <a title="Cupeño language - Wikipedia, the free encyclopedia" href="http://en.wikipedia.org/wiki/Cupe%C3%B1o_language">Cupeño</a>. </p>
-<aside class=sidenote>Cupeño is a language from Southern California. There's a great <a title="eScholarship: A Grammar of Cupeño" href="http://escholarship.org/uc/item/2mz6t67j">grammar available online</a>, from whence this example was chosen at random, page 229.</aside>
-<ol class=gloss>
-<li class=original>Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka.</li>
-<li>Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka.</li>
-</ol>
+<p>Here's a sentence in Cupeño.</p>
+
+<aside class=sidenote>
+<a title="Cupeño language - Wikipedia, the free encyclopedia" href="http://en.wikipedia.org/wiki/Cupe%C3%B1o_language">Cupeño</a> is a language from Southern California. 
+<br>Jane Hill, <a title="eScholarship: A Grammar of Cupeño" href="http://escholarship.org/uc/item/2mz6t67j">A Grammar of Cupeño</a>. Page 229.
+</aside>
+
+<p class=sentence>Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka.</p>
 
 <p>"Great," I hear you saying, "Why are there equals signs all over the place, and why is there a little line under the <em>i</em> in the last word, and what the heck does it <em>mean?</em>"</p>
 
@@ -79,16 +91,18 @@ figcaption {
 
 <p>Let's start by just by considering the translation:</p>
 
-<ol class=gloss>
-<li class=original>Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka.</li>
-<li class=trans>And it is said he would take it there, to the chief's house.</li>
-</ol>
+<blockquote><span class=sentence>Mu=ku'ut pe'=e aya pe-yawichi-qal a-yka, ne-t pe-ki̱yka.</span>
+<br /><span class=translation> And it is said he would take it there, to the chief's house.</span></blockquote>
 
-<p>Hmm, okay. At least now we have some idea of what's being said.</p>
+<p>Hmm, okay. At least now we have some idea of what the sentence is about.</p>
 
-<p>But how does this Cupeño sentence <em>work?</em> Even with a translation, we're still just staring at a string of letters, without any understanding of what they mean. Presumably, somewhere in there is either a word, or a part of a word, that means "chief," and another that means something like "house," and others to do with "taking" and another "saying." But what's what?</p>
+<p>But how does this Cupeño sentence <em>work?</em> Even with a translation, we're still just staring at a string of letters, without any understanding of how they relate to the meaning. Presumably, somewhere in there is something in the sentence that means "chief," and something else that means something like "house," and others to do with "taking" and "saying," and so on. But what's what?</p>
 
- <p>If we're going to learn anything about how this language is put together by comparing these two sentences, someone who knows is going to have to label the bits and pieces of the Cupeño words. And that's where "glossing" comes in.</p>
+<p>Let's take an old example, as in, Edward Sapir's graduate thesis. 
+
+<aside class=sidenote><a title="Edward Sapir - Wikipedia, the free encyclopedia" href="http://en.wikipedia.org/wiki/Edward_Sapir">Edward Sapir</a>,  1909. <em><a title="The Takelma language of southwestern Oregon : Sapir, Edward, 1884-1939 : Free Download & Streaming : Internet Archive" href="http://www.archive.org/details/cu31924097764371">The Takelma language of southwestern Oregon</a></em>.</aside>
+
+</p>
 
 <h2>Old School Glossing</h2>
 <figure>
@@ -96,21 +110,51 @@ figcaption {
   <figcaption>Edward Sapir, <em>The Takelma Language of Southwestern Oregon</em>, 1912</figcaption>
 </figure>
 
-<p>It's called "interlinear glossing," because, well, because it interlinear&mdash;a line in the language, a line of glossing. This particular glossed text is in an old style which is sometimes referred to as "word-by-word" glossing. It has the interesting characteristic that you can sort of read the text right away, and still get at least a vague feeling for how the language works. If you piece the glosses together into "prose" you end up with a sort of quasi-English:</p>
+<aside class=sidenote>
+A much older but comparable sort of interlinear textual annotation, called <a title="Kanbun - Wikipedia, the free encyclopedia" href="http://en.wikipedia.org/wiki/Kanbun">Kanbun</a>,  was used in Japan to annotate Classical Chinese with Japanese glosses.
+</aside>
+
+<p>It's called "interlinear glossing," because... it's interlinear! We have a line in the language followed by a line of annotations. Annotations and words are aligned vertically.</p>
+
+<p>This particular text is in an old style, sometimes referred to as "word-by-word" glossing. This style is actually quasi-readable, and still get at least a vague feeling for how the language works. If we extract all the glosses from this example it reads like a kind of quasi-English:</p>
 
 <blockquote>People house they make it. Post they set it down, and here again they set it down, yonder again they set it down, in four places they set it down, in four places they set them down. Then also they place (beams) across on top thereof in four places, and on top thereof just once they place (beam) across. Then and just house its wall they make it; then and on top thereof they put them house boards. Sugar-pine those boards they make them.</blockquote>
 
 <p>This syntax is twisty from an English perspective, to be sure. (Looks a little like what comes out of a machine translation system, come to think of it.) But even from this literal and rather weird translation, you can get some feel for "where things go" in Talkema. For instance, there is clearly a similarity in structure between <em>People house they make it</em> and <em>Sugar-pine those boards they make them.</em> We can start to build up a little intuition about how clauses hang together.</p>
 
-<p>Sometimes you still a similar sort of glossing. For instance, here's an example from the <a title="Dept. of Linguistics | Resources | Glossing Rules" href="http://www.eva.mpg.de/lingua/resources/glossing-rules.php">Leipzig Glossing Rules</a>:</p> 
+<p>Sometimes you still a similar sort of glossing. For instance, here's an example from the much more recent (2008) <a title="Dept. of Linguistics | Resources | Glossing Rules" href="http://www.eva.mpg.de/lingua/resources/glossing-rules.php">Leipzig Glossing Rules</a>:</p> 
 
 <p><img src=images/indonesian.png title="Indonesian sample"/></p>
 
-<p>It so happens that the orders of the constituents here are pretty similar.</p> 
+<p>This simple gloss could also be called "word-by-word," and it so happens that in this case the gloss line is just a word away from standard English&mdash;an <em>are</em> would do it (and in some dialects it would be quite grammatical as-is!).</p> 
 
-<p></p> 
+<p>
+But let's take another look at Sapir's text from above. If we zoom out a bit on that page, things get a lot hairier:
+</p>
 
-<p>But more often than not, nowadays linguists use what are called [cite here] "grammatical category labels"&mdash;in the Lezgian example below, we get things like OBL and GEN and FUT and NEG.</p> 
+<figure>
+  <img src=images/sapir-takelma-house-footnotes.png title="Footnotes to Takelma example"/>
+  <figcaption><em>"How a Takelma House was Built"</em> footnotes</figcaption>
+</figure>
+
+<p>Yikes!</p>
+
+<p>If we dig into this maelstrom a bit, we quickly notice repetition. For instance, <mark>third personal subject, third personal object aorist of verb &lt;X&gt;</mark> appears in no fewer than five footnotes.</p>
+
+<ol>
+<li value=3><mark>Third personal subject, third personal object aorist of verb <em>k!emēᵋn</em></mark> Type 3 <span class=verbclass>I MAKE IT</span>; §§ 63; 65. </li>
+<li value=5> <em>p!a-i-</em> <span class="verbclass">DOWN</span> § 37, 13; dīⁱ- § 36, 10. <em>lōʹᵘkᵉ</em> <mark>third personal subject, third personal object aorist of verb <em>lōʹᵘgwᵋn</em></mark> Type 6 <span class="verbclass">I SET IT</span>; §§ 63; 40, 6. </li>
+<li value=11> han- <span class="verbclass">ACROSS</span> § 37, 1. <em>-gili`p'</em> <mark>third personal subject, third personal object aorist of verb <em>-gilibaᵉn</em></mark> </li>
+<li value=17> <mark>Third personal subject, third personal object aorist of verb <em>mats!aga'ʹᵋn</em></mark> Type 3 1 put it; §§ 63; 40, 3. </li>
+<li value=23> <em>da-</em> § 36, 2 end; <em>-t!aba`kᵉ</em> <mark>third personal subject, third personal object aorist of verb <em>-t!abagaʹᵋn</em></mark> Type 3 </li>
+
+</ol>
+
+<h2>New School Glossing</h2>
+
+<p>All of these footnotes can get unwieldy: they tend to separate the text from the analysis. So linguists have come up with an alternative: they use abbreviated labels that act as a sort of mnemonic for precise grammaticategories.</p> 
+
+<p>For example, in the <a title="Lezgian language - Wikipedia, the free encyclopedia" href="http://en.wikipedia.org/wiki/Lezgian_language">Lezgian</a>  example below, we get things like OBL and GEN and FUT and NEG.</p> 
 <p><img src=images/lezgian.png title="Lezgian sample"/></p>
 
 <p>Such labels have the advantage of being precise, but the disadvantage of not being self-explanatory. Does OBL stand for "Oblique"? Does GEN stand for "Genitive"? Probably, on both counts&mdash;but you're going to have to double check before you can read that gloss with any understanding.</p> 

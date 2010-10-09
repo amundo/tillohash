@@ -1,0 +1,12 @@
+var kashaya = {
+  metadata : {
+    'author' : 'Robert L. Oswalt', 
+    'date' : '1958', 
+    'speaker' : 'Herman James', 
+    'page' : '33'
+  },
+  sentence : 'mens̓in mu ʔima·ta ʔem ti· ṭ̓o maʔa muʔt̓a bimuci·du- men dic̓í·du ma·cal~.',
+  translation : 'Then the woman told them about the cooked food that she did eat.',
+  ilg : [
+  ]
+}
