@@ -53,8 +53,11 @@ $(document).ready(function(){
 
   $('#vocabulary dl').empty();
 
-  var pairs = JSON.parse(localStorage.nepali);
-  $.each(pairs, function(i, [dt, dd]) { 
+  var database = 'nepali';
+
+  var vocabulary = JSON.parse(localStorage[database]);
+
+  $.each(vocabulary, function(i, [dt, dd]) { 
     $('#vocabulary').append( '<dt>' + dt + '</dt><dd>' + dd + '</dd>'  )  
   } ) 
 
@@ -64,6 +67,7 @@ $(document).ready(function(){
     ev.preventDefault();
     var  word = $.trim($('#add_word').val()),
         gloss = $.trim($('#add_gloss').val());
+
     if (word && gloss){ 
       $('#vocabulary dl')
        .append(
@@ -107,7 +111,7 @@ $(document).ready(function(){
 </div>
 </section>
 
-<h2>Part I</h2>
+<h2>Texts</h2>
 <div>
 </div>
 
