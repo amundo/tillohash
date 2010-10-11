@@ -142,6 +142,39 @@ var arapesh = {
    ]
 };
 
+var nahuatl = {
+
+   metadata : {
+    'author': 'Haspelmath',
+    'date': '2008',
+    'language': 'Classical Nahuatl',
+  },
+  'sentence': 'Nicchihuilia in nopiltzin ce calli.',
+  'translation': 'Ich mache meinem Sohn ein Haus.',
+  ilg : [
+    {
+     'word': 'ni-c-chihui-lia',
+     'gloss': '1SG.SUBJ-3SG.OBJ-mach-APPL',
+    },
+    {
+      'word' : 'in',
+      'gloss' : 'DET'
+    },
+    {
+      'word': 'no-piltzin',
+      'gloss': '1SG.POSS-Sohn'
+    },
+    {
+      'word': 'ce',
+      'gloss': 'ein',
+    },
+    {
+      'word': 'calli',
+      'gloss': 'Haus'
+    }
+  ]
+}
+
 
 
 </script>
@@ -149,9 +182,7 @@ var arapesh = {
 <script>
 $(document).ready(function(){
 
-  if(!localStorage.examples){
-    localStorage.examples = JSON.stringify([kashaya, indonesian, lezgian, arapesh]);
-  }
+  localStorage.examples = JSON.stringify([kashaya, nahuatl, indonesian, lezgian, arapesh]);
 
   var examples = JSON.parse(localStorage.examples);
   

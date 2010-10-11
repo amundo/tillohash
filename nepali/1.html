@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<title>nepali</title>
+
+<style type=text/css>
+strong:before {
+  content: '\2018'
+}
+
+strong:after {
+  content: '\2019'
+}
+strong {
+
+}
+
+h1 {
+  font-family: fantasy;
+  text-align: center;
+  font-variant: italic;
+}
+h2 {
+  font-variant: small-caps;
+  text-align:center;
+}
+
+div#vocabulary { 
+  width: 60%;
+  margin: 0 auto;
+  -moz-column-count: 3;
+  -moz-column-gap: 4px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 4px;
+  column-count: 3;
+  column-gap: 4px;
+}
+
+dt { 
+  font-weight: bold; 
+  font-family: sans-serif; 
+}
+
+
+</style>
+<script src=js/jquery.js> </script>
+<script>
+$(document).ready(function(){
+
+  function clear(){
+    $('input').val('').filter(':first').focus();
+  }
+
+  $('#vocabulary dl').empty();
+
+  var pairs = JSON.parse(localStorage.nepali);
+  $.each(pairs, function(i, [dt, dd]) { 
+    $('#vocabulary').append( '<dt>' + dt + '</dt><dd>' + dd + '</dd>'  )  
+  } ) 
+
+  clear();
+
+  $('form#add_vocabulary').submit(function(ev){
+    ev.preventDefault();
+    var  word = $.trim($('#add_word').val()),
+        gloss = $.trim($('#add_gloss').val());
+    if (word && gloss){ 
+      $('#vocabulary dl')
+       .append(
+         $('<dt>',{
+          'class': 'word',
+          'html': word
+         })
+       ) 
+       .append(
+         $('<dd>',{
+          'class': 'gloss',
+          'html': gloss
+         })
+       )
+     };
+     clear();
+  })
+
+})
+</script>
+</head>
+<body>
+<h1>lesson 1</h1>
+<ol>
+<li><strong>ho</strong>, <strong>chha</strong> Verb <strong>To be</strong></li>
+<li><strong>...eko</strong> Past tense</li>
+<li><strong>...nos</strong> polite command forms</li>
+</ol>
+
+<section>
+<h2>Vocabulary</h2>
+<form action=submit id=add_vocabulary name=add_vocabulary>
+  <input id=add_word type=text name=word>
+  <input id=add_gloss type=text name=gloss>
+  <button type=submit name=submit>add</button>
+</form>
+
+<div id=vocabulary>
+<dl>
+</dl>
+</div>
+</section>
+
+<h2>Part I</h2>
+<div>
+</div>
+
+</body>
+</html>
