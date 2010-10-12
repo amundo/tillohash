@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Love Charm</title>
+  <meta charset=utf-8>
+  <script src=js/textual.js></script>
+  <script src=js/jquery.js></script>
+  <script src=js/jquery.autogrow.js></script>
+  <script src=js/jquery.transliterate.js></script>
+  <script src=js/oswalt-table.js></script>
+  <link rel=stylesheet href=css/style.css media=screen >
+  <link rel=stylesheet href=css/print.css media=print >
+<style>
+div#pics  {
+  float:left;
+  width: 55%;
+  overflow:auto;
+  height: 400px;
+}
+
+div#edit { 
+  width: 40%;
+  text-align:right;
+  float: right;
+  padding: 4px;
+}
+
+textarea { 
+  width: 90%;
+  min-heigth: 2em;
+}
+</style>
+<script>
+
+$(document).ready(function(){
+
+
+  $('textarea').val('');
+
+  $('textarea[lang=kju]').transliterate({
+    sourceInputClass: 'plaintext',
+    caseSensitive: true,
+    table: oswalt
+  }).autogrow();
+
+  $('#save button#new').click(function(){
+    var name = $('#save input').val();
+    if(name){
+      localStorage[name] = $('textarea').val();
+    }
+
+    listSavedStuff();
+    $('input').val('');
+    $('textarea').val('').focus();
+  });
+
+  $('#edit').delegate('textarea', 'change', function(){
+    $(this).autogrow();
+  })
+
+  function listSavedStuff(name){
+    $('#load select').empty();
+    var keys = [];
+    for(var i=0; i<localStorage.length; i++){
+      keys.push(localStorage[i]);
+    } 
+
+    keys.sort();
+    $('<option>', {'html': 'choose project...'}).prependTo('#load select');
+
+    $.each(keys, function(i, key){
+      $('<option>', {'html':key, 'value': key}).appendTo('#load select');
+    })
+
+    if(name) { 
+      $('option[value='+ name + ']').attr('selected','true')
+    } else { 
+      $('option:first').attr('selected','true')
+    }
+  }
+
+  listSavedStuff();
+
+  $('#load select').change(function(){
+    var name = $('#load select').val();
+    if(localStorage[name]){
+      $('textarea').val(localStorage[name]);
+    }
+
+    listSavedStuff(name);
+
+    $('input').val();
+    $('textarea').val('');
+    $('textarea').val(localStorage[name]);
+  });
+
+
+  $('button#update').click(function(){
+    var project = $('option:selected').attr('value');
+    localStorage[project] = $('textarea').val();
+  })
+ 
+
+  $('button#squish').click(function(){
+    var squished = textual.squish($('textarea').val()); 
+    $('textarea').val(squished);
+  })
+
+  $('button#sedG').click(function(){
+    var spaced = textual.sedG($('textarea').val()); 
+    $('textarea').val(spaced);
+  })
+  $('button#sentences').click(function(){
+    var sentences = textual.splitSentences($('textarea').val()); 
+    sentences = sentences.join('\n');
+    $('textarea').val(sentences);
+  })
+
+
+})
+
+</script>
+</head>
+<body>
+<div id=edit>
+<p id=load><code>localStorage.</code> 
+<select name=toload>
+<option>choose project</option>
+</select>
+<button id=sedG>sed G</button>
+<button id=sentences>sentences</button>
+<button id=squish>squish</button>
+<button id=update>update</button>
+</p>
+<textarea lang=kju> 
+</textarea>
+<p id=save><button id=new>save as...</button><input type=text></p>
+</div>
+<div id=pics>
+<img src=img/lovecharm-eng.png>
+<img src=img/lovecharm-kju.png>
+</div>
+
+</body>
+
+</html>
+

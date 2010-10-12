@@ -9,19 +9,62 @@
 
   MIT License
 
-*/
-var textual = {
+  (for freaky export business, see: http://caolanmcmahon.com/writing_for_node_and_the_browser.html )
 
-    trim : function(text){
+
+*/
+(function(exports){
+
+    exports.trim = function(text){
       var rtrim = /^(\s|\u00A0)+|(\s|\u00A0)+$/g;
       return (text || "").replace( rtrim, "" );
-    },
+    };
     
-    extractLines : function(text){
+    exports.extractLines = function(text){
       return trim(text).split(/\n+/);
-    },
+    };
     
-    removeBlankLines : function(text){
+    exports.sedG = function(text){
+      // not sure what to call this -- intersperse lines
+      // with blank lines 
+      return text.replace(/\n/g, '\n\n');
+    };
+
+    exports.squish = function(text){
+      // compress all whitespace
+      var text = text.replace(/\n/g, ' ');
+      text = text.replace(/ +/g, ' ');
+      return text; 
+    };
+
+    exports.splitSentences = function(text){
+      var delimiters = '.?!'
+        , pattern
+        , sentencesAndDelimiters
+        , sentence = ''
+        , element = ''
+        , sentences = [];
+
+      pattern = '([' + delimiters + '] )';
+      var delimRE = new RegExp(pattern, 'g');
+   
+      sentencesAndDelimiters = text.split(delimRE)  ;
+
+      for(var i=0; i < sentencesAndDelimiters.length; i++){
+        element = sentencesAndDelimiters[i];
+        if(element.match(delimRE)){
+          sentence += element;
+          sentences.push(sentence);
+          sentence = '';
+        } else {
+          sentence += element;
+        }
+      }
+      return sentences;
+      
+    };
+
+    exports.removeBlankLines = function(text){
       var rawlines = text.split('\n'),
           lines = [];
        
@@ -30,17 +73,17 @@ var textual = {
         if( $.trim(line).length ) { lines.push(line) }
       }
       return lines.join('\n');
-    },
+    };
 
-    depunctuate : function(text){
+    exports.depunctuate = function(text){
       return text.replace(/[\.\?\!]/g, ' ');
-    },
+    };
 
-    letters : function(text){
+    exports.letters = function(text){
       return text.split('');
-    },
+    };
 
-    frequency : function(sequence){
+    exports.frequency = function(sequence){
       var count = {};
       for (var i=0; i<sequence.length; i++){
         var elem = sequence[i];
@@ -51,9 +94,9 @@ var textual = {
         }
       }
       return count;
-    },
+    };
 
-    bag : function(sequence){
+    exports.bag = function(sequence){
       var seen = []; 
       for (var elem in sequence){
         if (!sequence.hasOwnProperty(elem))
@@ -61,27 +104,27 @@ var textual = {
         seen.push(elem) 
       }
       return seen; 
-    },
+    };
 
-    charset : function(text){
+    exports.charset = function(text){
       var cs = this.bag( this.frequency( this.letters(text)));
       cs.sort();
       return cs;
-    },
+    };
 
-    alphabetize : function(sequence, alphabet){
+    exports.alphabetize = function(sequence, alphabet){
       // alphabet contains the collation order 
       sequence.sort(function(a,b){
         return alphabet.indexOf(a) < alphabet.indexOf(b) ? -1 : 1;
       });
       return sequence;
-    },
+    };
 
-    tokenize : function(text){
+    exports.tokenize = function(text){
       return this.trim(this.depunctuate(text)).toLowerCase().split(/[ ]+/);
-    },
+    };
 
-    zip : function(a, b){
+    exports.zip = function(a, b){
       // like python zip
       result = [];
       for(var i=0; i<a.length;i++){
@@ -90,34 +133,4 @@ var textual = {
       return result;
     }
 
-    sedG : function(text){
-      // not sure what to call this -- intersperse lines
-      // with blank lines 
-      return text.replace(/\n/g, '\n\n');
-    },
-
-    squish : function(text){
-      // compress all whitespace
-      var text = text.replace(/\n/g, ' ');
-      text = text.replace(/ +/g, ' ');
-      return text; 
-    },
-
-    splitSentences : function(text){
-      var delimiters = '.?!',
-          pattern = '',
-          parts = [];
-
-      pattern = '([' + delimiters + '] )';
-      var re = new RegExp(pattern, 'g');
-   
-      return text.split(re)  ;
-    },
-
-
-}
-
-if(typeof(exports) !== 'undefined' && exports !== null) {
-  exports.textual = textual; 
-}
-    
+})(typeof exports === 'undefined'? this['textual']={}: exports);
