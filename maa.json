@@ -6,23 +6,23 @@
         "word": "In"
       }, 
       {
-        "gloss": "people", 
+        "gloss": "people-DAT", 
         "word": "ve"
       }, 
       {
-        "gloss": "living", 
+        "gloss": "living-SBJV", 
         "word": "nup"
       }, 
       {
-        "gloss": "12", 
+        "gloss": "billion-ABS", 
         "word": "im"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "india.", 
         "word": "ma"
       }, 
       {
-        "gloss": "billion", 
+        "gloss": "12-DISTR", 
         "word": "an."
       }
     ], 
@@ -37,27 +37,27 @@
   {
     "ilg": [
       {
-        "gloss": "of", 
+        "gloss": "territories-ABS", 
         "word": "Ku"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "union-ACC", 
         "word": "ap"
       }, 
       {
-        "gloss": "union", 
+        "gloss": "and-2", 
         "word": "vie"
       }, 
       {
-        "gloss": "States", 
+        "gloss": "india", 
         "word": "rua"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "states-NPST", 
         "word": "miu"
       }, 
       {
-        "gloss": "territories", 
+        "gloss": "of", 
         "word": "ner."
       }
     ], 
@@ -72,27 +72,27 @@
   {
     "ilg": [
       {
-        "gloss": "Indians", 
+        "gloss": "about-ABS", 
         "word": "Malli"
       }, 
       {
-        "gloss": "live", 
+        "gloss": "indians-QUOT", 
         "word": "upta"
       }, 
       {
-        "gloss": "on", 
+        "gloss": "farms.", 
         "word": "elna"
       }, 
       {
-        "gloss": "70%", 
+        "gloss": "70%-ALL", 
         "word": "um"
       }, 
       {
-        "gloss": "About", 
+        "gloss": "live", 
         "word": "nuv"
       }, 
       {
-        "gloss": "farms.", 
+        "gloss": "on", 
         "word": "akma."
       }
     ], 
@@ -107,27 +107,27 @@
   {
     "ilg": [
       {
-        "gloss": "spoken", 
+        "gloss": "in", 
         "word": "Pin"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "1,625-ALL", 
         "word": "up"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "languages-NPST", 
         "word": "let"
       }, 
       {
-        "gloss": "1,625", 
+        "gloss": "spoken", 
         "word": "mue"
       }, 
       {
-        "gloss": "languages", 
+        "gloss": "altogether,-GEN", 
         "word": "tai"
       }, 
       {
-        "gloss": "Altogether,", 
+        "gloss": "are-ABS", 
         "word": "mippu?"
       }
     ], 
@@ -142,23 +142,23 @@
   {
     "ilg": [
       {
-        "gloss": "agreement", 
+        "gloss": "china-ABS", 
         "word": "Puu"
       }, 
       {
-        "gloss": "this", 
+        "gloss": "does-DAT", 
         "word": "ri"
       }, 
       {
-        "gloss": "China", 
+        "gloss": "this", 
         "word": "le"
       }, 
       {
-        "gloss": "not", 
+        "gloss": "not-SBJV", 
         "word": "me"
       }, 
       {
-        "gloss": "accept", 
+        "gloss": "agreement", 
         "word": "punmu"
       }, 
       {
@@ -177,27 +177,27 @@
   {
     "ilg": [
       {
-        "gloss": "Heritage", 
+        "gloss": "unesco-DISTR", 
         "word": "Rei"
       }, 
       {
-        "gloss": "It", 
+        "gloss": "heritage", 
         "word": "em"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "a-GEN", 
         "word": "ampe"
       }, 
       {
-        "gloss": "UNESCO", 
+        "gloss": "is-GEN", 
         "word": "lulne"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "world", 
         "word": "ree"
       }, 
       {
-        "gloss": "Site.", 
+        "gloss": "it-QUOT", 
         "word": "tun."
       }
     ], 
@@ -212,27 +212,27 @@
   {
     "ilg": [
       {
-        "gloss": "one", 
+        "gloss": "one-ALL", 
         "word": "Tie"
       }, 
       {
-        "gloss": "oldest", 
+        "gloss": "the", 
         "word": "kunpe"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "is-ALL", 
         "word": "akti"
       }, 
       {
-        "gloss": "Tamil", 
+        "gloss": "oldest", 
         "word": "va"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "tamil-DAT", 
         "word": "atte"
       }, 
       {
-        "gloss": "languages.", 
+        "gloss": "of-2", 
         "word": "atki."
       }
     ], 
@@ -247,27 +247,27 @@
   {
     "ilg": [
       {
-        "gloss": "India", 
+        "gloss": "capital-SBJV", 
         "word": "Umpi"
       }, 
       {
-        "gloss": "New", 
+        "gloss": "new", 
         "word": "ekki"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "the-NPST", 
         "word": "par"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "india-ABS", 
         "word": "mau"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "delhi.", 
         "word": "virlu"
       }, 
       {
-        "gloss": "capital", 
+        "gloss": "of-GEN", 
         "word": "luk."
       }
     ], 
@@ -282,27 +282,27 @@
   {
     "ilg": [
       {
-        "gloss": "The", 
+        "gloss": "also-SBJV", 
         "word": "Urku"
       }, 
       {
-        "gloss": "recognises", 
+        "gloss": "constitution-NPST", 
         "word": "tekle"
       }, 
       {
-        "gloss": "21", 
+        "gloss": "languages.", 
         "word": "atti"
       }, 
       {
-        "gloss": "also", 
+        "gloss": "21", 
         "word": "narla"
       }, 
       {
-        "gloss": "constitution", 
+        "gloss": "recognises-QUOT", 
         "word": "tiv"
       }, 
       {
-        "gloss": "languages.", 
+        "gloss": "the-2", 
         "word": "tukli."
       }
     ], 
@@ -317,27 +317,27 @@
   {
     "ilg": [
       {
-        "gloss": "economy", 
+        "gloss": "country", 
         "word": "Ap"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "the-ALL", 
         "word": "lie"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "economy-NPST", 
         "word": "rukpe"
       }, 
       {
-        "gloss": "country", 
+        "gloss": "of-ACC", 
         "word": "mi"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "growing.", 
         "word": "epvu"
       }, 
       {
-        "gloss": "growing.", 
+        "gloss": "the-ABS", 
         "word": "rilku"
       }, 
       {
@@ -356,7 +356,7 @@
   {
     "ilg": [
       {
-        "gloss": "powerful", 
+        "gloss": "india-ACC", 
         "word": "Enle"
       }, 
       {
@@ -364,23 +364,23 @@
         "word": "pa"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "1947,-GEN", 
         "word": "lut"
       }, 
       {
-        "gloss": "After", 
+        "gloss": "has-DISTR", 
         "word": "ralvi"
       }, 
       {
-        "gloss": "1947,", 
+        "gloss": "become", 
         "word": "lii"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "after-ACC", 
         "word": "na"
       }, 
       {
-        "gloss": "has", 
+        "gloss": "a", 
         "word": "an."
       }
     ], 
@@ -395,27 +395,27 @@
   {
     "ilg": [
       {
-        "gloss": "many", 
+        "gloss": "invaded", 
         "word": "Etri"
       }, 
       {
-        "gloss": "other", 
+        "gloss": "bc,-DAT", 
         "word": "an"
       }, 
       {
-        "gloss": "invaded", 
+        "gloss": "india.", 
         "word": "et"
       }, 
       {
-        "gloss": "BC,", 
+        "gloss": "many-DISTR", 
         "word": "etnu"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "other", 
         "word": "lav"
       }, 
       {
-        "gloss": "From", 
+        "gloss": "from-SBJV", 
         "word": "vii"
       }, 
       {
@@ -434,27 +434,27 @@
   {
     "ilg": [
       {
-        "gloss": "However", 
+        "gloss": "india", 
         "word": "In"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "despite-ACC", 
         "word": "tilku"
       }, 
       {
-        "gloss": "despite", 
+        "gloss": "poverty.", 
         "word": "tek"
       }, 
       {
-        "gloss": "poverty.", 
+        "gloss": "however-ACC", 
         "word": "liu"
       }, 
       {
-        "gloss": "growth,", 
+        "gloss": "growth,-GEN", 
         "word": "mua"
       }, 
       {
-        "gloss": "economic", 
+        "gloss": "economic-DAT", 
         "word": "tivte"
       }, 
       {
@@ -473,31 +473,31 @@
   {
     "ilg": [
       {
-        "gloss": "also", 
+        "gloss": "there-ABS", 
         "word": "Katmu"
       }, 
       {
-        "gloss": "India,", 
+        "gloss": "21", 
         "word": "ukra"
       }, 
       {
-        "gloss": "there", 
+        "gloss": "also", 
         "word": "ne"
       }, 
       {
-        "gloss": "21", 
+        "gloss": "are-DAT", 
         "word": "mu"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "high", 
         "word": "lekme"
       }, 
       {
-        "gloss": "In", 
+        "gloss": "india,-ABS", 
         "word": "erla"
       }, 
       {
-        "gloss": "High", 
+        "gloss": "in-ABS", 
         "word": "mut."
       }
     ], 
@@ -512,11 +512,11 @@
   {
     "ilg": [
       {
-        "gloss": "democracy", 
+        "gloss": "in", 
         "word": "Kek"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "democracy", 
         "word": "viv"
       }, 
       {
@@ -524,19 +524,19 @@
         "word": "atte"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "the-DISTR", 
         "word": "puppe"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "largest-QUOT", 
         "word": "irni"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "is-DAT", 
         "word": "at"
       }, 
       {
-        "gloss": "largest", 
+        "gloss": "india-2", 
         "word": "muv."
       }
     ], 
@@ -551,31 +551,31 @@
   {
     "ilg": [
       {
-        "gloss": "constitution", 
+        "gloss": "was-ALL", 
         "word": "Len"
       }, 
       {
-        "gloss": "26,", 
+        "gloss": "january", 
         "word": "miu"
       }, 
       {
-        "gloss": "1950.", 
+        "gloss": "26,", 
         "word": "lirmu"
       }, 
       {
-        "gloss": "January", 
+        "gloss": "on", 
         "word": "ek"
       }, 
       {
-        "gloss": "was", 
+        "gloss": "founded-2", 
         "word": "ep"
       }, 
       {
-        "gloss": "on", 
+        "gloss": "1950.", 
         "word": "tippe"
       }, 
       {
-        "gloss": "founded", 
+        "gloss": "constitution-QUOT", 
         "word": "nup."
       }
     ], 
@@ -590,31 +590,31 @@
   {
     "ilg": [
       {
-        "gloss": "the", 
+        "gloss": "official-GEN", 
         "word": "Ma"
       }, 
       {
-        "gloss": "language", 
+        "gloss": "the", 
         "word": "mum"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "union.", 
         "word": "malke"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "language", 
         "word": "uv"
       }, 
       {
-        "gloss": "union.", 
+        "gloss": "the-ACC", 
         "word": "itra"
       }, 
       {
-        "gloss": "It", 
+        "gloss": "it-ALL", 
         "word": "rar"
       }, 
       {
-        "gloss": "official", 
+        "gloss": "is-2", 
         "word": "pel?"
       }
     ], 
@@ -629,19 +629,19 @@
   {
     "ilg": [
       {
-        "gloss": "dynasties", 
+        "gloss": "ruled-DISTR", 
         "word": "Naa"
       }, 
       {
-        "gloss": "ruled", 
+        "gloss": "india-DAT", 
         "word": "vi"
       }, 
       {
-        "gloss": "year", 
+        "gloss": "dynasties-NPST", 
         "word": "amme"
       }, 
       {
-        "gloss": "1000.", 
+        "gloss": "many-ALL", 
         "word": "upni"
       }, 
       {
@@ -649,11 +649,11 @@
         "word": "ti"
       }, 
       {
-        "gloss": "Many", 
+        "gloss": "around", 
         "word": "anmu"
       }, 
       {
-        "gloss": "around", 
+        "gloss": "year", 
         "word": "murka."
       }
     ], 
@@ -668,7 +668,7 @@
   {
     "ilg": [
       {
-        "gloss": "northern", 
+        "gloss": "india", 
         "word": "Pumku"
       }, 
       {
@@ -680,19 +680,19 @@
         "word": "el"
       }, 
       {
-        "gloss": "mountains.", 
+        "gloss": "the-DAT", 
         "word": "ka"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "mountains.", 
         "word": "kukti"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "northern-ABS", 
         "word": "nea"
       }, 
       {
-        "gloss": "part", 
+        "gloss": "of-DISTR", 
         "word": "ampu."
       }
     ], 
@@ -707,7 +707,7 @@
   {
     "ilg": [
       {
-        "gloss": "80.", 
+        "gloss": "is", 
         "word": "Un"
       }, 
       {
@@ -719,19 +719,19 @@
         "word": "emlu"
       }, 
       {
-        "gloss": "Hinduism", 
+        "gloss": "hinduism-DISTR", 
         "word": "ma"
       }, 
       {
-        "gloss": "religion", 
+        "gloss": "80.", 
         "word": "akmu"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "of-NPST", 
         "word": "akku"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "the-ALL", 
         "word": "ti."
       }
     ], 
@@ -746,35 +746,35 @@
   {
     "ilg": [
       {
-        "gloss": "building.", 
+        "gloss": "modern", 
         "word": "El"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "of-2", 
         "word": "ku"
       }, 
       {
-        "gloss": "modern", 
+        "gloss": "30-story", 
         "word": "pa"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "ground-ACC", 
         "word": "tu"
       }, 
       {
-        "gloss": "View", 
+        "gloss": "view-DAT", 
         "word": "rikte"
       }, 
       {
-        "gloss": "ground", 
+        "gloss": "from-ACC", 
         "word": "mut"
       }, 
       {
-        "gloss": "from", 
+        "gloss": "building.", 
         "word": "pim"
       }, 
       {
-        "gloss": "30-story", 
+        "gloss": "a", 
         "word": "runme."
       }
     ], 
@@ -789,35 +789,35 @@
   {
     "ilg": [
       {
-        "gloss": "the", 
+        "gloss": "5%-NPST", 
         "word": "Ip"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "around-GEN", 
         "word": "vut"
       }, 
       {
-        "gloss": "5%", 
+        "gloss": "of-QUOT", 
         "word": "lalmu"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "a", 
         "word": "kav"
       }, 
       {
-        "gloss": "language.", 
+        "gloss": "the-SBJV", 
         "word": "ikte"
       }, 
       {
-        "gloss": "speak", 
+        "gloss": "language.", 
         "word": "tat"
       }, 
       {
-        "gloss": "people", 
+        "gloss": "tibeto-burman", 
         "word": "elku"
       }, 
       {
-        "gloss": "Around", 
+        "gloss": "speak", 
         "word": "kai."
       }
     ], 
@@ -832,27 +832,27 @@
   {
     "ilg": [
       {
-        "gloss": "are", 
+        "gloss": "as-ACC", 
         "word": "La"
       }, 
       {
-        "gloss": "they", 
+        "gloss": "a-ACC", 
         "word": "ak"
       }, 
       {
-        "gloss": "religions.", 
+        "gloss": "they-SBJV", 
         "word": "mi"
       }, 
       {
-        "gloss": "Eastern", 
+        "gloss": "eastern", 
         "word": "ev"
       }, 
       {
-        "gloss": "As", 
+        "gloss": "group-QUOT", 
         "word": "arpe"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "the", 
         "word": "tu"
       }, 
       {
@@ -860,7 +860,7 @@
         "word": "pai"
       }, 
       {
-        "gloss": "group", 
+        "gloss": "are", 
         "word": "vatku."
       }
     ], 
@@ -875,35 +875,35 @@
   {
     "ilg": [
       {
-        "gloss": "comes", 
+        "gloss": "india,", 
         "word": "Lii"
       }, 
       {
-        "gloss": "which", 
+        "gloss": "which-DAT", 
         "word": "ke"
       }, 
       {
-        "gloss": "also", 
+        "gloss": "is", 
         "word": "ap"
       }, 
       {
-        "gloss": "India,", 
+        "gloss": "becoming", 
         "word": "mi"
       }, 
       {
-        "gloss": "from", 
+        "gloss": "popular.", 
         "word": "runmi"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "chess,-DISTR", 
         "word": "per"
       }, 
       {
-        "gloss": "becoming", 
+        "gloss": "from-QUOT", 
         "word": "re"
       }, 
       {
-        "gloss": "Chess,", 
+        "gloss": "comes-2", 
         "word": "ra."
       }
     ], 
@@ -934,19 +934,19 @@
         "word": "ket"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "in-SBJV", 
         "word": "li"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "cricketers-NPST", 
         "word": "ikma"
       }, 
       {
-        "gloss": "Cricketers", 
+        "gloss": "a-GEN", 
         "word": "lei"
       }, 
       {
-        "gloss": "game", 
+        "gloss": "game-2", 
         "word": "kui."
       }
     ], 
@@ -961,11 +961,11 @@
   {
     "ilg": [
       {
-        "gloss": "the", 
+        "gloss": "however,-2", 
         "word": "Pem"
       }, 
       {
-        "gloss": "sport", 
+        "gloss": "popular", 
         "word": "ilna"
       }, 
       {
@@ -973,15 +973,15 @@
         "word": "etre"
       }, 
       {
-        "gloss": "However,", 
+        "gloss": "cricket-GEN", 
         "word": "tik"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "india.", 
         "word": "kie"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "sport", 
         "word": "ruk"
       }, 
       {
@@ -989,7 +989,7 @@
         "word": "pi"
       }, 
       {
-        "gloss": "popular", 
+        "gloss": "the-ACC", 
         "word": "pi!"
       }
     ], 
@@ -1004,11 +1004,11 @@
   {
     "ilg": [
       {
-        "gloss": "largest", 
+        "gloss": "india-ABS", 
         "word": "Tae"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "is-ABS", 
         "word": "kun"
       }, 
       {
@@ -1016,19 +1016,19 @@
         "word": "al"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "world.", 
         "word": "vea"
       }, 
       {
-        "gloss": "seventh", 
+        "gloss": "the-NPST", 
         "word": "pan"
       }, 
       {
-        "gloss": "world.", 
+        "gloss": "in", 
         "word": "nau"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "seventh-QUOT", 
         "word": "na"
       }, 
       {
@@ -1047,15 +1047,15 @@
   {
     "ilg": [
       {
-        "gloss": "has", 
+        "gloss": "of", 
         "word": "Teu"
       }, 
       {
-        "gloss": "status", 
+        "gloss": "it-ABS", 
         "word": "lelne"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "status-2", 
         "word": "akke"
       }, 
       {
@@ -1063,7 +1063,7 @@
         "word": "lutpa"
       }, 
       {
-        "gloss": "'subsidiary", 
+        "gloss": "a", 
         "word": "un"
       }, 
       {
@@ -1071,11 +1071,11 @@
         "word": "pu"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "'subsidiary", 
         "word": "ut"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "has-ABS", 
         "word": "kan."
       }
     ], 
@@ -1090,19 +1090,19 @@
   {
     "ilg": [
       {
-        "gloss": "It", 
+        "gloss": "country.", 
         "word": "Titni"
       }, 
       {
-        "gloss": "Sri", 
+        "gloss": "near-ALL", 
         "word": "evpe"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "island", 
         "word": "kaa"
       }, 
       {
-        "gloss": "country.", 
+        "gloss": "also-NPST", 
         "word": "ennu"
       }, 
       {
@@ -1110,15 +1110,15 @@
         "word": "et"
       }, 
       {
-        "gloss": "island", 
+        "gloss": "sri", 
         "word": "ir"
       }, 
       {
-        "gloss": "near", 
+        "gloss": "is-NPST", 
         "word": "atva"
       }, 
       {
-        "gloss": "Lanka,", 
+        "gloss": "lanka,", 
         "word": "ulti."
       }
     ], 
@@ -1133,35 +1133,35 @@
   {
     "ilg": [
       {
-        "gloss": "It", 
+        "gloss": "main-NPST", 
         "word": "Unku"
       }, 
       {
-        "gloss": "Indian", 
+        "gloss": "is-2", 
         "word": "kia"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "the-ACC", 
         "word": "akre"
       }, 
       {
-        "gloss": "part", 
+        "gloss": "indian", 
         "word": "emlu"
       }, 
       {
-        "gloss": "subcontinent.", 
+        "gloss": "part", 
         "word": "vella"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "it-ACC", 
         "word": "lenta"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "of", 
         "word": "tunne"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "subcontinent.", 
         "word": "kavni."
       }
     ], 
@@ -1176,35 +1176,35 @@
   {
     "ilg": [
       {
-        "gloss": "in", 
+        "gloss": "largest", 
         "word": "Unla"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "the-GEN", 
         "word": "ir"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "is-ABS", 
         "word": "tem"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "world.", 
         "word": "rivlu"
       }, 
       {
-        "gloss": "largest", 
+        "gloss": "country", 
         "word": "ve"
       }, 
       {
-        "gloss": "country", 
+        "gloss": "seventh-2", 
         "word": "alme"
       }, 
       {
-        "gloss": "world.", 
+        "gloss": "in", 
         "word": "atre"
       }, 
       {
-        "gloss": "seventh", 
+        "gloss": "the", 
         "word": "mepri."
       }
     ], 
@@ -1219,35 +1219,35 @@
   {
     "ilg": [
       {
-        "gloss": "thought", 
+        "gloss": "\"outstanding", 
         "word": "Vilre"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "universal", 
         "word": "nau"
       }, 
       {
-        "gloss": "\"outstanding", 
+        "gloss": "be", 
         "word": "pi"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "to-GEN", 
         "word": "uvpu"
       }, 
       {
-        "gloss": "universal", 
+        "gloss": "is-NPST", 
         "word": "lekku"
       }, 
       {
-        "gloss": "value\".", 
+        "gloss": "thought-NPST", 
         "word": "rua"
       }, 
       {
-        "gloss": "to", 
+        "gloss": "it-ABS", 
         "word": "en"
       }, 
       {
-        "gloss": "be", 
+        "gloss": "value\".", 
         "word": "ut."
       }
     ], 
@@ -1262,39 +1262,39 @@
   {
     "ilg": [
       {
-        "gloss": "India", 
+        "gloss": "india-ALL", 
         "word": "Erva"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "is", 
         "word": "at"
       }, 
       {
-        "gloss": "five", 
+        "gloss": "the-ABS", 
         "word": "kevmu"
       }, 
       {
-        "gloss": "for", 
+        "gloss": "five", 
         "word": "te"
       }, 
       {
-        "gloss": "elected", 
+        "gloss": "years.", 
         "word": "mukli"
       }, 
       {
-        "gloss": "years.", 
+        "gloss": "of-ABS", 
         "word": "at"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "president-ALL", 
         "word": "av"
       }, 
       {
-        "gloss": "President", 
+        "gloss": "for", 
         "word": "rir"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "elected", 
         "word": "tavne!"
       }
     ], 
@@ -1309,39 +1309,39 @@
   {
     "ilg": [
       {
-        "gloss": "and", 
+        "gloss": "india.", 
         "word": "Evpu"
       }, 
       {
-        "gloss": "different", 
+        "gloss": "different-ABS", 
         "word": "elma"
       }, 
       {
-        "gloss": "There", 
+        "gloss": "languages", 
         "word": "pei"
       }, 
       {
-        "gloss": "languages", 
-        "word": "ka"
-      }, 
-      {
-        "gloss": "are", 
-        "word": "kit"
-      }, 
-      {
-        "gloss": "many", 
-        "word": "tutnu"
-      }, 
-      {
         "gloss": "cultures", 
-        "word": "ri"
+        "word": "ka"
       }, 
       {
         "gloss": "in", 
+        "word": "kit"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "tutnu"
+      }, 
+      {
+        "gloss": "there-ACC", 
+        "word": "ri"
+      }, 
+      {
+        "gloss": "many-ABS", 
         "word": "ka"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "are-NPST", 
         "word": "le."
       }
     ], 
@@ -1356,39 +1356,39 @@
   {
     "ilg": [
       {
-        "gloss": "Indian", 
+        "gloss": "of", 
         "word": "Ip"
       }, 
       {
-        "gloss": "makes", 
+        "gloss": "part", 
         "word": "avvu"
       }, 
       {
-        "gloss": "Kashmir.", 
+        "gloss": "makes-DAT", 
         "word": "rei"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "the", 
         "word": "kitru"
       }, 
       {
-        "gloss": "This", 
+        "gloss": "this-DAT", 
         "word": "mupva"
       }, 
       {
-        "gloss": "state", 
+        "gloss": "kashmir.", 
         "word": "kua"
       }, 
       {
-        "gloss": "up", 
+        "gloss": "up-GEN", 
         "word": "uvpu"
       }, 
       {
-        "gloss": "part", 
+        "gloss": "indian", 
         "word": "naa"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "state-ALL", 
         "word": "lu."
       }
     ], 
@@ -1403,39 +1403,39 @@
   {
     "ilg": [
       {
-        "gloss": "of", 
+        "gloss": "poverty", 
         "word": "Iv"
       }, 
       {
-        "gloss": "population", 
+        "gloss": "was", 
         "word": "uv"
       }, 
       {
-        "gloss": "poverty", 
+        "gloss": "of-GEN", 
         "word": "evru"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "in", 
         "word": "upra"
       }, 
       {
-        "gloss": "living", 
+        "gloss": "in", 
         "word": "ma"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "living", 
         "word": "tai"
       }, 
       {
-        "gloss": "was", 
+        "gloss": "the-ABS", 
         "word": "pe"
       }, 
       {
-        "gloss": "2004\u20132005.", 
+        "gloss": "population-GEN", 
         "word": "arna"
       }, 
       {
-        "gloss": "5%", 
+        "gloss": "5%-ABS", 
         "word": "imte."
       }
     ], 
@@ -1450,39 +1450,39 @@
   {
     "ilg": [
       {
-        "gloss": "are", 
+        "gloss": "more", 
         "word": "Nia"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "than", 
         "word": "papta"
       }, 
       {
-        "gloss": "languages", 
+        "gloss": "these-GEN", 
         "word": "ma"
       }, 
       {
-        "gloss": "these", 
+        "gloss": "old.", 
         "word": "vu"
       }, 
       {
-        "gloss": "years", 
+        "gloss": "3000", 
         "word": "na"
       }, 
       {
-        "gloss": "Both", 
+        "gloss": "are", 
         "word": "pirlu"
       }, 
       {
-        "gloss": "3000", 
+        "gloss": "languages-ALL", 
         "word": "it"
       }, 
       {
-        "gloss": "more", 
+        "gloss": "years", 
         "word": "tevle"
       }, 
       {
-        "gloss": "old.", 
+        "gloss": "of-ABS", 
         "word": "iv."
       }
     ], 
@@ -1497,39 +1497,39 @@
   {
     "ilg": [
       {
-        "gloss": "the", 
+        "gloss": "are", 
         "word": "Nu"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "from-DISTR", 
         "word": "nai"
       }, 
       {
-        "gloss": "found", 
+        "gloss": "cave-ABS", 
         "word": "impe"
       }, 
       {
-        "gloss": "Cave", 
+        "gloss": "across", 
         "word": "ep"
       }, 
       {
-        "gloss": "across", 
+        "gloss": "the-2", 
         "word": "tuu"
       }, 
       {
-        "gloss": "Age", 
+        "gloss": "paintings-2", 
         "word": "miu"
       }, 
       {
-        "gloss": "from", 
+        "gloss": "age", 
         "word": "ra"
       }, 
       {
-        "gloss": "paintings", 
+        "gloss": "found", 
         "word": "ne"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "india.", 
         "word": "at."
       }
     ], 
@@ -1544,39 +1544,39 @@
   {
     "ilg": [
       {
-        "gloss": "administration", 
+        "gloss": "smaller", 
         "word": "Ta"
       }, 
       {
-        "gloss": "purposes,", 
+        "gloss": "been", 
         "word": "ki"
       }, 
       {
-        "gloss": "pieces.", 
+        "gloss": "india-2", 
         "word": "pikpi"
       }, 
       {
-        "gloss": "into", 
+        "gloss": "administration-DAT", 
         "word": "mulre"
       }, 
       {
-        "gloss": "For", 
+        "gloss": "for-DAT", 
         "word": "tav"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "pieces.", 
         "word": "il"
       }, 
       {
-        "gloss": "has", 
+        "gloss": "divided", 
         "word": "ikla"
       }, 
       {
-        "gloss": "been", 
+        "gloss": "has", 
         "word": "pi"
       }, 
       {
-        "gloss": "divided", 
+        "gloss": "purposes,-ACC", 
         "word": "evmu."
       }
     ], 
@@ -1591,39 +1591,39 @@
   {
     "ilg": [
       {
-        "gloss": "states,", 
+        "gloss": "are-ALL", 
         "word": "Ti"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "there-2", 
         "word": "ip"
       }, 
       {
-        "gloss": "seven", 
+        "gloss": "and", 
         "word": "pan"
       }, 
       {
-        "gloss": "territories.", 
+        "gloss": "in-SBJV", 
         "word": "el"
       }, 
       {
-        "gloss": "union", 
+        "gloss": "territories.", 
         "word": "lee"
       }, 
       {
-        "gloss": "In", 
+        "gloss": "twenty-eight", 
         "word": "mut"
       }, 
       {
-        "gloss": "there", 
+        "gloss": "total,-ABS", 
         "word": "rai"
       }, 
       {
-        "gloss": "twenty-eight", 
+        "gloss": "union", 
         "word": "akvu"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "states,", 
         "word": "akre."
       }
     ], 
@@ -1642,35 +1642,35 @@
         "word": "Ulmu"
       }, 
       {
-        "gloss": "population.", 
+        "gloss": "india-GEN", 
         "word": "an"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "population.", 
         "word": "li"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "by", 
         "word": "evvi"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "is-NPST", 
         "word": "vakma"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "the-SBJV", 
         "word": "mui"
       }, 
       {
-        "gloss": "by", 
+        "gloss": "in", 
         "word": "inku"
       }, 
       {
-        "gloss": "largest", 
+        "gloss": "democracy", 
         "word": "mamtu"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "largest-QUOT", 
         "word": "ti."
       }
     ], 
@@ -1685,31 +1685,31 @@
   {
     "ilg": [
       {
-        "gloss": "country.", 
+        "gloss": "whole", 
         "word": "Vem"
       }, 
       {
-        "gloss": "Asia", 
+        "gloss": "country.", 
         "word": "nek"
       }, 
       {
-        "gloss": "most", 
+        "gloss": "of-SBJV", 
         "word": "iv"
       }, 
       {
-        "gloss": "South", 
+        "gloss": "made-GEN", 
         "word": "nam"
       }, 
       {
-        "gloss": "whole", 
+        "gloss": "asia", 
         "word": "utvi"
       }, 
       {
-        "gloss": "It", 
+        "gloss": "one", 
         "word": "paa"
       }, 
       {
-        "gloss": "made", 
+        "gloss": "it-QUOT", 
         "word": "rurmu"
       }, 
       {
@@ -1717,7 +1717,7 @@
         "word": "uv"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "south", 
         "word": "telka."
       }
     ], 
@@ -1732,7 +1732,7 @@
   {
     "ilg": [
       {
-        "gloss": "languages", 
+        "gloss": "come", 
         "word": "Vu"
       }, 
       {
@@ -1740,31 +1740,31 @@
         "word": "naa"
       }, 
       {
-        "gloss": "Austro-Asiatic", 
+        "gloss": "languages-2", 
         "word": "nukki"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "in-QUOT", 
         "word": "rev"
       }, 
       {
-        "gloss": "spoken", 
+        "gloss": "the", 
         "word": "le"
       }, 
       {
-        "gloss": "Other", 
+        "gloss": "india", 
         "word": "un"
       }, 
       {
-        "gloss": "come", 
+        "gloss": "spoken-ACC", 
         "word": "anra"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "from", 
         "word": "raa"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "other-NPST", 
         "word": "kui."
       }
     ], 
@@ -1779,43 +1779,43 @@
   {
     "ilg": [
       {
-        "gloss": "The", 
+        "gloss": "the", 
         "word": "Em"
       }, 
       {
-        "gloss": "Temple", 
+        "gloss": "sikhs.", 
         "word": "ev"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "of", 
         "word": "kii"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "or-DISTR", 
         "word": "nei"
       }, 
       {
-        "gloss": "Sikhs.", 
+        "gloss": "the", 
         "word": "an"
       }, 
       {
-        "gloss": "Golden", 
+        "gloss": "temple", 
         "word": "va"
       }, 
       {
-        "gloss": "Harmandir", 
+        "gloss": "harmandir-GEN", 
         "word": "rimru"
       }, 
       {
-        "gloss": "or", 
+        "gloss": "golden", 
         "word": "ik"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "sahib-QUOT", 
         "word": "tal"
       }, 
       {
-        "gloss": "Sahib", 
+        "gloss": "the-GEN", 
         "word": "in."
       }
     ], 
@@ -1830,43 +1830,43 @@
   {
     "ilg": [
       {
-        "gloss": "are", 
+        "gloss": "borders.", 
         "word": "Emme"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "are-DISTR", 
         "word": "lempu"
       }, 
       {
-        "gloss": "borders.", 
+        "gloss": "indian", 
         "word": "rulki"
       }, 
       {
-        "gloss": "disputes", 
+        "gloss": "of", 
         "word": "luv"
       }, 
       {
-        "gloss": "There", 
+        "gloss": "there-GEN", 
         "word": "le"
       }, 
       {
-        "gloss": "parts", 
+        "gloss": "about-ABS", 
         "word": "vur"
       }, 
       {
-        "gloss": "Indian", 
+        "gloss": "certain", 
         "word": "rua"
       }, 
       {
-        "gloss": "about", 
+        "gloss": "the", 
         "word": "ippi"
       }, 
       {
-        "gloss": "certain", 
+        "gloss": "parts", 
         "word": "ranta"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "disputes-DAT", 
         "word": "mutta."
       }
     ], 
@@ -1881,43 +1881,43 @@
   {
     "ilg": [
       {
-        "gloss": "shared", 
+        "gloss": "with", 
         "word": "En"
       }, 
       {
-        "gloss": "2002", 
+        "gloss": "the-ACC", 
         "word": "marra"
       }, 
       {
-        "gloss": "Sri", 
+        "gloss": "2002-GEN", 
         "word": "lie"
       }, 
       {
-        "gloss": "Champions", 
+        "gloss": "lanka.", 
         "word": "ka"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "champions", 
         "word": "lit"
       }, 
       {
-        "gloss": "with", 
+        "gloss": "sri", 
         "word": "me"
       }, 
       {
-        "gloss": "They", 
+        "gloss": "shared-ABS", 
         "word": "ti"
       }, 
       {
-        "gloss": "Lanka.", 
+        "gloss": "trophy", 
         "word": "pee"
       }, 
       {
-        "gloss": "Trophy", 
+        "gloss": "icc", 
         "word": "ve"
       }, 
       {
-        "gloss": "ICC", 
+        "gloss": "they-GEN", 
         "word": "at."
       }
     ], 
@@ -1932,23 +1932,23 @@
   {
     "ilg": [
       {
-        "gloss": "a", 
+        "gloss": "this-ALL", 
         "word": "Ku"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "is-ABS", 
         "word": "va"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "density", 
         "word": "rai"
       }, 
       {
-        "gloss": "density", 
+        "gloss": "india.", 
         "word": "tuu"
       }, 
       {
-        "gloss": "This", 
+        "gloss": "population", 
         "word": "lie"
       }, 
       {
@@ -1956,19 +1956,19 @@
         "word": "kirti"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "map-DAT", 
         "word": "el"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "the", 
         "word": "vuk"
       }, 
       {
-        "gloss": "population", 
+        "gloss": "of", 
         "word": "li"
       }, 
       {
-        "gloss": "map", 
+        "gloss": "a-ALL", 
         "word": "nua."
       }
     ], 
@@ -1983,43 +1983,43 @@
   {
     "ilg": [
       {
-        "gloss": "than", 
+        "gloss": "the-ACC", 
         "word": "Min"
       }, 
       {
-        "gloss": "USD$2", 
+        "gloss": "of-SBJV", 
         "word": "lu"
       }, 
       {
-        "gloss": "population", 
+        "gloss": "4%-SBJV", 
         "word": "unre"
       }, 
       {
-        "gloss": "less", 
+        "gloss": "on", 
         "word": "ekra"
       }, 
       {
-        "gloss": "4%", 
+        "gloss": "a", 
         "word": "iklu"
       }, 
       {
-        "gloss": "live", 
+        "gloss": "less", 
         "word": "runli"
       }, 
       {
-        "gloss": "on", 
+        "gloss": "live", 
         "word": "pee"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "day.", 
         "word": "uvta"
       }, 
       {
-        "gloss": "day.", 
+        "gloss": "usd$2", 
         "word": "vai"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "than", 
         "word": "petma."
       }
     ], 
@@ -2034,43 +2034,43 @@
   {
     "ilg": [
       {
-        "gloss": "English", 
+        "gloss": "is-DAT", 
         "word": "Narni"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "used,-2", 
         "word": "ke"
       }, 
       {
-        "gloss": "business", 
+        "gloss": "administration.", 
         "word": "ur"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "also-ACC", 
         "word": "ru"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "mostly", 
         "word": "vun"
       }, 
       {
-        "gloss": "administration.", 
+        "gloss": "the", 
         "word": "enve"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "and", 
         "word": "rei"
       }, 
       {
-        "gloss": "used,", 
+        "gloss": "in", 
         "word": "av"
       }, 
       {
-        "gloss": "for", 
+        "gloss": "business", 
         "word": "kie"
       }, 
       {
-        "gloss": "mostly", 
+        "gloss": "english-NPST", 
         "word": "emna."
       }
     ], 
@@ -2085,43 +2085,43 @@
   {
     "ilg": [
       {
-        "gloss": "the", 
+        "gloss": "were-GEN", 
         "word": "Pun"
       }, 
       {
-        "gloss": "these", 
+        "gloss": "mughal,", 
         "word": "inre"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "empires.", 
         "word": "tep"
       }, 
       {
-        "gloss": "empires.", 
+        "gloss": "the", 
         "word": "tepni"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "of-2", 
         "word": "rumka"
       }, 
       {
-        "gloss": "Mughal,", 
+        "gloss": "these-ACC", 
         "word": "imvi"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "maratha", 
         "word": "rae"
       }, 
       {
-        "gloss": "Vijayanagara,", 
+        "gloss": "some-GEN", 
         "word": "arla"
       }, 
       {
-        "gloss": "Some", 
+        "gloss": "the", 
         "word": "pa"
       }, 
       {
-        "gloss": "were", 
+        "gloss": "vijayanagara,", 
         "word": "epta."
       }
     ], 
@@ -2136,23 +2136,23 @@
   {
     "ilg": [
       {
-        "gloss": "Himalayas,", 
+        "gloss": "the-ABS", 
         "word": "Rar"
       }, 
       {
-        "gloss": "can", 
+        "gloss": "climate", 
         "word": "rii"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "extremely", 
         "word": "tee"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "the-GEN", 
         "word": "pii"
       }, 
       {
-        "gloss": "extremely", 
+        "gloss": "get", 
         "word": "ke"
       }, 
       {
@@ -2160,19 +2160,19 @@
         "word": "mimmu"
       }, 
       {
-        "gloss": "alpine", 
+        "gloss": "region,", 
         "word": "le"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "alpine", 
         "word": "pal"
       }, 
       {
-        "gloss": "region,", 
+        "gloss": "can", 
         "word": "iv"
       }, 
       {
-        "gloss": "get", 
+        "gloss": "himalayas,-GEN", 
         "word": "te."
       }
     ], 
@@ -2187,43 +2187,43 @@
   {
     "ilg": [
       {
-        "gloss": "Jawaharlal", 
+        "gloss": "was", 
         "word": "Riu"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "minister)", 
         "word": "rilku"
       }, 
       {
-        "gloss": "leader", 
+        "gloss": "first-QUOT", 
         "word": "vin"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "official-SBJV", 
         "word": "memki"
       }, 
       {
-        "gloss": "Minister)", 
+        "gloss": "of", 
         "word": "inmu"
       }, 
       {
-        "gloss": "(Prime", 
+        "gloss": "nehru.", 
         "word": "tee"
       }, 
       {
-        "gloss": "was", 
+        "gloss": "leader-ACC", 
         "word": "tev"
       }, 
       {
-        "gloss": "first", 
+        "gloss": "the-2", 
         "word": "umpi"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "jawaharlal", 
         "word": "etlu"
       }, 
       {
-        "gloss": "official", 
+        "gloss": "(prime", 
         "word": "tie."
       }
     ], 
@@ -2238,43 +2238,43 @@
   {
     "ilg": [
       {
-        "gloss": "as", 
+        "gloss": "number-ABS", 
         "word": "Rut"
       }, 
       {
-        "gloss": "high", 
+        "gloss": "as", 
         "word": "kem"
       }, 
       {
-        "gloss": "dialects", 
+        "gloss": "india", 
         "word": "itku"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "in", 
         "word": "nie"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "of-ABS", 
         "word": "liu"
       }, 
       {
-        "gloss": "1,652.", 
+        "gloss": "is", 
         "word": "ru"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "as", 
         "word": "muu"
       }, 
       {
-        "gloss": "as", 
+        "gloss": "high", 
         "word": "rum"
       }, 
       {
-        "gloss": "number", 
+        "gloss": "dialects-ALL", 
         "word": "rel"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "the-DAT", 
         "word": "nua."
       }
     ], 
@@ -2289,43 +2289,43 @@
   {
     "ilg": [
       {
-        "gloss": "the", 
+        "gloss": "indian", 
         "word": "Vua"
       }, 
       {
-        "gloss": "with", 
+        "gloss": "is-DISTR", 
         "word": "lar"
       }, 
       {
-        "gloss": "number", 
+        "gloss": "increase", 
         "word": "rekvu"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "number", 
         "word": "lie"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "this-DAT", 
         "word": "it"
       }, 
       {
-        "gloss": "increase", 
+        "gloss": "the", 
         "word": "mu"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "the-ACC", 
         "word": "ev"
       }, 
       {
-        "gloss": "Indian", 
+        "gloss": "in", 
         "word": "valvi"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "with-DAT", 
         "word": "tet"
       }, 
       {
-        "gloss": "Grandmasters.", 
+        "gloss": "of", 
         "word": "nelvi."
       }
     ], 
@@ -2340,23 +2340,23 @@
   {
     "ilg": [
       {
-        "gloss": "the", 
+        "gloss": "year", 
         "word": "Ellu"
       }, 
       {
-        "gloss": "think", 
+        "gloss": "that-2", 
         "word": "tem"
       }, 
       {
-        "gloss": "2030,", 
+        "gloss": "india", 
         "word": "in"
       }, 
       {
-        "gloss": "Experts", 
+        "gloss": "think-GEN", 
         "word": "evku"
       }, 
       {
-        "gloss": "first.", 
+        "gloss": "experts-ACC", 
         "word": "pie"
       }, 
       {
@@ -2368,19 +2368,19 @@
         "word": "um"
       }, 
       {
-        "gloss": "will", 
+        "gloss": "the", 
         "word": "rakke"
       }, 
       {
-        "gloss": "that", 
+        "gloss": "first.", 
         "word": "me"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "2030,", 
         "word": "el"
       }, 
       {
-        "gloss": "by", 
+        "gloss": "will", 
         "word": "alke."
       }
     ], 
@@ -2395,47 +2395,47 @@
   {
     "ilg": [
       {
-        "gloss": "person", 
+        "gloss": "however,-ALL", 
         "word": "Elra"
       }, 
       {
-        "gloss": "However,", 
+        "gloss": "per", 
         "word": "varva"
       }, 
       {
-        "gloss": "(considering", 
+        "gloss": "only", 
         "word": "nupna"
       }, 
       {
-        "gloss": "per", 
+        "gloss": "(considering", 
         "word": "ku"
       }, 
       {
-        "gloss": "still", 
+        "gloss": "that-DISTR", 
         "word": "maa"
       }, 
       {
-        "gloss": "year.", 
+        "gloss": "still-GEN", 
         "word": "am"
       }, 
       {
-        "gloss": "that", 
+        "gloss": "person", 
         "word": "ik"
       }, 
       {
-        "gloss": "only", 
+        "gloss": "is-ABS", 
         "word": "ni"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "ppp)", 
         "word": "rue"
       }, 
       {
-        "gloss": "per", 
+        "gloss": "$3100", 
         "word": "kamku"
       }, 
       {
-        "gloss": "$3100", 
+        "gloss": "per", 
         "word": "kulna."
       }
     ], 
@@ -2450,47 +2450,47 @@
   {
     "ilg": [
       {
-        "gloss": "world", 
+        "gloss": "largest", 
         "word": "Enve"
       }, 
       {
-        "gloss": "nuclear", 
+        "gloss": "and", 
         "word": "pa"
       }, 
       {
-        "gloss": "largest", 
+        "gloss": "army", 
         "word": "al"
       }, 
       {
-        "gloss": "third", 
+        "gloss": "weapons.", 
         "word": "lan"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "in", 
         "word": "uvni"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "india-ALL", 
         "word": "tilku"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "third-QUOT", 
         "word": "malke"
       }, 
       {
-        "gloss": "has", 
+        "gloss": "the-ABS", 
         "word": "ru"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "the", 
         "word": "ta"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "world", 
         "word": "mur"
       }, 
       {
-        "gloss": "army", 
+        "gloss": "nuclear", 
         "word": "lat!"
       }
     ], 
@@ -2505,19 +2505,19 @@
   {
     "ilg": [
       {
-        "gloss": "pieces", 
+        "gloss": "these-NPST", 
         "word": "Erni"
       }, 
       {
-        "gloss": "called", 
+        "gloss": "of-DAT", 
         "word": "rap"
       }, 
       {
-        "gloss": "called", 
+        "gloss": "union", 
         "word": "pek"
       }, 
       {
-        "gloss": "states,", 
+        "gloss": "most-DISTR", 
         "word": "ti"
       }, 
       {
@@ -2525,27 +2525,27 @@
         "word": "re"
       }, 
       {
-        "gloss": "Most", 
+        "gloss": "pieces-ACC", 
         "word": "nu"
       }, 
       {
-        "gloss": "territories.", 
+        "gloss": "are", 
         "word": "rin"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "states,", 
         "word": "re"
       }, 
       {
-        "gloss": "union", 
+        "gloss": "called", 
         "word": "vip"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "territories.", 
         "word": "ap"
       }, 
       {
-        "gloss": "these", 
+        "gloss": "called", 
         "word": "pip."
       }
     ], 
@@ -2560,47 +2560,47 @@
   {
     "ilg": [
       {
-        "gloss": "union", 
+        "gloss": "sent", 
         "word": "Ip"
       }, 
       {
-        "gloss": "administrators", 
+        "gloss": "most-ABS", 
         "word": "pea"
       }, 
       {
-        "gloss": "by", 
+        "gloss": "union-QUOT", 
         "word": "ippa"
       }, 
       {
-        "gloss": "Most", 
+        "gloss": "government.", 
         "word": "ak"
       }, 
       {
-        "gloss": "central", 
+        "gloss": "territories-SBJV", 
         "word": "niu"
       }, 
       {
-        "gloss": "sent", 
+        "gloss": "central", 
         "word": "avva"
       }, 
       {
-        "gloss": "government.", 
+        "gloss": "by", 
         "word": "nea"
       }, 
       {
-        "gloss": "by", 
+        "gloss": "are-ABS", 
         "word": "laa"
       }, 
       {
-        "gloss": "ruled", 
+        "gloss": "administrators", 
         "word": "appu"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "ruled", 
         "word": "pe"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "by", 
         "word": "rua."
       }
     ], 
@@ -2615,47 +2615,47 @@
   {
     "ilg": [
       {
-        "gloss": "are", 
+        "gloss": "and", 
         "word": "Kae"
       }, 
       {
-        "gloss": "Other", 
+        "gloss": "are", 
         "word": "itpi"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "the-ABS", 
         "word": "ek"
       }, 
       {
-        "gloss": "country", 
+        "gloss": "for-ACC", 
         "word": "inne"
       }, 
       {
-        "gloss": "Bharat", 
+        "gloss": "names-QUOT", 
         "word": "ve"
       }, 
       {
-        "gloss": "Hindustan,", 
+        "gloss": "other-2", 
         "word": "lip"
       }, 
       {
-        "gloss": "names", 
+        "gloss": "bharat", 
         "word": "ra"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "of", 
         "word": "ka"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "republic", 
         "word": "ikma"
       }, 
       {
-        "gloss": "for", 
+        "gloss": "country", 
         "word": "il"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "india.", 
         "word": "meu."
       }
     ], 
@@ -2670,47 +2670,47 @@
   {
     "ilg": [
       {
-        "gloss": "and", 
+        "gloss": "chinese", 
         "word": "Mim"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "kashmir.", 
         "word": "le"
       }, 
       {
-        "gloss": "Chinese", 
+        "gloss": "not-QUOT", 
         "word": "vipva"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "the", 
         "word": "lepni"
       }, 
       {
-        "gloss": "Pakistani", 
+        "gloss": "pakistani", 
         "word": "tia"
       }, 
       {
-        "gloss": "Kashmir.", 
+        "gloss": "and", 
         "word": "arvi"
       }, 
       {
-        "gloss": "parts", 
+        "gloss": "india-ALL", 
         "word": "tek"
       }, 
       {
-        "gloss": "recognise", 
+        "gloss": "of", 
         "word": "lanpa"
       }, 
       {
-        "gloss": "not", 
+        "gloss": "recognise", 
         "word": "ir"
       }, 
       {
-        "gloss": "does", 
+        "gloss": "parts", 
         "word": "nap"
       }, 
       {
-        "gloss": "Similarly,", 
+        "gloss": "similarly,-NPST", 
         "word": "ipli."
       }
     ], 
@@ -2725,47 +2725,47 @@
   {
     "ilg": [
       {
-        "gloss": "territories", 
+        "gloss": "are", 
         "word": "Puu"
       }, 
       {
-        "gloss": "States", 
+        "gloss": "states-GEN", 
         "word": "ik"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "and-GEN", 
         "word": "aknu"
       }, 
       {
-        "gloss": "represented.", 
+        "gloss": "they", 
         "word": "ut"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "union-DAT", 
         "word": "ur"
       }, 
       {
-        "gloss": "they", 
+        "gloss": "the", 
         "word": "tea"
       }, 
       {
-        "gloss": "different", 
+        "gloss": "way", 
         "word": "pii"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "in", 
         "word": "ruvpi"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "are", 
         "word": "muu"
       }, 
       {
-        "gloss": "way", 
+        "gloss": "different", 
         "word": "nue"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "represented.", 
         "word": "vir."
       }
     ], 
@@ -2780,47 +2780,47 @@
   {
     "ilg": [
       {
-        "gloss": "the", 
+        "gloss": "supreme", 
         "word": "Vapki"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "court.", 
         "word": "et"
       }, 
       {
-        "gloss": "Supreme", 
+        "gloss": "of-NPST", 
         "word": "nae"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "chief-ABS", 
         "word": "um"
       }, 
       {
-        "gloss": "head", 
+        "gloss": "the", 
         "word": "petke"
       }, 
       {
-        "gloss": "Justice", 
+        "gloss": "india", 
         "word": "me"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "of", 
         "word": "mul"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "justice-QUOT", 
         "word": "rep"
       }, 
       {
-        "gloss": "Court.", 
+        "gloss": "is", 
         "word": "lirvu"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "the", 
         "word": "pam"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "the-DAT", 
         "word": "tet."
       }
     ], 
@@ -2835,43 +2835,43 @@
   {
     "ilg": [
       {
-        "gloss": "field", 
+        "gloss": "world", 
         "word": "Vemme"
       }, 
       {
-        "gloss": "Cup.", 
+        "gloss": "team", 
         "word": "rin"
       }, 
       {
-        "gloss": "Men's", 
+        "gloss": "cup.", 
         "word": "uv"
       }, 
       {
-        "gloss": "Hockey", 
+        "gloss": "the-DAT", 
         "word": "muu"
       }, 
       {
-        "gloss": "World", 
+        "gloss": "the", 
         "word": "ev"
       }, 
       {
-        "gloss": "won", 
+        "gloss": "hockey-SBJV", 
         "word": "in"
       }, 
       {
-        "gloss": "team", 
+        "gloss": "field-DAT", 
         "word": "rei"
       }, 
       {
-        "gloss": "Indian", 
+        "gloss": "hockey", 
         "word": "imla"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "men's", 
         "word": "apte"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "indian-NPST", 
         "word": "ve"
       }, 
       {
@@ -2890,51 +2890,51 @@
   {
     "ilg": [
       {
-        "gloss": "(4,671", 
+        "gloss": "of-ABS", 
         "word": "Aknu"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "about", 
         "word": "pirpa"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "long.", 
         "word": "na"
       }, 
       {
-        "gloss": "mi)", 
+        "gloss": "kilometers", 
         "word": "mukpu"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "(4,671", 
         "word": "um"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "7,517", 
         "word": "rultu"
       }, 
       {
-        "gloss": "coastline", 
+        "gloss": "mi)", 
         "word": "upli"
       }, 
       {
-        "gloss": "kilometers", 
+        "gloss": "india-ABS", 
         "word": "vi"
       }, 
       {
-        "gloss": "7,517", 
+        "gloss": "of", 
         "word": "muu"
       }, 
       {
-        "gloss": "long.", 
+        "gloss": "is", 
         "word": "timpi"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "coastline-ABS", 
         "word": "ak"
       }, 
       {
-        "gloss": "about", 
+        "gloss": "the-2", 
         "word": "keu."
       }
     ], 
@@ -2949,15 +2949,15 @@
   {
     "ilg": [
       {
-        "gloss": "called", 
+        "gloss": "country-NPST", 
         "word": "Apnu"
       }, 
       {
-        "gloss": "founded", 
+        "gloss": "called", 
         "word": "rep"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "indians", 
         "word": "nia"
       }, 
       {
@@ -2969,7 +2969,7 @@
         "word": "ar"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "the-NPST", 
         "word": "ep"
       }, 
       {
@@ -2977,23 +2977,23 @@
         "word": "ku"
       }, 
       {
-        "gloss": "country", 
+        "gloss": "founded-ACC", 
         "word": "laa"
       }, 
       {
-        "gloss": "religion", 
+        "gloss": "which", 
         "word": "pi"
       }, 
       {
-        "gloss": "which", 
+        "gloss": "hinduism,", 
         "word": "larnu"
       }, 
       {
-        "gloss": "Indians", 
+        "gloss": "a-2", 
         "word": "ivti"
       }, 
       {
-        "gloss": "Hinduism,", 
+        "gloss": "religion", 
         "word": "nelvi."
       }
     ], 
@@ -3008,7 +3008,7 @@
   {
     "ilg": [
       {
-        "gloss": "suggest", 
+        "gloss": "rituals", 
         "word": "At"
       }, 
       {
@@ -3016,43 +3016,43 @@
         "word": "av"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "dances-ACC", 
         "word": "merta"
       }, 
       {
-        "gloss": "rituals", 
+        "gloss": "a", 
         "word": "tu"
       }, 
       {
-        "gloss": "prehistoric", 
+        "gloss": "and", 
         "word": "tee"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "religion.", 
         "word": "ip"
       }, 
       {
-        "gloss": "religion.", 
+        "gloss": "and-SBJV", 
         "word": "tut"
       }, 
       {
-        "gloss": "there", 
+        "gloss": "prehistoric", 
         "word": "it"
       }, 
       {
-        "gloss": "dances", 
+        "gloss": "there", 
         "word": "lut"
       }, 
       {
-        "gloss": "show", 
+        "gloss": "suggest", 
         "word": "ulni"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "show-ACC", 
         "word": "li"
       }, 
       {
-        "gloss": "They", 
+        "gloss": "they-2", 
         "word": "paa."
       }
     ], 
@@ -3067,51 +3067,51 @@
   {
     "ilg": [
       {
-        "gloss": "where", 
+        "gloss": "are.", 
         "word": "Inna"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "thinks", 
         "word": "vimne"
       }, 
       {
-        "gloss": "countries", 
+        "gloss": "india", 
         "word": "pirpi"
       }, 
       {
-        "gloss": "do", 
+        "gloss": "borders", 
         "word": "rie"
       }, 
       {
-        "gloss": "are.", 
+        "gloss": "not-QUOT", 
         "word": "kit"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "the", 
         "word": "uktu"
       }, 
       {
-        "gloss": "not", 
+        "gloss": "think", 
         "word": "upma"
       }, 
       {
-        "gloss": "thinks", 
+        "gloss": "where", 
         "word": "mamna"
       }, 
       {
-        "gloss": "they", 
+        "gloss": "are", 
         "word": "tui"
       }, 
       {
-        "gloss": "think", 
+        "gloss": "they", 
         "word": "tu"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "do-ABS", 
         "word": "et"
       }, 
       {
-        "gloss": "Certain", 
+        "gloss": "certain-DISTR", 
         "word": "nuvku."
       }
     ], 
@@ -3130,47 +3130,47 @@
         "word": "Le"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "language", 
         "word": "pua"
       }, 
       {
-        "gloss": "number", 
+        "gloss": "official-GEN", 
         "word": "lu"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "the", 
         "word": "neu"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "number", 
         "word": "ip"
       }, 
       {
-        "gloss": "with", 
+        "gloss": "the-SBJV", 
         "word": "lue"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "in", 
         "word": "ki"
       }, 
       {
-        "gloss": "largest", 
+        "gloss": "with", 
         "word": "tie"
       }, 
       {
-        "gloss": "Hindi", 
+        "gloss": "india", 
         "word": "pat"
       }, 
       {
-        "gloss": "language", 
+        "gloss": "of", 
         "word": "atre"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "is-DISTR", 
         "word": "umru"
       }, 
       {
-        "gloss": "official", 
+        "gloss": "largest", 
         "word": "upti."
       }
     ], 
@@ -3185,31 +3185,31 @@
   {
     "ilg": [
       {
-        "gloss": "millions", 
+        "gloss": "to", 
         "word": "Mu"
       }, 
       {
-        "gloss": "people", 
+        "gloss": "the-DAT", 
         "word": "uv"
       }, 
       {
-        "gloss": "peacefully", 
+        "gloss": "the", 
         "word": "la"
       }, 
       {
-        "gloss": "to", 
+        "gloss": "of-GEN", 
         "word": "pat"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "people", 
         "word": "lenre"
       }, 
       {
-        "gloss": "beginning", 
+        "gloss": "started", 
         "word": "menmi"
       }, 
       {
-        "gloss": "In", 
+        "gloss": "beginning-QUOT", 
         "word": "apnu"
       }, 
       {
@@ -3217,19 +3217,19 @@
         "word": "av"
       }, 
       {
-        "gloss": "protest.", 
+        "gloss": "in-2", 
         "word": "rie"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "1900s,", 
         "word": "re"
       }, 
       {
-        "gloss": "started", 
+        "gloss": "peacefully", 
         "word": "ep"
       }, 
       {
-        "gloss": "1900s,", 
+        "gloss": "protest.", 
         "word": "lui."
       }
     ], 
@@ -3244,31 +3244,31 @@
   {
     "ilg": [
       {
-        "gloss": "many", 
+        "gloss": "and", 
         "word": "Rea"
       }, 
       {
-        "gloss": "Malayalam.", 
+        "gloss": "speak", 
         "word": "ipmu"
       }, 
       {
-        "gloss": "Tamil", 
+        "gloss": "the-DAT", 
         "word": "erva"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "kannada,", 
         "word": "paa"
       }, 
       {
-        "gloss": "India,", 
+        "gloss": "of-SBJV", 
         "word": "inti"
       }, 
       {
-        "gloss": "In", 
+        "gloss": "india,", 
         "word": "va"
       }, 
       {
-        "gloss": "Kannada,", 
+        "gloss": "south-ACC", 
         "word": "piv"
       }, 
       {
@@ -3276,19 +3276,19 @@
         "word": "amtu"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "telugu,", 
         "word": "vil"
       }, 
       {
-        "gloss": "speak", 
+        "gloss": "in-DISTR", 
         "word": "kua"
       }, 
       {
-        "gloss": "south", 
+        "gloss": "malayalam.", 
         "word": "ma"
       }, 
       {
-        "gloss": "Telugu,", 
+        "gloss": "many", 
         "word": "uvla."
       }
     ], 
@@ -3303,19 +3303,19 @@
   {
     "ilg": [
       {
-        "gloss": "China", 
+        "gloss": "pakistan-ACC", 
         "word": "Ti"
       }, 
       {
-        "gloss": "Pakistan", 
+        "gloss": "china-DAT", 
         "word": "tua"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "kashmir.", 
         "word": "anri"
       }, 
       {
-        "gloss": "do", 
+        "gloss": "and", 
         "word": "am"
       }, 
       {
@@ -3323,31 +3323,31 @@
         "word": "na"
       }, 
       {
-        "gloss": "Jammu", 
+        "gloss": "state", 
         "word": "apte"
       }, 
       {
-        "gloss": "state", 
+        "gloss": "and-SBJV", 
         "word": "litna"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "do-ACC", 
         "word": "tekli"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "of", 
         "word": "iklu"
       }, 
       {
-        "gloss": "not", 
+        "gloss": "the", 
         "word": "pae"
       }, 
       {
-        "gloss": "Kashmir.", 
+        "gloss": "jammu", 
         "word": "apnu"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "not", 
         "word": "iv."
       }
     ], 
@@ -3362,11 +3362,11 @@
   {
     "ilg": [
       {
-        "gloss": "has", 
+        "gloss": "one", 
         "word": "Ap"
       }, 
       {
-        "gloss": "one", 
+        "gloss": "the", 
         "word": "tae"
       }, 
       {
@@ -3374,43 +3374,43 @@
         "word": "litle"
       }, 
       {
-        "gloss": "Since", 
+        "gloss": "world.", 
         "word": "rev"
       }, 
       {
-        "gloss": "been", 
+        "gloss": "india-2", 
         "word": "en"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "since-2", 
         "word": "ivva"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "been", 
         "word": "vue"
       }, 
       {
-        "gloss": "world.", 
+        "gloss": "of", 
         "word": "ki"
       }, 
       {
-        "gloss": "fastest-growing", 
+        "gloss": "has-ABS", 
         "word": "menve"
       }, 
       {
-        "gloss": "in", 
+        "gloss": "1991,-2", 
         "word": "leltu"
       }, 
       {
-        "gloss": "economies", 
+        "gloss": "fastest-growing", 
         "word": "ir"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "in", 
         "word": "am"
       }, 
       {
-        "gloss": "1991,", 
+        "gloss": "economies", 
         "word": "nanme."
       }
     ], 
@@ -3425,55 +3425,55 @@
   {
     "ilg": [
       {
-        "gloss": "The", 
+        "gloss": "the", 
         "word": "Avlu"
       }, 
       {
-        "gloss": "Minister,", 
+        "gloss": "most", 
         "word": "im"
       }, 
       {
-        "gloss": "power.", 
+        "gloss": "the-ACC", 
         "word": "rum"
       }, 
       {
-        "gloss": "has", 
+        "gloss": "of", 
         "word": "kulra"
       }, 
       {
-        "gloss": "choose", 
+        "gloss": "can-DAT", 
         "word": "vimtu"
       }, 
       {
-        "gloss": "can", 
+        "gloss": "who", 
         "word": "kulta"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "has", 
         "word": "ikru"
       }, 
       {
-        "gloss": "who", 
+        "gloss": "president-DISTR", 
         "word": "ren"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "prime", 
         "word": "lenri"
       }, 
       {
-        "gloss": "Prime", 
+        "gloss": "choose-ACC", 
         "word": "ek"
       }, 
       {
-        "gloss": "President", 
+        "gloss": "the", 
         "word": "lekku"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "minister,", 
         "word": "nei"
       }, 
       {
-        "gloss": "most", 
+        "gloss": "power.", 
         "word": "narla."
       }
     ], 
@@ -3488,47 +3488,47 @@
   {
     "ilg": [
       {
-        "gloss": "members.", 
+        "gloss": "250", 
         "word": "Lepri"
       }, 
       {
-        "gloss": "Rajya", 
+        "gloss": "has-SBJV", 
         "word": "ku"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "rajya-GEN", 
         "word": "uk"
       }, 
       {
-        "gloss": "Sabha", 
+        "gloss": "545", 
         "word": "runli"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "sabha-2", 
         "word": "vi"
       }, 
       {
-        "gloss": "members,", 
+        "gloss": "lok", 
         "word": "alta"
       }, 
       {
-        "gloss": "has", 
+        "gloss": "the-QUOT", 
         "word": "rui"
       }, 
       {
-        "gloss": "Lok", 
+        "gloss": "has", 
         "word": "lav"
       }, 
       {
-        "gloss": "Sabha", 
+        "gloss": "members.", 
         "word": "ap"
       }, 
       {
-        "gloss": "250", 
+        "gloss": "members,", 
         "word": "vutte"
       }, 
       {
-        "gloss": "545", 
+        "gloss": "and", 
         "word": "pea"
       }, 
       {
@@ -3536,7 +3536,7 @@
         "word": "piv"
       }, 
       {
-        "gloss": "has", 
+        "gloss": "sabha", 
         "word": "amte."
       }
     ], 
@@ -3551,55 +3551,55 @@
   {
     "ilg": [
       {
-        "gloss": "Myanmar,", 
+        "gloss": "bhutan,", 
         "word": "Lit"
       }, 
       {
-        "gloss": "India", 
+        "gloss": "myanmar,", 
         "word": "mar"
       }, 
       {
-        "gloss": "to", 
+        "gloss": "next-SBJV", 
         "word": "liv"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "and", 
         "word": "imna"
       }, 
       {
-        "gloss": "Nepal.", 
+        "gloss": "are", 
         "word": "tarpe"
       }, 
       {
-        "gloss": "countries", 
+        "gloss": "bangladesh,", 
         "word": "tiu"
       }, 
       {
-        "gloss": "next", 
+        "gloss": "china,", 
         "word": "atre"
       }, 
       {
-        "gloss": "Bhutan,", 
+        "gloss": "the-GEN", 
         "word": "et"
       }, 
       {
-        "gloss": "Bangladesh,", 
+        "gloss": "to-GEN", 
         "word": "em"
       }, 
       {
-        "gloss": "The", 
+        "gloss": "countries-2", 
         "word": "kur"
       }, 
       {
-        "gloss": "and", 
+        "gloss": "india", 
         "word": "ev"
       }, 
       {
-        "gloss": "Pakistan,", 
+        "gloss": "nepal.", 
         "word": "mi"
       }, 
       {
-        "gloss": "China,", 
+        "gloss": "pakistan,", 
         "word": "utva?"
       }
     ], 
@@ -3614,55 +3614,55 @@
   {
     "ilg": [
       {
-        "gloss": "and", 
+        "gloss": "cricket", 
         "word": "Mu"
       }, 
       {
-        "gloss": "league", 
+        "gloss": "and", 
         "word": "en"
       }, 
       {
-        "gloss": "Twenty20", 
+        "gloss": "also-ABS", 
         "word": "tu"
       }, 
       {
-        "gloss": "Indian", 
+        "gloss": "the-ALL", 
         "word": "nit"
       }, 
       {
-        "gloss": "league", 
+        "gloss": "there-NPST", 
         "word": "ril"
       }, 
       {
-        "gloss": "There", 
+        "gloss": "is-ABS", 
         "word": "pea"
       }, 
       {
-        "gloss": "the", 
+        "gloss": "premier", 
         "word": "mel"
       }, 
       {
-        "gloss": "also", 
+        "gloss": "twenty20", 
         "word": "nua"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "indian", 
         "word": "ev"
       }, 
       {
-        "gloss": "premier", 
+        "gloss": "league", 
         "word": "vie"
       }, 
       {
-        "gloss": "cricket", 
+        "gloss": "indian", 
         "word": "iv"
       }, 
       {
-        "gloss": "competitions.", 
+        "gloss": "league", 
         "word": "lav"
       }, 
       {
-        "gloss": "Indian", 
+        "gloss": "competitions.", 
         "word": "ni."
       }
     ], 
@@ -3677,15 +3677,15 @@
   {
     "ilg": [
       {
-        "gloss": "and", 
+        "gloss": "traditional-DAT", 
         "word": "Ra"
       }, 
       {
-        "gloss": "sports", 
+        "gloss": "kho,", 
         "word": "ler"
       }, 
       {
-        "gloss": "are", 
+        "gloss": "gilli-danda,", 
         "word": "ev"
       }, 
       {
@@ -3693,11 +3693,11 @@
         "word": "raa"
       }, 
       {
-        "gloss": "gilli-danda,", 
+        "gloss": "which", 
         "word": "ravpi"
       }, 
       {
-        "gloss": "kho", 
+        "gloss": "and", 
         "word": "vee"
       }, 
       {
@@ -3705,27 +3705,27 @@
         "word": "mu"
       }, 
       {
-        "gloss": "India.", 
+        "gloss": "sports-ABS", 
         "word": "te"
       }, 
       {
-        "gloss": "Traditional", 
+        "gloss": "are", 
         "word": "ukra"
       }, 
       {
-        "gloss": "which", 
+        "gloss": "kabaddi,-2", 
         "word": "mekli"
       }, 
       {
-        "gloss": "kabaddi,", 
+        "gloss": "india.", 
         "word": "peu"
       }, 
       {
-        "gloss": "kho,", 
+        "gloss": "include-SBJV", 
         "word": "rik"
       }, 
       {
-        "gloss": "include", 
+        "gloss": "kho", 
         "word": "mil."
       }
     ], 
@@ -3740,55 +3740,55 @@
   {
     "ilg": [
       {
-        "gloss": "language,", 
+        "gloss": "an", 
         "word": "Tuvla"
       }, 
       {
-        "gloss": "an", 
+        "gloss": "indo-arayan", 
         "word": "uvma"
       }, 
       {
-        "gloss": "speak", 
+        "gloss": "69%-2", 
         "word": "el"
       }, 
       {
-        "gloss": "About", 
+        "gloss": "speak", 
         "word": "terpu"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "language.", 
         "word": "ilmi"
       }, 
       {
-        "gloss": "Dravidian", 
+        "gloss": "a", 
         "word": "kit"
       }, 
       {
-        "gloss": "about", 
+        "gloss": "dravidian", 
         "word": "ip"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "26%", 
         "word": "en"
       }, 
       {
-        "gloss": "Indo-Arayan", 
+        "gloss": "speak", 
         "word": "ep"
       }, 
       {
-        "gloss": "26%", 
+        "gloss": "about", 
         "word": "pai"
       }, 
       {
-        "gloss": "speak", 
+        "gloss": "about-2", 
         "word": "pem"
       }, 
       {
-        "gloss": "69%", 
+        "gloss": "indians-2", 
         "word": "lip"
       }, 
       {
-        "gloss": "Indians", 
+        "gloss": "of-GEN", 
         "word": "ik."
       }
     ], 
@@ -3803,55 +3803,55 @@
   {
     "ilg": [
       {
-        "gloss": "it", 
+        "gloss": "part", 
         "word": "Uvke"
       }, 
       {
-        "gloss": "South", 
+        "gloss": "china.", 
         "word": "arru"
       }, 
       {
-        "gloss": "belongs", 
+        "gloss": "according-QUOT", 
         "word": "ranti"
       }, 
       {
-        "gloss": "part", 
+        "gloss": "belongs", 
         "word": "rimna"
       }, 
       {
-        "gloss": "of", 
+        "gloss": "to-GEN", 
         "word": "un"
       }, 
       {
-        "gloss": "is", 
+        "gloss": "a", 
         "word": "rul"
       }, 
       {
-        "gloss": "According", 
+        "gloss": "it-DISTR", 
         "word": "vel"
       }, 
       {
-        "gloss": "to", 
+        "gloss": "south", 
         "word": "up"
       }, 
       {
-        "gloss": "which", 
+        "gloss": "to", 
         "word": "pa"
       }, 
       {
-        "gloss": "to", 
+        "gloss": "them-DISTR", 
         "word": "re"
       }, 
       {
-        "gloss": "them", 
+        "gloss": "is", 
         "word": "ni"
       }, 
       {
-        "gloss": "a", 
+        "gloss": "tibet,", 
         "word": "kapve"
       }, 
       {
-        "gloss": "Tibet,", 
+        "gloss": "of", 
         "word": "up."
       }
     ], 
