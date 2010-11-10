@@ -1,9 +1,16 @@
 <!doctype html>
 <html>
 <head>
+
 <title>nepali</title>
 
 <style type=text/css>
+body { 
+  margin: 0; 
+  font-family: sans-serif;
+  padding: 0; 
+}
+
 strong:before {
   content: '\2018'
 }
@@ -11,18 +18,48 @@ strong:before {
 strong:after {
   content: '\2019'
 }
+
 strong {
 
 }
 
-h1 {
-  font-family: fantasy;
-  text-align: center;
-  font-variant: italic;
+h1, h2 {
+  font-family: sans-serif;
+  padding:1em;
 }
 h2 {
   font-variant: small-caps;
-  text-align:center;
+}
+
+article { 
+  float:right;
+  overflow:auto;
+  width: 100%;
+}
+  
+nav {
+  width: 100%; 
+  float:left;
+  background: #F9F9EA;
+}
+
+nav ul li {
+  display:inline;
+}
+
+nav ul li:before {
+  content: "\25B8 ";
+}
+nav ul li a {  
+  text-decoration:none;
+  color:black;
+}
+
+nav ul li a:hover {  
+  text-decoration:underline;
+}
+
+nav ul {
 }
 
 div#vocabulary { 
@@ -41,6 +78,8 @@ dt {
   font-family: sans-serif; 
 }
 
+article { 
+}
 
 </style>
 <script src=js/jquery.js> </script>
@@ -53,9 +92,13 @@ $(document).ready(function(){
 
   $('#vocabulary dl').empty();
 
-  var database = 'nepali';
+  var language = 'nepali';
 
-  var vocabulary = JSON.parse(localStorage[database]);
+  var language = JSON.parse(localStorage[language]);
+  var vocabulary = language.vocabulary;
+
+console.log(vocabulary[0]);
+  var texts = language.texts;
 
   $.each(vocabulary, function(i, [dt, dd]) { 
     $('#vocabulary').append( '<dt>' + dt + '</dt><dd>' + dd + '</dd>'  )  
@@ -90,14 +133,22 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
+<nav>
+<ul>
+<li><a href=#vocabulary>Vocabulary</a></li>
+<li><a href=#texts>Texts</a></li>
+</ul>
+</nav>
+<article>
+<!--
 <h1>lesson 1</h1>
 <ol>
 <li><strong>ho</strong>, <strong>chha</strong> Verb <strong>To be</strong></li>
 <li><strong>...eko</strong> Past tense</li>
 <li><strong>...nos</strong> polite command forms</li>
 </ol>
+-->
 
-<section>
 <h2>Vocabulary</h2>
 <form action=submit id=add_vocabulary name=add_vocabulary>
   <input id=add_word type=text name=word>
@@ -105,6 +156,7 @@ $(document).ready(function(){
   <button type=submit name=submit>add</button>
 </form>
 
+<section>
 <div id=vocabulary>
 <dl>
 </dl>
@@ -114,6 +166,8 @@ $(document).ready(function(){
 <h2>Texts</h2>
 <div>
 </div>
+
+</article>
 
 </body>
 </html>

@@ -1,0 +1,3866 @@
+[
+  {
+    "ilg": [
+      {
+        "gloss": "12", 
+        "word": "In"
+      }, 
+      {
+        "gloss": "billion", 
+        "word": "ve"
+      }, 
+      {
+        "gloss": "people", 
+        "word": "nup"
+      }, 
+      {
+        "gloss": "living", 
+        "word": "im"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "ma"
+      }, 
+      {
+        "gloss": "India.", 
+        "word": "an."
+      }
+    ], 
+    "translation": "12 billion people living in India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "In ve nup im ma an."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "States", 
+        "word": "Ku"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "ap"
+      }, 
+      {
+        "gloss": "union", 
+        "word": "vie"
+      }, 
+      {
+        "gloss": "territories", 
+        "word": "rua"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "miu"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "ner."
+      }
+    ], 
+    "translation": "States and union territories of India", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ku ap vie rua miu ner."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "About", 
+        "word": "Malli"
+      }, 
+      {
+        "gloss": "70%", 
+        "word": "upta"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "elna"
+      }, 
+      {
+        "gloss": "Indians", 
+        "word": "um"
+      }, 
+      {
+        "gloss": "live", 
+        "word": "nuv"
+      }, 
+      {
+        "gloss": "on", 
+        "word": "akma."
+      }
+    ], 
+    "translation": "About 70% of Indians live on farms.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Malli upta elna um nuv akma."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Altogether,", 
+        "word": "Pin"
+      }, 
+      {
+        "gloss": "1,625", 
+        "word": "up"
+      }, 
+      {
+        "gloss": "languages", 
+        "word": "let"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "mue"
+      }, 
+      {
+        "gloss": "spoken", 
+        "word": "tai"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "mippu?"
+      }
+    ], 
+    "translation": "Altogether, 1,625 languages are spoken in India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Pin up let mue tai mippu?"
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "China", 
+        "word": "Puu"
+      }, 
+      {
+        "gloss": "does", 
+        "word": "ri"
+      }, 
+      {
+        "gloss": "not", 
+        "word": "le"
+      }, 
+      {
+        "gloss": "accept", 
+        "word": "me"
+      }, 
+      {
+        "gloss": "this", 
+        "word": "punmu"
+      }, 
+      {
+        "gloss": "agreement", 
+        "word": "ta."
+      }
+    ], 
+    "translation": "China does not accept this agreement (accord).", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Puu ri le me punmu ta."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "It", 
+        "word": "Rei"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "em"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "ampe"
+      }, 
+      {
+        "gloss": "UNESCO", 
+        "word": "lulne"
+      }, 
+      {
+        "gloss": "World", 
+        "word": "ree"
+      }, 
+      {
+        "gloss": "Heritage", 
+        "word": "tun."
+      }
+    ], 
+    "translation": "It is a UNESCO World Heritage Site.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Rei em ampe lulne ree tun."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Tamil", 
+        "word": "Tie"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "kunpe"
+      }, 
+      {
+        "gloss": "one", 
+        "word": "akti"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "va"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "atte"
+      }, 
+      {
+        "gloss": "oldest", 
+        "word": "atki."
+      }
+    ], 
+    "translation": "Tamil is one of the oldest languages.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Tie kunpe akti va atte atki."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Umpi"
+      }, 
+      {
+        "gloss": "capital", 
+        "word": "ekki"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "par"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "mau"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "virlu"
+      }, 
+      {
+        "gloss": "New", 
+        "word": "luk."
+      }
+    ], 
+    "translation": "The capital of India is New Delhi.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Umpi ekki par mau virlu luk."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Urku"
+      }, 
+      {
+        "gloss": "constitution", 
+        "word": "tekle"
+      }, 
+      {
+        "gloss": "also", 
+        "word": "atti"
+      }, 
+      {
+        "gloss": "recognises", 
+        "word": "narla"
+      }, 
+      {
+        "gloss": "21", 
+        "word": "tiv"
+      }, 
+      {
+        "gloss": "other", 
+        "word": "tukli."
+      }
+    ], 
+    "translation": "The constitution also recognises 21 other languages.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Urku tekle atti narla tiv tukli."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Ap"
+      }, 
+      {
+        "gloss": "economy", 
+        "word": "lie"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "rukpe"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "mi"
+      }, 
+      {
+        "gloss": "country", 
+        "word": "epvu"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "rilku"
+      }, 
+      {
+        "gloss": "growing.", 
+        "word": "nie."
+      }
+    ], 
+    "translation": "The economy of the country is growing.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ap lie rukpe mi epvu rilku nie."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "After", 
+        "word": "Enle"
+      }, 
+      {
+        "gloss": "1947,", 
+        "word": "pa"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "lut"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "ralvi"
+      }, 
+      {
+        "gloss": "become", 
+        "word": "lii"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "na"
+      }, 
+      {
+        "gloss": "powerful", 
+        "word": "an."
+      }
+    ], 
+    "translation": "After 1947, India has become a powerful country.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Enle pa lut ralvi lii na an."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "From", 
+        "word": "Etri"
+      }, 
+      {
+        "gloss": "180", 
+        "word": "an"
+      }, 
+      {
+        "gloss": "BC,", 
+        "word": "et"
+      }, 
+      {
+        "gloss": "many", 
+        "word": "etnu"
+      }, 
+      {
+        "gloss": "other", 
+        "word": "lav"
+      }, 
+      {
+        "gloss": "countries", 
+        "word": "vii"
+      }, 
+      {
+        "gloss": "invaded", 
+        "word": "emki?"
+      }
+    ], 
+    "translation": "From 180 BC, many other countries invaded India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Etri an et etnu lav vii emki?"
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "However", 
+        "word": "In"
+      }, 
+      {
+        "gloss": "despite", 
+        "word": "tilku"
+      }, 
+      {
+        "gloss": "economic", 
+        "word": "tek"
+      }, 
+      {
+        "gloss": "growth,", 
+        "word": "liu"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "mua"
+      }, 
+      {
+        "gloss": "suffers", 
+        "word": "tivte"
+      }, 
+      {
+        "gloss": "from", 
+        "word": "nim."
+      }
+    ], 
+    "translation": "However despite economic growth, India suffers from poverty.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "In tilku tek liu mua tivte nim."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "In", 
+        "word": "Katmu"
+      }, 
+      {
+        "gloss": "India,", 
+        "word": "ukra"
+      }, 
+      {
+        "gloss": "there", 
+        "word": "ne"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "mu"
+      }, 
+      {
+        "gloss": "also", 
+        "word": "lekme"
+      }, 
+      {
+        "gloss": "21", 
+        "word": "erla"
+      }, 
+      {
+        "gloss": "High", 
+        "word": "mut."
+      }
+    ], 
+    "translation": "In India, there are also 21 High Courts.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Katmu ukra ne mu lekme erla mut."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "India", 
+        "word": "Kek"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "viv"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "atte"
+      }, 
+      {
+        "gloss": "largest", 
+        "word": "puppe"
+      }, 
+      {
+        "gloss": "democracy", 
+        "word": "irni"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "at"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "muv."
+      }
+    ], 
+    "translation": "India is the largest democracy in the world.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Kek viv atte puppe irni at muv."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "India's", 
+        "word": "Len"
+      }, 
+      {
+        "gloss": "constitution", 
+        "word": "miu"
+      }, 
+      {
+        "gloss": "was", 
+        "word": "lirmu"
+      }, 
+      {
+        "gloss": "founded", 
+        "word": "ek"
+      }, 
+      {
+        "gloss": "on", 
+        "word": "ep"
+      }, 
+      {
+        "gloss": "January", 
+        "word": "tippe"
+      }, 
+      {
+        "gloss": "26,", 
+        "word": "nup."
+      }
+    ], 
+    "translation": "India's constitution was founded on January 26, 1950.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Len miu lirmu ek ep tippe nup."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "It", 
+        "word": "Ma"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "mum"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "malke"
+      }, 
+      {
+        "gloss": "official", 
+        "word": "uv"
+      }, 
+      {
+        "gloss": "language", 
+        "word": "itra"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "rar"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "pel?"
+      }
+    ], 
+    "translation": "It is the official language of the union.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ma mum malke uv itra rar pel?"
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Many", 
+        "word": "Naa"
+      }, 
+      {
+        "gloss": "dynasties", 
+        "word": "vi"
+      }, 
+      {
+        "gloss": "ruled", 
+        "word": "amme"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "upni"
+      }, 
+      {
+        "gloss": "around", 
+        "word": "ti"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "anmu"
+      }, 
+      {
+        "gloss": "year", 
+        "word": "murka."
+      }
+    ], 
+    "translation": "Many dynasties ruled India around the year 1000.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Naa vi amme upni ti anmu murka."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Pumku"
+      }, 
+      {
+        "gloss": "northern", 
+        "word": "it"
+      }, 
+      {
+        "gloss": "part", 
+        "word": "el"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "ka"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "kukti"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "nea"
+      }, 
+      {
+        "gloss": "many", 
+        "word": "ampu."
+      }
+    ], 
+    "translation": "The northern part of India has many mountains.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Pumku it el ka kukti nea ampu."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Un"
+      }, 
+      {
+        "gloss": "religion", 
+        "word": "vut"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "emlu"
+      }, 
+      {
+        "gloss": "Hinduism", 
+        "word": "ma"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "akmu"
+      }, 
+      {
+        "gloss": "followed", 
+        "word": "akku"
+      }, 
+      {
+        "gloss": "by", 
+        "word": "ti."
+      }
+    ], 
+    "translation": "The religion of Hinduism is followed by 80.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Un vut emlu ma akmu akku ti."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "View", 
+        "word": "El"
+      }, 
+      {
+        "gloss": "from", 
+        "word": "ku"
+      }, 
+      {
+        "gloss": "ground", 
+        "word": "pa"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "tu"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "rikte"
+      }, 
+      {
+        "gloss": "modern", 
+        "word": "mut"
+      }, 
+      {
+        "gloss": "30-story", 
+        "word": "pim"
+      }, 
+      {
+        "gloss": "building.", 
+        "word": "runme."
+      }
+    ], 
+    "translation": "View from ground of a modern 30-story building.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "El ku pa tu rikte mut pim runme."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Around", 
+        "word": "Ip"
+      }, 
+      {
+        "gloss": "5%", 
+        "word": "vut"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "lalmu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "kav"
+      }, 
+      {
+        "gloss": "people", 
+        "word": "ikte"
+      }, 
+      {
+        "gloss": "speak", 
+        "word": "tat"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "elku"
+      }, 
+      {
+        "gloss": "Tibeto-Burman", 
+        "word": "kai."
+      }
+    ], 
+    "translation": "Around 5% of the people speak a Tibeto-Burman language.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ip vut lalmu kav ikte tat elku kai."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "As", 
+        "word": "La"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "ak"
+      }, 
+      {
+        "gloss": "group", 
+        "word": "mi"
+      }, 
+      {
+        "gloss": "they", 
+        "word": "ev"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "arpe"
+      }, 
+      {
+        "gloss": "called", 
+        "word": "tu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "pai"
+      }, 
+      {
+        "gloss": "Eastern", 
+        "word": "vatku."
+      }
+    ], 
+    "translation": "As a group they are called the Eastern religions.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "La ak mi ev arpe tu pai vatku."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Chess,", 
+        "word": "Lii"
+      }, 
+      {
+        "gloss": "which", 
+        "word": "ke"
+      }, 
+      {
+        "gloss": "comes", 
+        "word": "ap"
+      }, 
+      {
+        "gloss": "from", 
+        "word": "mi"
+      }, 
+      {
+        "gloss": "India,", 
+        "word": "runmi"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "per"
+      }, 
+      {
+        "gloss": "also", 
+        "word": "re"
+      }, 
+      {
+        "gloss": "becoming", 
+        "word": "ra."
+      }
+    ], 
+    "translation": "Chess, which comes from India, is also becoming popular.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Lii ke ap mi runmi per re ra."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Cricketers", 
+        "word": "Munna"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "en"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "re"
+      }, 
+      {
+        "gloss": "game", 
+        "word": "ket"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "li"
+      }, 
+      {
+        "gloss": "front", 
+        "word": "ikma"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "lei"
+      }, 
+      {
+        "gloss": "nearly-full", 
+        "word": "kui."
+      }
+    ], 
+    "translation": "Cricketers in a game in front of nearly-full stands.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Munna en re ket li ikma lei kui."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "However,", 
+        "word": "Pem"
+      }, 
+      {
+        "gloss": "cricket", 
+        "word": "ilna"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "etre"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "tik"
+      }, 
+      {
+        "gloss": "most", 
+        "word": "kie"
+      }, 
+      {
+        "gloss": "popular", 
+        "word": "ruk"
+      }, 
+      {
+        "gloss": "sport", 
+        "word": "pi"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "pi!"
+      }
+    ], 
+    "translation": "However, cricket is the most popular sport in India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Pem ilna etre tik kie ruk pi pi!"
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "India", 
+        "word": "Tae"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "kun"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "al"
+      }, 
+      {
+        "gloss": "seventh", 
+        "word": "vea"
+      }, 
+      {
+        "gloss": "largest", 
+        "word": "pan"
+      }, 
+      {
+        "gloss": "country", 
+        "word": "nau"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "na"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "nil."
+      }
+    ], 
+    "translation": "India is the seventh largest country in the world.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Tae kun al vea pan nau na nil."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "It", 
+        "word": "Teu"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "lelne"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "akke"
+      }, 
+      {
+        "gloss": "status", 
+        "word": "lutpa"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "un"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "pu"
+      }, 
+      {
+        "gloss": "'subsidiary", 
+        "word": "ut"
+      }, 
+      {
+        "gloss": "official", 
+        "word": "kan."
+      }
+    ], 
+    "translation": "It has the status of a 'subsidiary official language'.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Teu lelne akke lutpa un pu ut kan."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "It", 
+        "word": "Titni"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "evpe"
+      }, 
+      {
+        "gloss": "also", 
+        "word": "kaa"
+      }, 
+      {
+        "gloss": "near", 
+        "word": "ennu"
+      }, 
+      {
+        "gloss": "Sri", 
+        "word": "et"
+      }, 
+      {
+        "gloss": "Lanka,", 
+        "word": "ir"
+      }, 
+      {
+        "gloss": "an", 
+        "word": "atva"
+      }, 
+      {
+        "gloss": "island", 
+        "word": "ulti."
+      }
+    ], 
+    "translation": "It is also near Sri Lanka, an island country.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Titni evpe kaa ennu et ir atva ulti."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "It", 
+        "word": "Unku"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "kia"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "akre"
+      }, 
+      {
+        "gloss": "main", 
+        "word": "emlu"
+      }, 
+      {
+        "gloss": "part", 
+        "word": "vella"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "lenta"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "tunne"
+      }, 
+      {
+        "gloss": "Indian", 
+        "word": "kavni."
+      }
+    ], 
+    "translation": "It is the main part of the Indian subcontinent.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Unku kia akre emlu vella lenta tunne kavni."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "It", 
+        "word": "Unla"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "ir"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "tem"
+      }, 
+      {
+        "gloss": "seventh", 
+        "word": "rivlu"
+      }, 
+      {
+        "gloss": "largest", 
+        "word": "ve"
+      }, 
+      {
+        "gloss": "country", 
+        "word": "alme"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "atre"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "mepri."
+      }
+    ], 
+    "translation": "It is the seventh largest country in the world.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Unla ir tem rivlu ve alme atre mepri."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "It", 
+        "word": "Vilre"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "nau"
+      }, 
+      {
+        "gloss": "thought", 
+        "word": "pi"
+      }, 
+      {
+        "gloss": "to", 
+        "word": "uvpu"
+      }, 
+      {
+        "gloss": "be", 
+        "word": "lekku"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "rua"
+      }, 
+      {
+        "gloss": "\"outstanding", 
+        "word": "en"
+      }, 
+      {
+        "gloss": "universal", 
+        "word": "ut."
+      }
+    ], 
+    "translation": "It is thought to be of \"outstanding universal value\".", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Vilre nau pi uvpu lekku rua en ut."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Erva"
+      }, 
+      {
+        "gloss": "President", 
+        "word": "at"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "kevmu"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "te"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "mukli"
+      }, 
+      {
+        "gloss": "elected", 
+        "word": "at"
+      }, 
+      {
+        "gloss": "for", 
+        "word": "av"
+      }, 
+      {
+        "gloss": "five", 
+        "word": "rir"
+      }, 
+      {
+        "gloss": "years.", 
+        "word": "tavne!"
+      }
+    ], 
+    "translation": "The President of India is elected for five years.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Erva at kevmu te mukli at av rir tavne!"
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "There", 
+        "word": "Evpu"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "elma"
+      }, 
+      {
+        "gloss": "many", 
+        "word": "pei"
+      }, 
+      {
+        "gloss": "different", 
+        "word": "ka"
+      }, 
+      {
+        "gloss": "languages", 
+        "word": "kit"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "tutnu"
+      }, 
+      {
+        "gloss": "cultures", 
+        "word": "ri"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "ka"
+      }, 
+      {
+        "gloss": "India.", 
+        "word": "le."
+      }
+    ], 
+    "translation": "There are many different languages and cultures in India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Evpu elma pei ka kit tutnu ri ka le."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "This", 
+        "word": "Ip"
+      }, 
+      {
+        "gloss": "state", 
+        "word": "avvu"
+      }, 
+      {
+        "gloss": "makes", 
+        "word": "rei"
+      }, 
+      {
+        "gloss": "up", 
+        "word": "kitru"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "mupva"
+      }, 
+      {
+        "gloss": "Indian", 
+        "word": "kua"
+      }, 
+      {
+        "gloss": "part", 
+        "word": "uvpu"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "naa"
+      }, 
+      {
+        "gloss": "Kashmir.", 
+        "word": "lu."
+      }
+    ], 
+    "translation": "This state makes up the Indian part of Kashmir.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ip avvu rei kitru mupva kua uvpu naa lu."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "5%", 
+        "word": "Iv"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "uv"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "evru"
+      }, 
+      {
+        "gloss": "population", 
+        "word": "upra"
+      }, 
+      {
+        "gloss": "was", 
+        "word": "ma"
+      }, 
+      {
+        "gloss": "living", 
+        "word": "tai"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "pe"
+      }, 
+      {
+        "gloss": "poverty", 
+        "word": "arna"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "imte."
+      }
+    ], 
+    "translation": "5% of the population was living in poverty in 2004\u20132005.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Iv uv evru upra ma tai pe arna imte."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Both", 
+        "word": "Nia"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "papta"
+      }, 
+      {
+        "gloss": "these", 
+        "word": "ma"
+      }, 
+      {
+        "gloss": "languages", 
+        "word": "vu"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "na"
+      }, 
+      {
+        "gloss": "more", 
+        "word": "pirlu"
+      }, 
+      {
+        "gloss": "than", 
+        "word": "it"
+      }, 
+      {
+        "gloss": "3000", 
+        "word": "tevle"
+      }, 
+      {
+        "gloss": "years", 
+        "word": "iv."
+      }
+    ], 
+    "translation": "Both of these languages are more than 3000 years old.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Nia papta ma vu na pirlu it tevle iv."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Cave", 
+        "word": "Nu"
+      }, 
+      {
+        "gloss": "paintings", 
+        "word": "nai"
+      }, 
+      {
+        "gloss": "from", 
+        "word": "impe"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "ep"
+      }, 
+      {
+        "gloss": "Stone", 
+        "word": "tuu"
+      }, 
+      {
+        "gloss": "Age", 
+        "word": "miu"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "ra"
+      }, 
+      {
+        "gloss": "found", 
+        "word": "ne"
+      }, 
+      {
+        "gloss": "across", 
+        "word": "at."
+      }
+    ], 
+    "translation": "Cave paintings from the Stone Age are found across India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Nu nai impe ep tuu miu ra ne at."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "For", 
+        "word": "Ta"
+      }, 
+      {
+        "gloss": "administration", 
+        "word": "ki"
+      }, 
+      {
+        "gloss": "purposes,", 
+        "word": "pikpi"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "mulre"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "tav"
+      }, 
+      {
+        "gloss": "been", 
+        "word": "il"
+      }, 
+      {
+        "gloss": "divided", 
+        "word": "ikla"
+      }, 
+      {
+        "gloss": "into", 
+        "word": "pi"
+      }, 
+      {
+        "gloss": "smaller", 
+        "word": "evmu."
+      }
+    ], 
+    "translation": "For administration purposes, India has been divided into smaller pieces.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ta ki pikpi mulre tav il ikla pi evmu."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "In", 
+        "word": "Ti"
+      }, 
+      {
+        "gloss": "total,", 
+        "word": "ip"
+      }, 
+      {
+        "gloss": "there", 
+        "word": "pan"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "el"
+      }, 
+      {
+        "gloss": "twenty-eight", 
+        "word": "lee"
+      }, 
+      {
+        "gloss": "states,", 
+        "word": "mut"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "rai"
+      }, 
+      {
+        "gloss": "seven", 
+        "word": "akvu"
+      }, 
+      {
+        "gloss": "union", 
+        "word": "akre."
+      }
+    ], 
+    "translation": "In total, there are twenty-eight states, and seven union territories.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ti ip pan el lee mut rai akvu akre."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "India", 
+        "word": "Ulmu"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "an"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "li"
+      }, 
+      {
+        "gloss": "largest", 
+        "word": "evvi"
+      }, 
+      {
+        "gloss": "democracy", 
+        "word": "vakma"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "mui"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "inku"
+      }, 
+      {
+        "gloss": "world", 
+        "word": "mamtu"
+      }, 
+      {
+        "gloss": "by", 
+        "word": "ti."
+      }
+    ], 
+    "translation": "India is the largest democracy in the world by population.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ulmu an li evvi vakma mui inku mamtu ti."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "It", 
+        "word": "Vem"
+      }, 
+      {
+        "gloss": "made", 
+        "word": "nek"
+      }, 
+      {
+        "gloss": "most", 
+        "word": "iv"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "nam"
+      }, 
+      {
+        "gloss": "South", 
+        "word": "utvi"
+      }, 
+      {
+        "gloss": "Asia", 
+        "word": "paa"
+      }, 
+      {
+        "gloss": "into", 
+        "word": "rurmu"
+      }, 
+      {
+        "gloss": "one", 
+        "word": "uv"
+      }, 
+      {
+        "gloss": "whole", 
+        "word": "telka."
+      }
+    ], 
+    "translation": "It made most of South Asia into one whole country.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Vem nek iv nam utvi paa rurmu uv telka."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Other", 
+        "word": "Vu"
+      }, 
+      {
+        "gloss": "languages", 
+        "word": "naa"
+      }, 
+      {
+        "gloss": "spoken", 
+        "word": "nukki"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "rev"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "le"
+      }, 
+      {
+        "gloss": "come", 
+        "word": "un"
+      }, 
+      {
+        "gloss": "from", 
+        "word": "anra"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "raa"
+      }, 
+      {
+        "gloss": "Austro-Asiatic", 
+        "word": "kui."
+      }
+    ], 
+    "translation": "Other languages spoken in India come from the Austro-Asiatic group.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Vu naa nukki rev le un anra raa kui."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Em"
+      }, 
+      {
+        "gloss": "Harmandir", 
+        "word": "ev"
+      }, 
+      {
+        "gloss": "Sahib", 
+        "word": "kii"
+      }, 
+      {
+        "gloss": "or", 
+        "word": "nei"
+      }, 
+      {
+        "gloss": "The", 
+        "word": "an"
+      }, 
+      {
+        "gloss": "Golden", 
+        "word": "va"
+      }, 
+      {
+        "gloss": "Temple", 
+        "word": "rimru"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "ik"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "tal"
+      }, 
+      {
+        "gloss": "Sikhs.", 
+        "word": "in."
+      }
+    ], 
+    "translation": "The Harmandir Sahib or The Golden Temple of the Sikhs.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Em ev kii nei an va rimru ik tal in."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "There", 
+        "word": "Emme"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "lempu"
+      }, 
+      {
+        "gloss": "disputes", 
+        "word": "rulki"
+      }, 
+      {
+        "gloss": "about", 
+        "word": "luv"
+      }, 
+      {
+        "gloss": "certain", 
+        "word": "le"
+      }, 
+      {
+        "gloss": "parts", 
+        "word": "vur"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "rua"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "ippi"
+      }, 
+      {
+        "gloss": "Indian", 
+        "word": "ranta"
+      }, 
+      {
+        "gloss": "borders.", 
+        "word": "mutta."
+      }
+    ], 
+    "translation": "There are disputes about certain parts of the Indian borders.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Emme lempu rulki luv le vur rua ippi ranta mutta."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "They", 
+        "word": "En"
+      }, 
+      {
+        "gloss": "shared", 
+        "word": "marra"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "lie"
+      }, 
+      {
+        "gloss": "2002", 
+        "word": "ka"
+      }, 
+      {
+        "gloss": "ICC", 
+        "word": "lit"
+      }, 
+      {
+        "gloss": "Champions", 
+        "word": "me"
+      }, 
+      {
+        "gloss": "Trophy", 
+        "word": "ti"
+      }, 
+      {
+        "gloss": "with", 
+        "word": "pee"
+      }, 
+      {
+        "gloss": "Sri", 
+        "word": "ve"
+      }, 
+      {
+        "gloss": "Lanka.", 
+        "word": "at."
+      }
+    ], 
+    "translation": "They shared the 2002 ICC Champions Trophy with Sri Lanka.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "En marra lie ka lit me ti pee ve at."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "This", 
+        "word": "Ku"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "va"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "rai"
+      }, 
+      {
+        "gloss": "map", 
+        "word": "tuu"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "lie"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "kirti"
+      }, 
+      {
+        "gloss": "population", 
+        "word": "el"
+      }, 
+      {
+        "gloss": "density", 
+        "word": "vuk"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "li"
+      }, 
+      {
+        "gloss": "India.", 
+        "word": "nua."
+      }
+    ], 
+    "translation": "This is a map of the population density of India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ku va rai tuu lie kirti el vuk li nua."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "4%", 
+        "word": "Min"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "lu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "unre"
+      }, 
+      {
+        "gloss": "population", 
+        "word": "ekra"
+      }, 
+      {
+        "gloss": "live", 
+        "word": "iklu"
+      }, 
+      {
+        "gloss": "on", 
+        "word": "runli"
+      }, 
+      {
+        "gloss": "less", 
+        "word": "pee"
+      }, 
+      {
+        "gloss": "than", 
+        "word": "uvta"
+      }, 
+      {
+        "gloss": "USD$2", 
+        "word": "vai"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "petma."
+      }
+    ], 
+    "translation": "4% of the population live on less than USD$2 a day.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Min lu unre ekra iklu runli pee uvta vai petma."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "English", 
+        "word": "Narni"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "ke"
+      }, 
+      {
+        "gloss": "also", 
+        "word": "ur"
+      }, 
+      {
+        "gloss": "used,", 
+        "word": "ru"
+      }, 
+      {
+        "gloss": "mostly", 
+        "word": "vun"
+      }, 
+      {
+        "gloss": "for", 
+        "word": "enve"
+      }, 
+      {
+        "gloss": "business", 
+        "word": "rei"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "av"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "kie"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "emna."
+      }
+    ], 
+    "translation": "English is also used, mostly for business and in the administration.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Narni ke ur ru vun enve rei av kie emna."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Some", 
+        "word": "Pun"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "inre"
+      }, 
+      {
+        "gloss": "these", 
+        "word": "tep"
+      }, 
+      {
+        "gloss": "were", 
+        "word": "tepni"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "rumka"
+      }, 
+      {
+        "gloss": "Mughal,", 
+        "word": "imvi"
+      }, 
+      {
+        "gloss": "Vijayanagara,", 
+        "word": "rae"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "arla"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "pa"
+      }, 
+      {
+        "gloss": "Maratha", 
+        "word": "epta."
+      }
+    ], 
+    "translation": "Some of these were the Mughal, Vijayanagara, and the Maratha empires.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Pun inre tep tepni rumka imvi rae arla pa epta."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Rar"
+      }, 
+      {
+        "gloss": "Himalayas,", 
+        "word": "rii"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "tee"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "pii"
+      }, 
+      {
+        "gloss": "alpine", 
+        "word": "ke"
+      }, 
+      {
+        "gloss": "climate", 
+        "word": "mimmu"
+      }, 
+      {
+        "gloss": "region,", 
+        "word": "le"
+      }, 
+      {
+        "gloss": "can", 
+        "word": "pal"
+      }, 
+      {
+        "gloss": "get", 
+        "word": "iv"
+      }, 
+      {
+        "gloss": "extremely", 
+        "word": "te."
+      }
+    ], 
+    "translation": "The Himalayas, in the alpine climate region, can get extremely cold.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Rar rii tee pii ke mimmu le pal iv te."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Riu"
+      }, 
+      {
+        "gloss": "first", 
+        "word": "rilku"
+      }, 
+      {
+        "gloss": "official", 
+        "word": "vin"
+      }, 
+      {
+        "gloss": "leader", 
+        "word": "memki"
+      }, 
+      {
+        "gloss": "(Prime", 
+        "word": "inmu"
+      }, 
+      {
+        "gloss": "Minister)", 
+        "word": "tee"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "tev"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "umpi"
+      }, 
+      {
+        "gloss": "was", 
+        "word": "etlu"
+      }, 
+      {
+        "gloss": "Jawaharlal", 
+        "word": "tie."
+      }
+    ], 
+    "translation": "The first official leader (Prime Minister) of India was Jawaharlal Nehru.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Riu rilku vin memki inmu tee tev umpi etlu tie."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Rut"
+      }, 
+      {
+        "gloss": "number", 
+        "word": "kem"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "itku"
+      }, 
+      {
+        "gloss": "dialects", 
+        "word": "nie"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "liu"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "ru"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "muu"
+      }, 
+      {
+        "gloss": "as", 
+        "word": "rum"
+      }, 
+      {
+        "gloss": "high", 
+        "word": "rel"
+      }, 
+      {
+        "gloss": "as", 
+        "word": "nua."
+      }
+    ], 
+    "translation": "The number of dialects in India is as high as 1,652.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Rut kem itku nie liu ru muu rum rel nua."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "This", 
+        "word": "Vua"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "lar"
+      }, 
+      {
+        "gloss": "with", 
+        "word": "rekvu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "lie"
+      }, 
+      {
+        "gloss": "increase", 
+        "word": "it"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "mu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "ev"
+      }, 
+      {
+        "gloss": "number", 
+        "word": "valvi"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "tet"
+      }, 
+      {
+        "gloss": "Indian", 
+        "word": "nelvi."
+      }
+    ], 
+    "translation": "This is with the increase in the number of Indian Grandmasters.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Vua lar rekvu lie it mu ev valvi tet nelvi."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Experts", 
+        "word": "Ellu"
+      }, 
+      {
+        "gloss": "think", 
+        "word": "tem"
+      }, 
+      {
+        "gloss": "that", 
+        "word": "in"
+      }, 
+      {
+        "gloss": "by", 
+        "word": "evku"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "pie"
+      }, 
+      {
+        "gloss": "year", 
+        "word": "nalve"
+      }, 
+      {
+        "gloss": "2030,", 
+        "word": "um"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "rakke"
+      }, 
+      {
+        "gloss": "will", 
+        "word": "me"
+      }, 
+      {
+        "gloss": "be", 
+        "word": "el"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "alke."
+      }
+    ], 
+    "translation": "Experts think that by the year 2030, India will be the first.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ellu tem in evku pie nalve um rakke me el alke."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "However,", 
+        "word": "Elra"
+      }, 
+      {
+        "gloss": "that", 
+        "word": "varva"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "nupna"
+      }, 
+      {
+        "gloss": "still", 
+        "word": "ku"
+      }, 
+      {
+        "gloss": "only", 
+        "word": "maa"
+      }, 
+      {
+        "gloss": "$3100", 
+        "word": "am"
+      }, 
+      {
+        "gloss": "(considering", 
+        "word": "ik"
+      }, 
+      {
+        "gloss": "PPP)", 
+        "word": "ni"
+      }, 
+      {
+        "gloss": "per", 
+        "word": "rue"
+      }, 
+      {
+        "gloss": "person", 
+        "word": "kamku"
+      }, 
+      {
+        "gloss": "per", 
+        "word": "kulna."
+      }
+    ], 
+    "translation": "However, that is still only $3100 (considering PPP) per person per year.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Elra varva nupna ku maa am ik ni rue kamku kulna."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "India", 
+        "word": "Enve"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "pa"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "al"
+      }, 
+      {
+        "gloss": "third", 
+        "word": "lan"
+      }, 
+      {
+        "gloss": "largest", 
+        "word": "uvni"
+      }, 
+      {
+        "gloss": "army", 
+        "word": "tilku"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "malke"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "ru"
+      }, 
+      {
+        "gloss": "world", 
+        "word": "ta"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "mur"
+      }, 
+      {
+        "gloss": "nuclear", 
+        "word": "lat!"
+      }
+    ], 
+    "translation": "India has the third largest army in the world and nuclear weapons.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Enve pa al lan uvni tilku malke ru ta mur lat!"
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Most", 
+        "word": "Erni"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "rap"
+      }, 
+      {
+        "gloss": "these", 
+        "word": "pek"
+      }, 
+      {
+        "gloss": "pieces", 
+        "word": "ti"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "re"
+      }, 
+      {
+        "gloss": "called", 
+        "word": "nu"
+      }, 
+      {
+        "gloss": "states,", 
+        "word": "rin"
+      }, 
+      {
+        "gloss": "some", 
+        "word": "re"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "vip"
+      }, 
+      {
+        "gloss": "called", 
+        "word": "ap"
+      }, 
+      {
+        "gloss": "union", 
+        "word": "pip."
+      }
+    ], 
+    "translation": "Most of these pieces are called states, some are called union territories.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Erni rap pek ti re nu rin re vip ap pip."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Most", 
+        "word": "Ip"
+      }, 
+      {
+        "gloss": "union", 
+        "word": "pea"
+      }, 
+      {
+        "gloss": "territories", 
+        "word": "ippa"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "ak"
+      }, 
+      {
+        "gloss": "ruled", 
+        "word": "niu"
+      }, 
+      {
+        "gloss": "by", 
+        "word": "avva"
+      }, 
+      {
+        "gloss": "administrators", 
+        "word": "nea"
+      }, 
+      {
+        "gloss": "sent", 
+        "word": "laa"
+      }, 
+      {
+        "gloss": "by", 
+        "word": "appu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "pe"
+      }, 
+      {
+        "gloss": "central", 
+        "word": "rua."
+      }
+    ], 
+    "translation": "Most union territories are ruled by administrators sent by the central government.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ip pea ippa ak niu avva nea laa appu pe rua."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Other", 
+        "word": "Kae"
+      }, 
+      {
+        "gloss": "names", 
+        "word": "itpi"
+      }, 
+      {
+        "gloss": "for", 
+        "word": "ek"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "inne"
+      }, 
+      {
+        "gloss": "country", 
+        "word": "ve"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "lip"
+      }, 
+      {
+        "gloss": "Hindustan,", 
+        "word": "ra"
+      }, 
+      {
+        "gloss": "Bharat", 
+        "word": "ka"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "ikma"
+      }, 
+      {
+        "gloss": "Republic", 
+        "word": "il"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "meu."
+      }
+    ], 
+    "translation": "Other names for the country are Hindustan, Bharat and Republic of India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Kae itpi ek inne ve lip ra ka ikma il meu."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Similarly,", 
+        "word": "Mim"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "le"
+      }, 
+      {
+        "gloss": "does", 
+        "word": "vipva"
+      }, 
+      {
+        "gloss": "not", 
+        "word": "lepni"
+      }, 
+      {
+        "gloss": "recognise", 
+        "word": "tia"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "arvi"
+      }, 
+      {
+        "gloss": "Pakistani", 
+        "word": "tek"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "lanpa"
+      }, 
+      {
+        "gloss": "Chinese", 
+        "word": "ir"
+      }, 
+      {
+        "gloss": "parts", 
+        "word": "nap"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "ipli."
+      }
+    ], 
+    "translation": "Similarly, India does not recognise the Pakistani and Chinese parts of Kashmir.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Mim le vipva lepni tia arvi tek lanpa ir nap ipli."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "States", 
+        "word": "Puu"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "ik"
+      }, 
+      {
+        "gloss": "union", 
+        "word": "aknu"
+      }, 
+      {
+        "gloss": "territories", 
+        "word": "ut"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "ur"
+      }, 
+      {
+        "gloss": "different", 
+        "word": "tea"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "pii"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "ruvpi"
+      }, 
+      {
+        "gloss": "way", 
+        "word": "muu"
+      }, 
+      {
+        "gloss": "they", 
+        "word": "nue"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "vir."
+      }
+    ], 
+    "translation": "States and union territories are different in the way they are represented.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Puu ik aknu ut ur tea pii ruvpi muu nue vir."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Vapki"
+      }, 
+      {
+        "gloss": "Chief", 
+        "word": "et"
+      }, 
+      {
+        "gloss": "Justice", 
+        "word": "nae"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "um"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "petke"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "me"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "mul"
+      }, 
+      {
+        "gloss": "head", 
+        "word": "rep"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "lirvu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "pam"
+      }, 
+      {
+        "gloss": "Supreme", 
+        "word": "tet."
+      }
+    ], 
+    "translation": "The Chief Justice of India is the head of the Supreme Court.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Vapki et nae um petke me mul rep lirvu pam tet."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Vemme"
+      }, 
+      {
+        "gloss": "Indian", 
+        "word": "rin"
+      }, 
+      {
+        "gloss": "field", 
+        "word": "uv"
+      }, 
+      {
+        "gloss": "hockey", 
+        "word": "muu"
+      }, 
+      {
+        "gloss": "team", 
+        "word": "ev"
+      }, 
+      {
+        "gloss": "won", 
+        "word": "in"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "rei"
+      }, 
+      {
+        "gloss": "1975", 
+        "word": "imla"
+      }, 
+      {
+        "gloss": "Men's", 
+        "word": "apte"
+      }, 
+      {
+        "gloss": "Hockey", 
+        "word": "ve"
+      }, 
+      {
+        "gloss": "World", 
+        "word": "ve."
+      }
+    ], 
+    "translation": "The Indian field hockey team won the 1975 Men's Hockey World Cup.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Vemme rin uv muu ev in rei imla apte ve ve."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Aknu"
+      }, 
+      {
+        "gloss": "coastline", 
+        "word": "pirpa"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "na"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "mukpu"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "um"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "rultu"
+      }, 
+      {
+        "gloss": "about", 
+        "word": "upli"
+      }, 
+      {
+        "gloss": "7,517", 
+        "word": "vi"
+      }, 
+      {
+        "gloss": "kilometers", 
+        "word": "muu"
+      }, 
+      {
+        "gloss": "(4,671", 
+        "word": "timpi"
+      }, 
+      {
+        "gloss": "mi)", 
+        "word": "ak"
+      }, 
+      {
+        "gloss": "long.", 
+        "word": "keu."
+      }
+    ], 
+    "translation": "The coastline of India is of about 7,517 kilometers (4,671 mi) long.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Aknu pirpa na mukpu um rultu upli vi muu timpi ak keu."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Apnu"
+      }, 
+      {
+        "gloss": "country", 
+        "word": "rep"
+      }, 
+      {
+        "gloss": "founded", 
+        "word": "nia"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "nella"
+      }, 
+      {
+        "gloss": "religion", 
+        "word": "ar"
+      }, 
+      {
+        "gloss": "called", 
+        "word": "ep"
+      }, 
+      {
+        "gloss": "Hinduism,", 
+        "word": "ku"
+      }, 
+      {
+        "gloss": "which", 
+        "word": "laa"
+      }, 
+      {
+        "gloss": "most", 
+        "word": "pi"
+      }, 
+      {
+        "gloss": "Indians", 
+        "word": "larnu"
+      }, 
+      {
+        "gloss": "still", 
+        "word": "ivti"
+      }, 
+      {
+        "gloss": "follow.", 
+        "word": "nelvi."
+      }
+    ], 
+    "translation": "The country founded a religion called Hinduism, which most Indians still follow.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Apnu rep nia nella ar ep ku laa pi larnu ivti nelvi."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "They", 
+        "word": "At"
+      }, 
+      {
+        "gloss": "show", 
+        "word": "av"
+      }, 
+      {
+        "gloss": "dances", 
+        "word": "merta"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "tu"
+      }, 
+      {
+        "gloss": "rituals", 
+        "word": "tee"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "ip"
+      }, 
+      {
+        "gloss": "suggest", 
+        "word": "tut"
+      }, 
+      {
+        "gloss": "there", 
+        "word": "it"
+      }, 
+      {
+        "gloss": "was", 
+        "word": "lut"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "ulni"
+      }, 
+      {
+        "gloss": "prehistoric", 
+        "word": "li"
+      }, 
+      {
+        "gloss": "religion.", 
+        "word": "paa."
+      }
+    ], 
+    "translation": "They show dances and rituals and suggest there was a prehistoric religion.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "At av merta tu tee ip tut it lut ulni li paa."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Certain", 
+        "word": "Inna"
+      }, 
+      {
+        "gloss": "countries", 
+        "word": "vimne"
+      }, 
+      {
+        "gloss": "do", 
+        "word": "pirpi"
+      }, 
+      {
+        "gloss": "not", 
+        "word": "rie"
+      }, 
+      {
+        "gloss": "think", 
+        "word": "kit"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "uktu"
+      }, 
+      {
+        "gloss": "borders", 
+        "word": "upma"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "mamna"
+      }, 
+      {
+        "gloss": "where", 
+        "word": "tui"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "tu"
+      }, 
+      {
+        "gloss": "thinks", 
+        "word": "et"
+      }, 
+      {
+        "gloss": "they", 
+        "word": "nuvku."
+      }
+    ], 
+    "translation": "Certain countries do not think the borders are where India thinks they are.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Inna vimne pirpi rie kit uktu upma mamna tui tu et nuvku."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Hindi", 
+        "word": "Le"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "pua"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "lu"
+      }, 
+      {
+        "gloss": "official", 
+        "word": "neu"
+      }, 
+      {
+        "gloss": "language", 
+        "word": "ip"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "lue"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "ki"
+      }, 
+      {
+        "gloss": "with", 
+        "word": "tie"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "pat"
+      }, 
+      {
+        "gloss": "largest", 
+        "word": "atre"
+      }, 
+      {
+        "gloss": "number", 
+        "word": "umru"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "upti."
+      }
+    ], 
+    "translation": "Hindi is the official language in India with the largest number of speakers.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Le pua lu neu ip lue ki tie pat atre umru upti."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "In", 
+        "word": "Mu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "uv"
+      }, 
+      {
+        "gloss": "beginning", 
+        "word": "la"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "pat"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "lenre"
+      }, 
+      {
+        "gloss": "1900s,", 
+        "word": "menmi"
+      }, 
+      {
+        "gloss": "millions", 
+        "word": "apnu"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "av"
+      }, 
+      {
+        "gloss": "people", 
+        "word": "rie"
+      }, 
+      {
+        "gloss": "peacefully", 
+        "word": "re"
+      }, 
+      {
+        "gloss": "started", 
+        "word": "ep"
+      }, 
+      {
+        "gloss": "to", 
+        "word": "lui."
+      }
+    ], 
+    "translation": "In the beginning of the 1900s, millions of people peacefully started to protest.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Mu uv la pat lenre menmi apnu av rie re ep lui."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "In", 
+        "word": "Rea"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "ipmu"
+      }, 
+      {
+        "gloss": "south", 
+        "word": "erva"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "paa"
+      }, 
+      {
+        "gloss": "India,", 
+        "word": "inti"
+      }, 
+      {
+        "gloss": "many", 
+        "word": "va"
+      }, 
+      {
+        "gloss": "people", 
+        "word": "piv"
+      }, 
+      {
+        "gloss": "speak", 
+        "word": "amtu"
+      }, 
+      {
+        "gloss": "Kannada,", 
+        "word": "vil"
+      }, 
+      {
+        "gloss": "Telugu,", 
+        "word": "kua"
+      }, 
+      {
+        "gloss": "Tamil", 
+        "word": "ma"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "uvla."
+      }
+    ], 
+    "translation": "In the south of India, many people speak Kannada, Telugu, Tamil and Malayalam.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Rea ipmu erva paa inti va piv amtu vil kua ma uvla."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Pakistan", 
+        "word": "Ti"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "tua"
+      }, 
+      {
+        "gloss": "China", 
+        "word": "anri"
+      }, 
+      {
+        "gloss": "do", 
+        "word": "am"
+      }, 
+      {
+        "gloss": "not", 
+        "word": "na"
+      }, 
+      {
+        "gloss": "recognise", 
+        "word": "apte"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "litna"
+      }, 
+      {
+        "gloss": "Indian", 
+        "word": "tekli"
+      }, 
+      {
+        "gloss": "state", 
+        "word": "iklu"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "pae"
+      }, 
+      {
+        "gloss": "Jammu", 
+        "word": "apnu"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "iv."
+      }
+    ], 
+    "translation": "Pakistan and China do not recognise the Indian state of Jammu and Kashmir.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ti tua anri am na apte litna tekli iklu pae apnu iv."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Since", 
+        "word": "Ap"
+      }, 
+      {
+        "gloss": "1991,", 
+        "word": "tae"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "litle"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "rev"
+      }, 
+      {
+        "gloss": "been", 
+        "word": "en"
+      }, 
+      {
+        "gloss": "one", 
+        "word": "ivva"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "vue"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "ki"
+      }, 
+      {
+        "gloss": "fastest-growing", 
+        "word": "menve"
+      }, 
+      {
+        "gloss": "economies", 
+        "word": "leltu"
+      }, 
+      {
+        "gloss": "in", 
+        "word": "ir"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "am"
+      }, 
+      {
+        "gloss": "world.", 
+        "word": "nanme."
+      }
+    ], 
+    "translation": "Since 1991, India has been one of the fastest-growing economies in the world.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ap tae litle rev en ivva vue ki menve leltu ir am nanme."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Avlu"
+      }, 
+      {
+        "gloss": "President", 
+        "word": "im"
+      }, 
+      {
+        "gloss": "can", 
+        "word": "rum"
+      }, 
+      {
+        "gloss": "choose", 
+        "word": "kulra"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "vimtu"
+      }, 
+      {
+        "gloss": "Prime", 
+        "word": "kulta"
+      }, 
+      {
+        "gloss": "Minister,", 
+        "word": "ikru"
+      }, 
+      {
+        "gloss": "who", 
+        "word": "ren"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "lenri"
+      }, 
+      {
+        "gloss": "most", 
+        "word": "ek"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "lekku"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "nei"
+      }, 
+      {
+        "gloss": "power.", 
+        "word": "narla."
+      }
+    ], 
+    "translation": "The President can choose the Prime Minister, who has most of the power.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Avlu im rum kulra vimtu kulta ikru ren lenri ek lekku nei narla."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Lepri"
+      }, 
+      {
+        "gloss": "Rajya", 
+        "word": "ku"
+      }, 
+      {
+        "gloss": "Sabha", 
+        "word": "uk"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "runli"
+      }, 
+      {
+        "gloss": "250", 
+        "word": "vi"
+      }, 
+      {
+        "gloss": "members,", 
+        "word": "alta"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "rui"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "lav"
+      }, 
+      {
+        "gloss": "Lok", 
+        "word": "ap"
+      }, 
+      {
+        "gloss": "Sabha", 
+        "word": "vutte"
+      }, 
+      {
+        "gloss": "has", 
+        "word": "pea"
+      }, 
+      {
+        "gloss": "545", 
+        "word": "piv"
+      }, 
+      {
+        "gloss": "members.", 
+        "word": "amte."
+      }
+    ], 
+    "translation": "The Rajya Sabha has 250 members, and the Lok Sabha has 545 members.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Lepri ku uk runli vi alta rui lav ap vutte pea piv amte."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "The", 
+        "word": "Lit"
+      }, 
+      {
+        "gloss": "countries", 
+        "word": "mar"
+      }, 
+      {
+        "gloss": "next", 
+        "word": "liv"
+      }, 
+      {
+        "gloss": "to", 
+        "word": "imna"
+      }, 
+      {
+        "gloss": "India", 
+        "word": "tarpe"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "tiu"
+      }, 
+      {
+        "gloss": "Pakistan,", 
+        "word": "atre"
+      }, 
+      {
+        "gloss": "Bangladesh,", 
+        "word": "et"
+      }, 
+      {
+        "gloss": "Myanmar,", 
+        "word": "em"
+      }, 
+      {
+        "gloss": "China,", 
+        "word": "kur"
+      }, 
+      {
+        "gloss": "Bhutan,", 
+        "word": "ev"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "mi"
+      }, 
+      {
+        "gloss": "Nepal.", 
+        "word": "utva?"
+      }
+    ], 
+    "translation": "The countries next to India are Pakistan, Bangladesh, Myanmar, China, Bhutan, and Nepal.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Lit mar liv imna tarpe tiu atre et em kur ev mi utva?"
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "There", 
+        "word": "Mu"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "en"
+      }, 
+      {
+        "gloss": "also", 
+        "word": "tu"
+      }, 
+      {
+        "gloss": "the", 
+        "word": "nit"
+      }, 
+      {
+        "gloss": "Indian", 
+        "word": "ril"
+      }, 
+      {
+        "gloss": "cricket", 
+        "word": "pea"
+      }, 
+      {
+        "gloss": "league", 
+        "word": "mel"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "nua"
+      }, 
+      {
+        "gloss": "Indian", 
+        "word": "ev"
+      }, 
+      {
+        "gloss": "premier", 
+        "word": "vie"
+      }, 
+      {
+        "gloss": "league", 
+        "word": "iv"
+      }, 
+      {
+        "gloss": "Twenty20", 
+        "word": "lav"
+      }, 
+      {
+        "gloss": "competitions.", 
+        "word": "ni."
+      }
+    ], 
+    "translation": "There is also the Indian cricket league and Indian premier league Twenty20 competitions.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Mu en tu nit ril pea mel nua ev vie iv lav ni."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "Traditional", 
+        "word": "Ra"
+      }, 
+      {
+        "gloss": "sports", 
+        "word": "ler"
+      }, 
+      {
+        "gloss": "include", 
+        "word": "ev"
+      }, 
+      {
+        "gloss": "kabaddi,", 
+        "word": "raa"
+      }, 
+      {
+        "gloss": "kho", 
+        "word": "ravpi"
+      }, 
+      {
+        "gloss": "kho,", 
+        "word": "vee"
+      }, 
+      {
+        "gloss": "and", 
+        "word": "mu"
+      }, 
+      {
+        "gloss": "gilli-danda,", 
+        "word": "te"
+      }, 
+      {
+        "gloss": "which", 
+        "word": "ukra"
+      }, 
+      {
+        "gloss": "are", 
+        "word": "mekli"
+      }, 
+      {
+        "gloss": "played", 
+        "word": "peu"
+      }, 
+      {
+        "gloss": "throughout", 
+        "word": "rik"
+      }, 
+      {
+        "gloss": "India.", 
+        "word": "mil."
+      }
+    ], 
+    "translation": "Traditional sports include kabaddi, kho kho, and gilli-danda, which are played throughout India.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Ra ler ev raa ravpi vee mu te ukra mekli peu rik mil."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "About", 
+        "word": "Tuvla"
+      }, 
+      {
+        "gloss": "69%", 
+        "word": "uvma"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "el"
+      }, 
+      {
+        "gloss": "Indians", 
+        "word": "terpu"
+      }, 
+      {
+        "gloss": "speak", 
+        "word": "ilmi"
+      }, 
+      {
+        "gloss": "an", 
+        "word": "kit"
+      }, 
+      {
+        "gloss": "Indo-Arayan", 
+        "word": "ip"
+      }, 
+      {
+        "gloss": "language,", 
+        "word": "en"
+      }, 
+      {
+        "gloss": "about", 
+        "word": "ep"
+      }, 
+      {
+        "gloss": "26%", 
+        "word": "pai"
+      }, 
+      {
+        "gloss": "speak", 
+        "word": "pem"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "lip"
+      }, 
+      {
+        "gloss": "Dravidian", 
+        "word": "ik."
+      }
+    ], 
+    "translation": "About 69% of Indians speak an Indo-Arayan language, about 26% speak a Dravidian language.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Tuvla uvma el terpu ilmi kit ip en ep pai pem lip ik."
+  }, 
+  {
+    "ilg": [
+      {
+        "gloss": "According", 
+        "word": "Uvke"
+      }, 
+      {
+        "gloss": "to", 
+        "word": "arru"
+      }, 
+      {
+        "gloss": "them", 
+        "word": "ranti"
+      }, 
+      {
+        "gloss": "it", 
+        "word": "rimna"
+      }, 
+      {
+        "gloss": "is", 
+        "word": "un"
+      }, 
+      {
+        "gloss": "a", 
+        "word": "rul"
+      }, 
+      {
+        "gloss": "part", 
+        "word": "vel"
+      }, 
+      {
+        "gloss": "of", 
+        "word": "up"
+      }, 
+      {
+        "gloss": "South", 
+        "word": "pa"
+      }, 
+      {
+        "gloss": "Tibet,", 
+        "word": "re"
+      }, 
+      {
+        "gloss": "which", 
+        "word": "ni"
+      }, 
+      {
+        "gloss": "belongs", 
+        "word": "kapve"
+      }, 
+      {
+        "gloss": "to", 
+        "word": "up."
+      }
+    ], 
+    "translation": "According to them it is a part of South Tibet, which belongs to China.", 
+    "metadata": {
+      "date": "2010", 
+      "language": "Maa", 
+      "author": "Hall"
+    }, 
+    "sentence": "Uvke arru ranti rimna un rul vel up pa re ni kapve up."
+  }
+]

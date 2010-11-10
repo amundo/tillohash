@@ -24,9 +24,7 @@
       return trim(text).split(/\n+/);
     };
     
-    exports.sedG = function(text){
-      // not sure what to call this -- intersperse lines
-      // with blank lines 
+    exports.doublespace = function(text){
       return text.replace(/\n/g, '\n\n');
     };
 
@@ -45,6 +43,9 @@
         , element = ''
         , sentences = [];
 
+      text = exports.trim(text);
+      sentences.push
+
       pattern = '([' + delimiters + '] )';
       var delimRE = new RegExp(pattern, 'g');
    
@@ -60,8 +61,14 @@
           sentence += element;
         }
       }
+      if(sentence.length){sentences.push(sentence)};
       return sentences;
       
+    };
+
+    exports.JSONsentences = function(text){
+      var sentences = exports.splitSentences(text);
+      return JSON.stringify(sentences);
     };
 
     exports.removeBlankLines = function(text){
@@ -70,7 +77,7 @@
        
       for (var i=0; i<rawlines.length; i++){
         var line = rawlines[i];
-        if( $.trim(line).length ) { lines.push(line) }
+        if( exports.trim(line).length ) { lines.push(line) }
       }
       return lines.join('\n');
     };

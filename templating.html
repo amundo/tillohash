@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>trying out templating</title>
+  <title>Simple Web Glossing</title>
   <meta charset=utf-8>
   <script src=code/js/jquery.js></script>
   <script src=code/js/archive.js></script>
@@ -93,6 +93,27 @@ var indonesian = {
     ] 
 };
 
+ agta = {
+  'metadata' : {
+    'language' : 'Dupaningan Agta',
+    'author' : 'Laura Robinson', 
+    'date' : '2010', 
+    'speaker' : 'Herman James', 
+  },
+   'sentence':  'abad iabad',
+   'morph' : '[iyabad]',
+   'definition' : 'tie something around waist',
+   'morph' : 'i-abad',
+   'examples' : [
+     {
+     'source' : 'Obus pag-man, ni-abad=na i arikawat=na.',
+     'target' : 'After chewing his betel, he tied his betel nut pack around his waist.'
+     }
+   ]
+ 
+ }; 
+
+
 
 var kashaya = {
   metadata : {
@@ -182,13 +203,11 @@ var nahuatl = {
 <script>
 $(document).ready(function(){
 
-  localStorage.examples = JSON.stringify([kashaya, nahuatl, indonesian, lezgian, arapesh]);
+  localStorage.examples = JSON.stringify([agta, kashaya, nahuatl, indonesian, lezgian, arapesh]);
 
   var examples = JSON.parse(localStorage.examples);
   
-  $.each(examples, function(i, example){
-    $( "#ilgTemplate" ).tmpl( example ).wrap('<li></li>').appendTo( "#phrases" );
-  });
+  $( "#ilgTemplate" ).tmpl( examples ).wrap('<li></li>').appendTo( "#phrases" );
 
   $('#code').html( JSON.stringify(examples, null, 2));
 

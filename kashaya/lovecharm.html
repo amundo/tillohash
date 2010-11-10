@@ -106,16 +106,29 @@ $(document).ready(function(){
     $('textarea').val(squished);
   })
 
-  $('button#sedG').click(function(){
-    var spaced = textual.sedG($('textarea').val()); 
+  $('button#doublespace').click(function(){
+    var spaced = textual.doublespace($('textarea').val()); 
     $('textarea').val(spaced);
   })
+
   $('button#sentences').click(function(){
     var sentences = textual.splitSentences($('textarea').val()); 
     sentences = sentences.join('\n');
     $('textarea').val(sentences);
   })
 
+  $('button#jsonsentences').click(function(){
+    var sentences = textual.splitSentences($('textarea').val()); 
+    JSONsentences = JSON.stringify(sentences);
+    $('textarea').val(JSONsentences);
+  })
+
+  $('button#substitute').click(function(){
+    var sentences = $('textarea').val(); 
+    var pattern = $('#pattern').val();
+    var fixed = pattern.replace
+    $('textarea').val(JSONsentences);
+  })
 
 })
 
@@ -127,7 +140,8 @@ $(document).ready(function(){
 <select name=toload>
 <option>choose project</option>
 </select>
-<button id=sedG>sed G</button>
+<button id=doublespace>doublespace</button>
+<button id=jsonsentences>jsonsentences</button>
 <button id=sentences>sentences</button>
 <button id=squish>squish</button>
 <button id=update>update</button>
@@ -137,7 +151,7 @@ $(document).ready(function(){
 <p id=save><button id=new>save as...</button><input type=text></p>
 </div>
 <div id=pics>
-<img src=img/lovecharm-eng.png>
+<img src=img/lovecharm-pauses.png>
 <img src=img/lovecharm-kju.png>
 </div>
 
